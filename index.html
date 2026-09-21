@@ -4,19 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#1a1a2e">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<title>Amar Cycle Works · Jaipur's Trusted Cycle Repair & Service Center</title>
-<meta name="description" content="Amar Cycle Works — Jaipur's most trusted cycle repair & service center. Puncture repair, brake & gear service, chain lubrication, complete overhauling. Monsoon Special: 20% OFF on Full Service. Call 097827 07474.">
-<meta name="keywords" content="cycle repair jaipur, bicycle service jaipur, puncture repair, cycle workshop, amar cycle works">
+<title>Amar Cycle Works · Jaipur's Trusted Cycle Repair & Showroom</title>
+<meta name="description" content="Amar Cycle Works — Jaipur's most trusted cycle repair, service center & showroom since 40+ years. Buy new & second-hand cycles. Monsoon Special: 20% OFF. Call 097827 07474.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23e63946'/%3E%3Cstop offset='1' stop-color='%23f4a261'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%231a1a2e'/%3E%3Ctext x='32' y='46' font-family='Arial' font-size='38' font-weight='900' fill='url(%23g)' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231a1a2e'/%3E%3Ctext x='32' y='46' font-family='Arial' font-size='38' font-weight='900' fill='%23e63946' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
 <style>
-/* ============================================================
-   ROOT / THEME VARIABLES
-   ============================================================ */
 :root{
   --bg:#f7f9fc;--bg-2:#eef2f9;--surface:#ffffff;--surface-2:#f2f6fb;
   --border:#e3e9f2;--text:#0b1220;--text-2:#4a5568;--muted:#7a8699;
@@ -35,21 +30,12 @@
 [data-theme="morning"]{--bg:#fff8f0;--bg-2:#ffedd5;--surface:#fff;--surface-2:#fff5e8;--border:#f5e0c7;--text:#2d1810;--text-2:#6b5444;--muted:#a89383;--primary:#f97316;--grad:linear-gradient(135deg,#f97316 0%,#e63946 100%);}
 [data-theme="evening"]{--bg:#1a0f2e;--bg-2:#251544;--surface:#2a1a42;--surface-2:#33204d;--border:#3d2a5c;--text:#f5e6ff;--text-2:#c4b0dd;--muted:#8a7ba3;--primary:#f472b6;--grad:linear-gradient(135deg,#f472b6 0%,#f4a261 100%);--shadow-sm:0 2px 10px rgba(0,0,0,.3);--shadow-md:0 10px 30px rgba(0,0,0,.4);--shadow-lg:0 20px 50px rgba(0,0,0,.5);}
 [data-theme="night"]{--bg:#0a0f1c;--bg-2:#0f172a;--surface:#131c30;--surface-2:#1a2540;--border:#22304d;--text:#e7ecf7;--text-2:#b4c1d8;--muted:#7d8aa3;--grad:linear-gradient(135deg,#e63946 0%,#f4a261 100%);--shadow-sm:0 2px 10px rgba(0,0,0,.3);--shadow-md:0 10px 30px rgba(0,0,0,.4);--shadow-lg:0 20px 50px rgba(0,0,0,.5);}
-[data-mode="casual"]{
-  --primary:#f97316;--navy:#2d1b4e;--navy-2:#3d2a5c;
-  --grad:linear-gradient(135deg,#f97316 0%,#f4a261 50%,#e63946 100%);
-  --heading:'Space Grotesk',sans-serif;
-}
-[data-mode="casual"] body::before{background:radial-gradient(circle at 20% 10%,rgba(249,115,22,.18),transparent 55%),radial-gradient(circle at 80% 30%,rgba(230,57,70,.14),transparent 55%)!important;}
-
+[data-mode="casual"]{--primary:#f97316;--navy:#2d1b4e;--navy-2:#3d2a5c;--grad:linear-gradient(135deg,#f97316 0%,#f4a261 50%,#e63946 100%);}
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%;}
-body{font-family:var(--body);background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden;position:relative;-webkit-font-smoothing:antialiased;transition:background .5s ease,color .5s ease;overscroll-behavior-y:none;}
-body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;transition:background .5s;background:radial-gradient(circle at 20% 10%,rgba(230,57,70,.14),transparent 55%),radial-gradient(circle at 80% 30%,rgba(244,162,97,.12),transparent 55%);}
-[data-theme="morning"] body::before{background:radial-gradient(circle at 20% 10%,rgba(249,115,22,.15),transparent 50%),radial-gradient(circle at 80% 30%,rgba(230,57,70,.12),transparent 50%);}
-[data-theme="evening"] body::before{background:radial-gradient(circle at 20% 10%,rgba(244,114,182,.15),transparent 50%),radial-gradient(circle at 80% 30%,rgba(244,162,97,.12),transparent 50%);}
-[data-theme="night"] body::before{background:radial-gradient(circle at 20% 10%,rgba(230,57,70,.15),transparent 50%),radial-gradient(circle at 80% 30%,rgba(244,162,97,.12),transparent 50%);}
-[data-theme="night"] body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background-image:radial-gradient(1px 1px at 20% 30%,#fff,transparent),radial-gradient(1px 1px at 40% 70%,#fff,transparent),radial-gradient(1.5px 1.5px at 60% 20%,#fff,transparent),radial-gradient(1px 1px at 80% 60%,#fff,transparent),radial-gradient(1.5px 1.5px at 90% 40%,#fff,transparent);background-size:100% 100%;animation:twinkle 4s ease-in-out infinite;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{font-family:var(--body);background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden;position:relative;-webkit-font-smoothing:antialiased;transition:background .5s,color .5s;}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(circle at 20% 10%,rgba(230,57,70,.14),transparent 55%),radial-gradient(circle at 80% 30%,rgba(244,162,97,.12),transparent 55%);}
+[data-theme="night"] body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background-image:radial-gradient(1px 1px at 20% 30%,#fff,transparent),radial-gradient(1px 1px at 40% 70%,#fff,transparent),radial-gradient(1.5px 1.5px at 60% 20%,#fff,transparent),radial-gradient(1px 1px at 80% 60%,#fff,transparent);background-size:100% 100%;animation:twinkle 4s infinite;}
 @keyframes twinkle{0%,100%{opacity:.4;}50%{opacity:1;}}
 ::selection{background:var(--primary);color:#fff;}
 img,svg{max-width:100%;display:block;}
@@ -60,10 +46,8 @@ h1,h2,h3,h4{font-family:var(--heading);letter-spacing:-.02em;font-weight:700;col
 .section{padding:110px 0;position:relative;z-index:1;}
 button{font-family:inherit;}
 
-/* ============================================================
-   WELCOME MODAL
-   ============================================================ */
-.welcome-overlay{position:fixed;inset:0;background:rgba(10,15,28,.75);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);z-index:99999;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;visibility:hidden;transition:.5s;overflow-y:auto;}
+/* WELCOME */
+.welcome-overlay{position:fixed;inset:0;background:rgba(10,15,28,.75);backdrop-filter:blur(20px);z-index:99999;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;visibility:hidden;transition:.5s;overflow-y:auto;}
 .welcome-overlay.show{opacity:1;visibility:visible;}
 .welcome-card{background:var(--surface);border:1px solid var(--border);border-radius:28px;padding:44px 40px 36px;max-width:580px;width:100%;text-align:center;box-shadow:0 40px 100px rgba(0,0,0,.4);animation:welcomePop .6s var(--ease);margin:auto;}
 @keyframes welcomePop{from{transform:scale(.85) translateY(20px);opacity:0;}to{transform:scale(1) translateY(0);opacity:1;}}
@@ -76,11 +60,9 @@ button{font-family:inherit;}
 .wb-icon{font-size:2.4rem;margin-bottom:8px;line-height:1;}
 .wb-name{font-family:var(--heading);font-weight:700;font-size:1.05rem;color:var(--text);margin-bottom:4px;}
 .wb-desc{font-size:.75rem;color:var(--muted);font-family:var(--mono);}
-.welcome-skip{background:transparent;border:none;color:var(--muted);font-size:.8rem;cursor:pointer;padding:8px 12px;border-radius:8px;transition:.2s;}
+.welcome-skip{background:transparent;border:none;color:var(--muted);font-size:.8rem;cursor:pointer;padding:8px 12px;}
 
-/* ============================================================
-   CURSOR + HINT
-   ============================================================ */
+/* CURSOR */
 .cursor-dot,.cursor-ring{position:fixed;top:0;left:0;pointer-events:none;z-index:99998;border-radius:50%;transform:translate(-50%,-50%);}
 .cursor-dot{width:6px;height:6px;background:var(--primary);box-shadow:0 0 12px var(--primary);}
 .cursor-ring{width:36px;height:36px;border:1.5px solid rgba(230,57,70,.5);transition:width .3s,height .3s,border-color .3s,background .3s;}
@@ -88,12 +70,10 @@ button{font-family:inherit;}
 .cursor-hint{position:fixed;top:0;left:0;padding:5px 11px;background:var(--surface);border:1.5px solid var(--border);border-radius:20px;font-family:var(--mono);font-size:.72rem;font-weight:700;color:var(--primary);pointer-events:none;z-index:99997;transform:translate(-50%,-50%) scale(.7);opacity:0;transition:opacity .3s,transform .3s;box-shadow:0 6px 20px rgba(0,0,0,.15);white-space:nowrap;display:flex;align-items:center;gap:5px;}
 .cursor-hint.show{opacity:1;transform:translate(-50%,-50%) scale(1);}
 
-/* ============================================================
-   TYRE BUDDY PET
-   ============================================================ */
-.tyre-buddy{position:fixed;top:0;left:0;width:74px;height:74px;z-index:800;pointer-events:auto;cursor:pointer;transform-origin:center bottom;transition:opacity .3s;-webkit-tap-highlight-color:transparent;}
+/* TYRE BUDDY */
+.tyre-buddy{position:fixed;top:0;left:0;width:74px;height:74px;z-index:800;pointer-events:auto;cursor:pointer;transition:opacity .3s;-webkit-tap-highlight-color:transparent;}
 .tyre-buddy.hidden{opacity:0;pointer-events:none;}
-.tb-inner{width:100%;height:100%;position:relative;transform-origin:center center;pointer-events:none;}
+.tb-inner{width:100%;height:100%;position:relative;pointer-events:none;}
 .tyre-buddy.rolling .tb-inner{animation:tbRoll .6s linear infinite;}
 @keyframes tbRoll{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
 .tb-inner svg{width:100%;height:100%;filter:drop-shadow(0 6px 12px rgba(0,0,0,.2));pointer-events:none;}
@@ -104,9 +84,7 @@ button{font-family:inherit;}
 .tyre-buddy.tapped .tap-ping{animation:tapPing .6s ease-out;}
 @keyframes tapPing{0%{opacity:.9;transform:scale(.5);}100%{opacity:0;transform:scale(1.8);}}
 
-/* ============================================================
-   SELECTOR
-   ============================================================ */
+/* SELECTOR */
 .selector{position:relative;}
 .selector-btn{display:inline-flex;align-items:center;gap:6px;height:42px;padding:0 14px;border-radius:12px;background:var(--surface);border:1px solid var(--border);color:var(--text-2);cursor:pointer;font-size:.85rem;font-weight:600;transition:.3s var(--ease);box-shadow:var(--shadow-xs);}
 .selector-btn:hover,.selector-btn:active{color:var(--primary);border-color:var(--primary);}
@@ -117,14 +95,11 @@ button{font-family:inherit;}
 .selector-menu button.active{background:rgba(230,57,70,.1);color:var(--primary);font-weight:600;}
 .selector-menu button .em{font-size:1rem;width:20px;text-align:center;}
 
-/* ============================================================
-   PRELOADER
-   ============================================================ */
+/* PRELOADER */
 #preloader{position:fixed;inset:0;background:var(--bg);z-index:99999;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:22px;transition:opacity .6s,visibility .6s;}
 #preloader.hide{opacity:0;visibility:hidden;pointer-events:none;}
 .pre-logo{width:76px;height:76px;border-radius:50%;background:var(--grad);display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--heading);font-weight:700;font-size:2rem;box-shadow:0 20px 50px rgba(230,57,70,.35);animation:preSpin 2s linear infinite;position:relative;}
-.pre-logo::before,.pre-logo::after{content:'';position:absolute;inset:6px;border-radius:50%;border:2px dashed rgba(255,255,255,.3);}
-.pre-logo::after{inset:-8px;border-style:solid;border-color:transparent;border-top-color:var(--gold);animation:preSpin 1.2s linear infinite reverse;}
+.pre-logo::after{content:'';position:absolute;inset:-8px;border-radius:50%;border:2px solid transparent;border-top-color:var(--gold);animation:preSpin 1.2s linear infinite reverse;}
 @keyframes preSpin{to{transform:rotate(360deg);}}
 .pre-text{font-family:var(--mono);font-size:.75rem;color:var(--muted);letter-spacing:.2em;text-transform:uppercase;}
 .pre-bar{width:180px;height:3px;border-radius:3px;background:rgba(230,57,70,.12);overflow:hidden;position:relative;}
@@ -140,11 +115,9 @@ button{font-family:inherit;}
 .xp-fill{height:100%;border-radius:99px;background:var(--grad);width:0%;transition:width .5s var(--ease);}
 .xp-label{font-family:var(--mono);font-size:.65rem;color:var(--muted);letter-spacing:.05em;}
 
-/* ============================================================
-   NAVBAR
-   ============================================================ */
+/* NAVBAR */
 header{position:fixed;top:0;left:0;right:0;z-index:1000;padding:14px 0;transition:.4s var(--ease);border-bottom:1px solid transparent;}
-header.scrolled{background:rgba(247,249,252,.85);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-color:var(--border);padding:10px 0;box-shadow:0 4px 24px rgba(15,23,42,.05);}
+header.scrolled{background:rgba(247,249,252,.85);backdrop-filter:blur(20px) saturate(180%);border-color:var(--border);padding:10px 0;box-shadow:0 4px 24px rgba(15,23,42,.05);}
 [data-theme="evening"] header.scrolled,[data-theme="night"] header.scrolled{background:rgba(10,15,28,.85);}
 nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .logo{display:flex;align-items:center;gap:11px;font-family:var(--heading);font-weight:700;font-size:1.15rem;}
@@ -156,34 +129,32 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .nav-links a:hover{color:var(--text);background:rgba(230,57,70,.06);}
 .nav-links a.active{color:var(--primary);}
 .nav-cta{display:flex;align-items:center;gap:8px;}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 22px;border-radius:99px;font-size:.88rem;font-weight:600;font-family:inherit;border:1px solid transparent;cursor:pointer;transition:transform .3s var(--ease),box-shadow .3s var(--ease),background .3s,color .3s,border-color .3s;white-space:nowrap;position:relative;overflow:hidden;}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 22px;border-radius:99px;font-size:.88rem;font-weight:600;font-family:inherit;border:1px solid transparent;cursor:pointer;transition:transform .3s var(--ease),box-shadow .3s var(--ease),background .3s,color .3s,border-color .3s;white-space:nowrap;}
 .btn-primary{background:var(--grad);color:#fff;box-shadow:0 8px 22px rgba(230,57,70,.28);}
-.btn-primary:hover,.btn-primary:active{transform:translateY(-2px);box-shadow:0 14px 32px rgba(230,57,70,.42);}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(230,57,70,.42);}
 .btn-gold{background:var(--grad-gold);color:var(--navy);box-shadow:0 8px 22px rgba(244,162,97,.35);}
-.btn-gold:hover,.btn-gold:active{transform:translateY(-2px);box-shadow:0 14px 32px rgba(244,162,97,.5);}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(244,162,97,.5);}
 .btn-ghost{background:var(--surface);color:var(--text);border-color:var(--border);box-shadow:var(--shadow-xs);}
-.btn-ghost:hover,.btn-ghost:active{border-color:var(--primary);color:var(--primary);}
+.btn-ghost:hover{border-color:var(--primary);color:var(--primary);}
 .icon-btn{width:42px;height:42px;border-radius:12px;background:var(--surface);border:1px solid var(--border);color:var(--text-2);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:.3s var(--ease);font-size:.95rem;box-shadow:var(--shadow-xs);flex-shrink:0;}
-.icon-btn:hover,.icon-btn:active{color:var(--primary);border-color:var(--primary);}
+.icon-btn:hover{color:var(--primary);border-color:var(--primary);}
 .icon-btn.active{background:var(--grad);color:#fff;border-color:transparent;}
-.burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border-radius:10px;background:transparent;border:none;transition:background .3s;}
+.burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border-radius:10px;background:transparent;border:none;}
 .burger span{width:22px;height:2px;background:var(--text);border-radius:2px;transition:.3s;}
 .burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
 .burger.open span:nth-child(2){opacity:0;}
 .burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
-.mobile-menu{position:fixed;top:0;right:-100%;width:min(82vw,340px);height:100vh;height:100dvh;background:var(--surface);border-left:1px solid var(--border);z-index:1001;transition:right .45s var(--ease);padding:100px 26px 40px;display:flex;flex-direction:column;gap:4px;box-shadow:-10px 0 40px rgba(15,23,42,.1);overflow-y:auto;}
+.mobile-menu{position:fixed;top:0;right:-100%;width:min(82vw,340px);height:100vh;background:var(--surface);border-left:1px solid var(--border);z-index:1001;transition:right .45s var(--ease);padding:100px 26px 40px;display:flex;flex-direction:column;gap:4px;box-shadow:-10px 0 40px rgba(15,23,42,.1);overflow-y:auto;}
 .mobile-menu.open{right:0;}
-.mobile-menu a{padding:14px;font-size:1rem;border-bottom:1px solid var(--border);color:var(--text);font-weight:500;border-radius:8px;transition:.3s;}
+.mobile-menu a{padding:14px;font-size:1rem;border-bottom:1px solid var(--border);color:var(--text);font-weight:500;border-radius:8px;}
 .mobile-menu a:active{background:rgba(230,57,70,.06);color:var(--primary);}
 .mobile-menu .mobile-extras{margin-top:20px;padding-top:20px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;}
 .mobile-menu .mobile-extras button{flex:1;padding:12px;background:var(--surface-2);border:1px solid var(--border);border-radius:12px;color:var(--text-2);font-size:.85rem;font-weight:600;cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:center;gap:6px;}
-.overlay{position:fixed;inset:0;background:rgba(15,23,42,.5);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);z-index:1000;opacity:0;visibility:hidden;transition:.4s;}
+.overlay{position:fixed;inset:0;background:rgba(15,23,42,.5);backdrop-filter:blur(4px);z-index:1000;opacity:0;visibility:hidden;transition:.4s;}
 .overlay.open{opacity:1;visibility:visible;}
 
-/* ============================================================
-   HERO
-   ============================================================ */
-.hero{min-height:100vh;min-height:100dvh;display:flex;align-items:center;padding:130px 0 70px;position:relative;overflow:hidden;}
+/* HERO */
+.hero{min-height:100vh;display:flex;align-items:center;padding:130px 0 70px;position:relative;overflow:hidden;}
 .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;}
 .greeting{display:inline-flex;align-items:center;gap:9px;padding:8px 16px;background:var(--surface);border:1px solid var(--border);border-radius:99px;font-size:.78rem;font-weight:600;color:var(--text-2);margin-bottom:20px;box-shadow:var(--shadow-xs);flex-wrap:wrap;justify-content:center;max-width:100%;}
 .greeting .dot{width:7px;height:7px;border-radius:50%;background:#22c55e;box-shadow:0 0 0 0 rgba(34,197,94,.55);animation:pulseDot 2s infinite;flex-shrink:0;}
@@ -214,8 +185,6 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;max-width:580px;padding-top:24px;border-top:1px solid var(--border);}
 .stat b{display:block;font-family:var(--heading);font-size:1.55rem;font-weight:700;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.1;}
 .stat span{color:var(--muted);font-size:.73rem;font-weight:500;display:block;margin-top:2px;}
-
-/* HERO CYCLE VISUAL */
 .hero-cycle-stage{position:relative;width:100%;aspect-ratio:1/1;max-width:580px;margin:0 auto;display:flex;align-items:center;justify-content:center;}
 .hero-cycle-glow{position:absolute;inset:-8%;border-radius:50%;background:radial-gradient(circle at 50% 50%,rgba(230,57,70,.18),transparent 65%);filter:blur(38px);z-index:0;pointer-events:none;animation:glowPulse 6s ease-in-out infinite;}
 @keyframes glowPulse{0%,100%{transform:scale(1);opacity:.7;}50%{transform:scale(1.08);opacity:1;}}
@@ -229,7 +198,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .hero-offer-badge .offer-label{font-size:.68rem;text-transform:uppercase;letter-spacing:2px;opacity:.9;font-family:var(--mono);}
 .hero-offer-badge .offer-value{font-family:'Oswald',var(--heading);font-size:2rem;font-weight:700;display:block;line-height:1;margin:4px 0;}
 .hero-offer-badge .offer-desc{font-size:.78rem;font-weight:600;}
-.hero-orbit-icon{position:absolute;width:52px;height:52px;border-radius:14px;background:var(--surface);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:1.2rem;box-shadow:var(--shadow-md);z-index:3;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);transition:.3s var(--ease);}
+.hero-orbit-icon{position:absolute;width:52px;height:52px;border-radius:14px;background:var(--surface);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:1.2rem;box-shadow:var(--shadow-md);z-index:3;backdrop-filter:blur(6px);transition:.3s var(--ease);}
 .hero-orbit-icon:hover{transform:scale(1.15) rotate(-8deg);box-shadow:0 16px 40px rgba(230,57,70,.28);border-color:rgba(230,57,70,.45);}
 .oi-1{top:4%;left:10%;animation:bobA 5s ease-in-out infinite;}
 .oi-2{top:20%;right:4%;animation:bobB 4s ease-in-out infinite;}
@@ -238,9 +207,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 @keyframes bobA{0%,100%{transform:translateY(0);}50%{transform:translateY(-10px);}}
 @keyframes bobB{0%,100%{transform:translateY(-8px);}50%{transform:translateY(6px);}}
 
-/* ============================================================
-   TRUST BAR
-   ============================================================ */
+/* TRUST BAR */
 .trust-bar{background:var(--grad-navy);color:#fff;padding:18px 0;overflow:hidden;position:relative;}
 .trust-bar::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(244,162,97,.08),transparent);animation:shine 4s linear infinite;}
 @keyframes shine{0%{transform:translateX(-100%);}100%{transform:translateX(100%);}}
@@ -248,9 +215,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .trust-item{display:flex;align-items:center;gap:10px;font-weight:600;font-size:.9rem;white-space:nowrap;font-family:var(--heading);}
 .trust-item i{font-size:1.15rem;color:var(--gold);}
 
-/* ============================================================
-   SECTION HEADS
-   ============================================================ */
+/* SECTION HEADS */
 .eyebrow{display:inline-flex;align-items:center;gap:8px;padding:6px 15px;background:var(--surface);border:1px solid var(--border);border-radius:99px;font-family:var(--mono);font-size:.68rem;font-weight:600;letter-spacing:1.4px;text-transform:uppercase;color:var(--primary);margin-bottom:16px;box-shadow:var(--shadow-xs);}
 .eyebrow::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--primary);box-shadow:0 0 6px var(--primary);animation:pulseDot 2s infinite;}
 .section-title{font-size:clamp(1.7rem,6vw,2.5rem);font-weight:800;letter-spacing:-1.2px;line-height:1.15;margin-bottom:10px;}
@@ -262,9 +227,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 [data-reveal="scale"]{transform:scale(.94);}
 [data-reveal].in{opacity:1;transform:translate(0) scale(1);}
 
-/* ============================================================
-   SERVICES
-   ============================================================ */
+/* SERVICES */
 .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px;}
 .service-card{background:var(--surface);border:1px solid var(--border);border-radius:22px;padding:30px;transition:transform .4s var(--ease),box-shadow .4s var(--ease),border-color .4s;position:relative;overflow:hidden;box-shadow:var(--shadow-sm);}
 .service-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:4px;background:var(--grad);transform:scaleX(0);transform-origin:left;transition:.5s var(--ease);}
@@ -278,13 +241,32 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .service-card .service-price{margin-top:14px;padding-top:14px;border-top:1px dashed var(--border);display:flex;justify-content:space-between;align-items:center;font-size:.82rem;}
 .service-card .service-price b{color:var(--primary);font-family:var(--heading);font-size:1.05rem;}
 
-/* ============================================================
-   INTERACTIVE CYCLE EXPLORER
-   ============================================================ */
+/* SHOWROOM */
+.showroom{background:linear-gradient(180deg,var(--bg),var(--bg-2));}
+.showroom-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;}
+.bike-card{background:var(--surface);border:1px solid var(--border);border-radius:22px;overflow:hidden;transition:.4s var(--ease);box-shadow:var(--shadow-sm);}
+.bike-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-lg);border-color:var(--gold);}
+.bike-img{height:200px;background:linear-gradient(150deg,var(--surface-2),var(--bg-2));display:flex;align-items:center;justify-content:center;font-size:5rem;color:var(--muted);position:relative;overflow:hidden;}
+.bike-img::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(230,57,70,.08),transparent 70%);}
+.bike-img i{position:relative;z-index:2;transition:transform .5s var(--ease);}
+.bike-card:hover .bike-img i{transform:scale(1.1) rotate(-10deg);}
+.bike-badge{position:absolute;top:15px;right:15px;padding:5px 12px;border-radius:50px;font-size:.72rem;font-weight:700;font-family:var(--mono);z-index:3;backdrop-filter:blur(10px);}
+.badge-new{background:rgba(16,185,129,.2);color:var(--green);border:1px solid rgba(16,185,129,.4);}
+.badge-used{background:rgba(244,162,97,.2);color:var(--gold);border:1px solid rgba(244,162,97,.4);}
+.bike-info{padding:24px;}
+.bike-info h3{font-family:var(--heading);font-size:1.2rem;margin-bottom:8px;}
+.bike-info p{color:var(--text-2);font-size:.9rem;margin-bottom:16px;line-height:1.6;}
+.bike-price{display:flex;justify-content:space-between;align-items:center;gap:12px;}
+.bike-price span{font-weight:700;color:var(--gold);font-family:var(--heading);font-size:1.15rem;}
+.bike-price .btn{font-size:.8rem;padding:8px 16px;}
+.showroom-cta{margin-top:40px;text-align:center;padding:32px;background:var(--surface);border:1px solid var(--border);border-radius:22px;box-shadow:var(--shadow-sm);}
+.showroom-cta h3{font-size:1.3rem;margin-bottom:8px;}
+.showroom-cta p{color:var(--text-2);margin-bottom:20px;font-size:.95rem;}
+
+/* INTERACTIVE EXPLORER */
 .explorer{background:var(--surface);border:1px solid var(--border);border-radius:26px;padding:36px;box-shadow:var(--shadow-sm);}
 .explorer-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;}
 .explorer-svg-wrap{position:relative;background:linear-gradient(150deg,var(--bg-2),var(--bg));border-radius:20px;padding:20px;border:1px solid var(--border);overflow:hidden;}
-.explorer-svg-wrap::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(230,57,70,.06),transparent 70%);pointer-events:none;}
 .explorer-svg{width:100%;height:auto;position:relative;z-index:2;}
 .cycle-hit{fill:transparent;cursor:pointer;transition:.25s;}
 .cycle-hit:hover{fill:rgba(230,57,70,.15);}
@@ -292,7 +274,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .cycle-part.active{stroke:var(--primary);stroke-width:5;filter:drop-shadow(0 0 8px rgba(230,57,70,.5));}
 .explorer-hint{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);padding:6px 14px;background:var(--surface);border:1px solid var(--border);border-radius:99px;font-family:var(--mono);font-size:.68rem;color:var(--muted);box-shadow:var(--shadow-sm);white-space:nowrap;z-index:3;}
 .explorer-info{padding:20px 0;}
-.explorer-info .exp-tag{display:inline-block;font-family:var(--mono);font-size:.7rem;color:var(--primary);background:rgba(230,57,70,.1);padding:4px 12px;border-radius:99px;margin-bottom:14px;letter-spacing:.5px;}
+.explorer-info .exp-tag{display:inline-block;font-family:var(--mono);font-size:.7rem;color:var(--primary);background:rgba(230,57,70,.1);padding:4px 12px;border-radius:99px;margin-bottom:14px;}
 .explorer-info h3{font-size:1.6rem;margin-bottom:12px;}
 .explorer-info p{color:var(--text-2);margin-bottom:20px;font-size:.95rem;line-height:1.7;}
 .explorer-info .exp-list{display:flex;flex-direction:column;gap:10px;margin-bottom:24px;}
@@ -302,9 +284,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .exp-part-btn{padding:8px 16px;background:var(--surface-2);border:1px solid var(--border);border-radius:99px;font-size:.8rem;font-weight:600;color:var(--text-2);cursor:pointer;transition:.3s var(--ease);font-family:inherit;}
 .exp-part-btn:hover,.exp-part-btn.active{background:var(--grad);color:#fff;border-color:transparent;transform:translateY(-2px);}
 
-/* ============================================================
-   OFFER BANNER
-   ============================================================ */
+/* OFFER */
 .offer-banner{background:var(--grad-navy);position:relative;overflow:hidden;padding:80px 0;}
 .offer-banner::before{content:'';position:absolute;top:-50%;right:-10%;width:500px;height:500px;background:radial-gradient(circle,rgba(230,57,70,.2) 0%,transparent 70%);border-radius:50%;}
 .offer-banner::after{content:'';position:absolute;bottom:-50%;left:-10%;width:400px;height:400px;background:radial-gradient(circle,rgba(244,162,97,.12) 0%,transparent 70%);border-radius:50%;}
@@ -319,9 +299,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .offer-cta{display:inline-flex;align-items:center;gap:10px;background:var(--grad-gold);color:var(--navy);padding:18px 40px;border-radius:99px;font-weight:700;font-size:1.05rem;box-shadow:0 8px 25px rgba(244,162,97,.4);transition:.3s var(--ease);font-family:var(--heading);}
 .offer-cta:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 12px 35px rgba(244,162,97,.55);}
 
-/* ============================================================
-   WHY US
-   ============================================================ */
+/* WHY US */
 .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;}
 .why-card{text-align:center;padding:36px 24px;border-radius:20px;background:var(--surface);transition:.4s var(--ease);border:1px solid var(--border);box-shadow:var(--shadow-xs);}
 .why-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:rgba(230,57,70,.2);}
@@ -330,29 +308,32 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .why-card h3{font-size:1.1rem;margin-bottom:10px;}
 .why-card p{color:var(--text-2);font-size:.9rem;}
 
-/* ============================================================
-   REVIEWS
-   ============================================================ */
+/* REVIEWS SLIDESHOW */
 .reviews-header{display:flex;justify-content:center;align-items:center;gap:15px;margin-bottom:40px;flex-wrap:wrap;}
 .google-rating{display:flex;align-items:center;gap:12px;background:var(--surface);padding:15px 25px;border-radius:14px;box-shadow:var(--shadow-sm);border:1px solid var(--border);}
 .google-logo{font-size:1.35rem;font-weight:700;font-family:var(--heading);}
 .google-logo .g-blue{color:#4285F4;}.google-logo .g-red{color:#EA4335;}.google-logo .g-yellow{color:#FBBC05;}.google-logo .g-green{color:#34A853;}
 .rating-stars{color:#FBBC05;font-size:.95rem;}
 .rating-score{font-family:'Oswald',var(--heading);font-size:1.5rem;font-weight:700;color:var(--text);}
-.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;}
-.review-card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:28px;box-shadow:var(--shadow-xs);transition:.4s var(--ease);position:relative;}
-.review-card::before{content:'"';position:absolute;top:12px;right:22px;font-size:4.5rem;font-family:'Oswald',var(--heading);color:rgba(230,57,70,.08);line-height:1;}
-.review-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-md);}
-.review-stars{color:#FBBC05;margin-bottom:14px;font-size:.9rem;}
-.review-text{color:var(--text-2);font-size:.94rem;margin-bottom:20px;font-style:italic;position:relative;z-index:2;}
+.reviews-slider-wrap{position:relative;max-width:820px;margin:0 auto;overflow:hidden;padding:0 10px;}
+.reviews-track{display:flex;transition:transform .55s var(--ease);}
+.review-slide{min-width:100%;padding:0 8px;box-sizing:border-box;}
+.review-card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:36px;box-shadow:var(--shadow-sm);transition:.4s var(--ease);position:relative;}
+.review-card::before{content:'"';position:absolute;top:14px;right:24px;font-size:5rem;font-family:'Oswald',var(--heading);color:rgba(230,57,70,.08);line-height:1;}
+.review-stars{color:#FBBC05;margin-bottom:14px;font-size:.95rem;}
+.review-text{color:var(--text-2);font-size:1rem;margin-bottom:22px;font-style:italic;position:relative;z-index:2;line-height:1.7;}
 .review-author{display:flex;align-items:center;gap:12px;}
-.review-avatar{width:44px;height:44px;border-radius:50%;background:var(--grad);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;font-family:var(--heading);}
-.review-author-info h4{font-size:.94rem;font-family:var(--body);font-weight:600;}
+.review-avatar{width:48px;height:48px;border-radius:50%;background:var(--grad);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.05rem;font-family:var(--heading);}
+.review-author-info h4{font-size:.96rem;font-family:var(--body);font-weight:600;}
 .review-author-info span{font-size:.78rem;color:var(--muted);}
+.review-nav{display:flex;justify-content:center;gap:10px;margin-top:26px;}
+.review-dot{width:12px;height:12px;border-radius:50%;background:var(--border);cursor:pointer;transition:.3s;border:none;}
+.review-dot.active{background:var(--primary);transform:scale(1.4);box-shadow:0 0 10px rgba(230,57,70,.5);}
+.review-arrows{display:flex;justify-content:center;gap:12px;margin-top:20px;}
+.review-arrow{width:44px;height:44px;border-radius:50%;background:var(--surface);border:1px solid var(--border);color:var(--text-2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.9rem;transition:.3s var(--ease);}
+.review-arrow:hover{background:var(--grad);color:#fff;border-color:transparent;transform:scale(1.05);}
 
-/* ============================================================
-   BOOKING FORM
-   ============================================================ */
+/* BOOKING */
 .booking-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px;align-items:start;}
 .booking-info{background:var(--grad-navy);border-radius:24px;padding:36px 30px;color:#fff;position:relative;overflow:hidden;}
 .booking-info::before{content:'';position:absolute;top:-30%;right:-30%;width:280px;height:280px;background:radial-gradient(circle,rgba(244,162,97,.2),transparent 70%);border-radius:50%;}
@@ -379,9 +360,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .form-status.success{background:rgba(34,197,94,.1);color:#16a34a;border:1px solid rgba(34,197,94,.25);}
 .form-status.error{background:rgba(239,68,68,.1);color:#dc2626;border:1px solid rgba(239,68,68,.25);}
 
-/* ============================================================
-   CONTACT + MAP
-   ============================================================ */
+/* CONTACT */
 .contact-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:40px;}
 .contact-list{display:flex;flex-direction:column;gap:12px;}
 .contact-item{display:flex;align-items:center;gap:16px;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px 20px;transition:.35s var(--ease);box-shadow:var(--shadow-xs);}
@@ -394,10 +373,8 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .map-wrap{border-radius:20px;overflow:hidden;box-shadow:var(--shadow-md);border:1px solid var(--border);height:100%;min-height:420px;position:relative;}
 .map-wrap iframe{width:100%;height:100%;min-height:420px;border:none;display:block;}
 
-/* ============================================================
-   FOOTER
-   ============================================================ */
-footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24px;position:relative;z-index:1;margin-top:0;}
+/* FOOTER */
+footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24px;position:relative;z-index:1;}
 .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.4fr;gap:40px;margin-bottom:40px;}
 .foot-brand .logo-text h1{color:#fff;font-size:1.15rem;}
 .foot-brand .logo-text span{color:var(--gold);}
@@ -412,25 +389,21 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
 .footer-contact a:hover{color:var(--gold);}
 .foot-social{display:flex;gap:12px;margin-top:20px;}
 .foot-social a{width:42px;height:42px;border-radius:12px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);display:flex;align-items:center;justify-content:center;transition:.35s var(--ease);color:#fff;font-size:1rem;}
-.foot-social a:hover,.foot-social a:active{transform:translateY(-4px) scale(1.05);background:var(--grad);border-color:transparent;}
+.foot-social a:hover{transform:translateY(-4px) scale(1.05);background:var(--grad);border-color:transparent;}
 .foot-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:22px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.82rem;}
 .foot-bottom a{color:var(--gold);}
 .foot-heart{color:var(--primary);display:inline-block;animation:beat 1.6s ease-in-out infinite;}
 @keyframes beat{0%,100%{transform:scale(1);}50%{transform:scale(1.2);}}
 
-/* ============================================================
-   FLOATERS
-   ============================================================ */
+/* FLOATERS */
 .float-wa{position:fixed;bottom:max(22px,env(safe-area-inset-bottom));right:22px;width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,#25d366,#128c7e);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.6rem;z-index:900;box-shadow:0 12px 32px rgba(37,211,102,.4);transition:transform .35s var(--ease);animation:waPulse 2.4s ease-in-out infinite;}
-.float-wa:hover,.float-wa:active{transform:scale(1.12) rotate(8deg);}
+.float-wa:hover{transform:scale(1.12) rotate(8deg);}
 @keyframes waPulse{0%,100%{box-shadow:0 12px 32px rgba(37,211,102,.4);}50%{box-shadow:0 12px 32px rgba(37,211,102,.65),0 0 0 14px rgba(37,211,102,.08);}}
 #toTop{position:fixed;bottom:max(22px,env(safe-area-inset-bottom));right:94px;width:48px;height:48px;border-radius:50%;background:var(--surface);border:1px solid var(--border);color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1rem;box-shadow:var(--shadow-md);opacity:0;visibility:hidden;transform:translateY(16px);transition:opacity .35s,visibility .35s,transform .35s;z-index:900;}
 #toTop.show{opacity:1;visibility:visible;transform:translateY(0);}
 
-/* ============================================================
-   COMMAND PALETTE
-   ============================================================ */
-.cmdk-overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);z-index:99999;opacity:0;visibility:hidden;transition:.25s;display:flex;align-items:flex-start;justify-content:center;padding:14vh 16px 20px;}
+/* COMMAND PALETTE */
+.cmdk-overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);backdrop-filter:blur(6px);z-index:99999;opacity:0;visibility:hidden;transition:.25s;display:flex;align-items:flex-start;justify-content:center;padding:14vh 16px 20px;}
 .cmdk-overlay.open{opacity:1;visibility:visible;}
 .cmdk{width:min(92vw,580px);background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:0 30px 80px rgba(0,0,0,.35);overflow:hidden;transform:translateY(-20px) scale(.96);transition:.3s var(--ease);}
 .cmdk-overlay.open .cmdk{transform:translateY(0) scale(1);}
@@ -441,7 +414,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
 .cmdk-input .esc{font-family:var(--mono);font-size:.68rem;padding:3px 8px;border-radius:6px;background:var(--surface-2);border:1px solid var(--border);color:var(--muted);}
 .cmdk-list{max-height:360px;overflow-y:auto;padding:8px;}
 .cmdk-item{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:10px;cursor:pointer;transition:.15s;color:var(--text-2);font-size:.9rem;}
-.cmdk-item:hover,.cmdk-item:active,.cmdk-item.active{background:rgba(230,57,70,.08);color:var(--text);}
+.cmdk-item:hover,.cmdk-item.active{background:rgba(230,57,70,.08);color:var(--text);}
 .cmdk-item .cmd-ico{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,rgba(230,57,70,.1),rgba(244,162,97,.1));color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:.85rem;flex-shrink:0;}
 .cmdk-item .cmd-sub{font-size:.72rem;color:var(--muted);}
 .cmdk-empty{padding:30px 20px;text-align:center;color:var(--muted);font-size:.86rem;}
@@ -455,9 +428,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
 .toast .t-text strong{display:block;font-size:.82rem;font-weight:700;}
 .toast .t-text span{font-size:.74rem;color:var(--muted);}
 
-/* ============================================================
-   CYCLE OS (RETRO)
-   ============================================================ */
+/* CYCLE OS */
 .retro-os{position:fixed;inset:0;z-index:99998;display:none;font-family:'Inter',sans-serif;overflow:hidden;}
 .retro-os.active{display:block;animation:osFadeIn .5s ease;}
 @keyframes osFadeIn{from{opacity:0;}to{opacity:1;}}
@@ -466,222 +437,129 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
 @keyframes bloomPulse{0%,100%{transform:translate(-50%,-50%) scale(1);opacity:.6;}50%{transform:translate(-50%,-50%) scale(1.15);opacity:1;}}
 .retro-desktop{position:absolute;inset:0 0 70px 0;padding:20px;display:grid;grid-template-columns:repeat(auto-fill,96px);grid-auto-rows:100px;gap:8px;align-content:start;overflow:auto;}
 .retro-icon{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;cursor:pointer;padding:8px 4px;border-radius:6px;user-select:none;transition:background .15s;text-align:center;border:1px solid transparent;}
-.retro-icon:hover,.retro-icon:active{background:rgba(255,255,255,.15);backdrop-filter:blur(4px);}
+.retro-icon:hover{background:rgba(255,255,255,.15);backdrop-filter:blur(4px);}
 .retro-icon.selected{background:rgba(230,57,70,.4);border-color:rgba(255,255,255,.3);}
 .retro-icon .ric{width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:26px;background:linear-gradient(135deg,rgba(255,255,255,.2),rgba(255,255,255,.08));backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.15);box-shadow:0 4px 12px rgba(0,0,0,.15);color:#fff;}
 .retro-icon span{font-size:12.5px;color:#fff;text-shadow:1px 1px 3px rgba(0,0,0,.6);line-height:1.2;}
-.retro-taskbar{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);height:48px;background:rgba(30,35,55,.75);backdrop-filter:blur(30px) saturate(180%);-webkit-backdrop-filter:blur(30px) saturate(180%);border:1px solid rgba(255,255,255,.1);border-radius:12px;display:flex;align-items:center;padding:6px 10px;gap:4px;z-index:5;box-shadow:0 8px 32px rgba(0,0,0,.3);max-width:calc(100% - 40px);}
+.retro-taskbar{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);height:48px;background:rgba(30,35,55,.75);backdrop-filter:blur(30px) saturate(180%);border:1px solid rgba(255,255,255,.1);border-radius:12px;display:flex;align-items:center;padding:6px 10px;gap:4px;z-index:5;box-shadow:0 8px 32px rgba(0,0,0,.3);max-width:calc(100% - 40px);}
 .retro-taskbar-inner{display:flex;align-items:center;gap:4px;}
-.retro-app-btn{width:38px;height:38px;border-radius:8px;background:transparent;border:none;color:#fff;font-size:1.15rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s;position:relative;}
-.retro-app-btn:hover,.retro-app-btn:active{background:rgba(255,255,255,.15);}
+.retro-app-btn{width:38px;height:38px;border-radius:8px;background:transparent;border:none;color:#fff;font-size:1.15rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s;}
+.retro-app-btn:hover{background:rgba(255,255,255,.15);}
 .retro-app-btn.start-btn{background:linear-gradient(135deg,#e63946,#f4a261);box-shadow:0 2px 8px rgba(230,57,70,.4);}
 .retro-tray{margin-left:auto;padding-left:10px;border-left:1px solid rgba(255,255,255,.1);display:flex;align-items:center;gap:12px;color:#fff;font-size:12px;}
 .retro-tray .tray-icons{display:flex;gap:8px;font-size:.85rem;opacity:.9;}
-.retro-clock{font-variant-numeric:tabular-nums;text-align:right;line-height:1.2;font-size:11.5px;}
+.retro-clock{text-align:right;line-height:1.2;font-size:11.5px;}
 .retro-clock b{display:block;font-weight:400;}
-.retro-startmenu{position:absolute;bottom:72px;left:50%;transform:translateX(-50%) translateY(20px) scale(.95);background:rgba(30,35,55,.9);backdrop-filter:blur(40px) saturate(180%);-webkit-backdrop-filter:blur(40px) saturate(180%);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:20px;width:min(560px,calc(100vw - 32px));opacity:0;visibility:hidden;transition:.3s var(--ease);z-index:20;box-shadow:0 20px 60px rgba(0,0,0,.4);max-height:calc(100vh - 120px);overflow-y:auto;}
+.retro-startmenu{position:absolute;bottom:72px;left:50%;transform:translateX(-50%) translateY(20px) scale(.95);background:rgba(30,35,55,.9);backdrop-filter:blur(40px) saturate(180%);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:20px;width:min(560px,calc(100vw - 32px));opacity:0;visibility:hidden;transition:.3s var(--ease);z-index:20;box-shadow:0 20px 60px rgba(0,0,0,.4);max-height:calc(100vh - 120px);overflow-y:auto;}
 .retro-startmenu.open{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0) scale(1);}
 .rsm-search{width:100%;padding:10px 14px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1);border-radius:8px;color:#fff;font-size:16px;font-family:inherit;outline:none;margin-bottom:16px;}
 .rsm-search::placeholder{color:rgba(255,255,255,.5);}
 .rsm-title{font-size:12px;color:rgba(255,255,255,.6);margin-bottom:10px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;}
 .rsm-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px;}
 .rsm-app{display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 6px;border-radius:10px;cursor:pointer;transition:background .15s;color:#fff;text-align:center;}
-.rsm-app:hover,.rsm-app:active{background:rgba(255,255,255,.1);}
+.rsm-app:hover{background:rgba(255,255,255,.1);}
 .rsm-app .rsa-ico{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;background:linear-gradient(135deg,rgba(255,255,255,.18),rgba(255,255,255,.06));backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.1);}
 .rsm-app span{font-size:11px;line-height:1.1;}
 .rsm-sep{height:1px;background:rgba(255,255,255,.1);margin:12px 0;}
 .rsm-foot{display:flex;align-items:center;justify-content:space-between;color:#fff;font-size:12px;}
 .rsm-user{display:flex;align-items:center;gap:8px;}
 .rsm-avatar{width:28px;height:28px;border-radius:50%;background:var(--grad);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;color:#fff;}
-.retro-window{position:absolute;background:#f5f5f7;border-radius:12px;box-shadow:0 24px 70px rgba(0,0,0,.4),0 0 0 1px rgba(0,0,0,.05);min-width:280px;max-width:calc(100vw - 20px);z-index:10;overflow:hidden;animation:winPop .25s cubic-bezier(.16,.84,.44,1);}
+.retro-window{position:absolute;background:#f5f5f7;border-radius:12px;box-shadow:0 24px 70px rgba(0,0,0,.4);min-width:280px;max-width:calc(100vw - 20px);z-index:10;overflow:hidden;animation:winPop .25s var(--ease);}
 @keyframes winPop{from{transform:scale(.92);opacity:0;}to{transform:scale(1);opacity:1;}}
 .retro-title-bar{display:flex;align-items:center;justify-content:space-between;padding:6px 6px 6px 14px;background:#f5f5f7;border-bottom:1px solid #e5e5ea;font-size:13px;color:#333;cursor:move;user-select:none;height:38px;touch-action:none;}
 .retro-title-bar .rtb-title{display:flex;align-items:center;gap:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-.retro-win-controls{display:flex;flex-shrink:0;}
 .retro-win-btn{width:42px;height:38px;background:transparent;border:none;color:#333;cursor:pointer;font-size:11px;display:flex;align-items:center;justify-content:center;transition:background .1s;}
-.retro-win-btn:hover,.retro-win-btn:active{background:#e5e5ea;}
-.retro-win-btn.close:hover,.retro-win-btn.close:active{background:#e81123;color:#fff;}
+.retro-win-btn.close:hover{background:#e81123;color:#fff;}
 .retro-win-body{padding:20px 24px;color:#222;font-size:14px;line-height:1.6;background:#fff;max-height:60vh;overflow:auto;}
 .retro-win-body h3{font-size:18px;font-weight:600;margin-bottom:12px;color:#111;}
 .retro-win-body p{margin-bottom:10px;color:#444;}
 .retro-win-body a{color:#e63946;text-decoration:underline;}
 .retro-btn{background:#e63946;border:none;border-radius:6px;padding:10px 20px;font-size:14px;font-weight:500;cursor:pointer;color:#fff;margin-top:10px;transition:background .15s;font-family:inherit;}
-.retro-btn:hover,.retro-btn:active{background:#c1121f;}
+.retro-btn:hover{background:#c1121f;}
 .retro-btn.secondary{background:#e5e5ea;color:#222;}
 .retro-exit{position:absolute;top:14px;right:14px;z-index:20;}
-.retro-exit-btn{background:rgba(30,35,55,.8);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.15);border-radius:8px;padding:10px 16px;color:#fff;font-size:12px;cursor:pointer;transition:background .2s;font-family:inherit;}
-.retro-exit-btn:hover,.retro-exit-btn:active{background:rgba(232,17,35,.85);border-color:transparent;}
+.retro-exit-btn{background:rgba(30,35,55,.8);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.15);border-radius:8px;padding:10px 16px;color:#fff;font-size:12px;cursor:pointer;transition:background .2s;font-family:inherit;}
+.retro-exit-btn:hover{background:rgba(232,17,35,.85);border-color:transparent;}
 
-/* ============================================================
-   GAME
-   ============================================================ */
-.game-overlay{position:fixed;inset:0;background:rgba(6,8,15,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);z-index:99999;display:none;align-items:center;justify-content:center;padding:16px;overflow-y:auto;}
+/* GAME */
+.game-overlay{position:fixed;inset:0;background:rgba(6,8,15,.92);backdrop-filter:blur(8px);z-index:99999;display:none;align-items:center;justify-content:center;padding:16px;overflow-y:auto;}
 .game-overlay.active{display:flex;animation:fadeIn .35s ease;}
 @keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
-.game-modal{background:var(--surface);border:1px solid var(--border);border-radius:22px;padding:24px;max-width:520px;width:100%;box-shadow:0 30px 80px rgba(0,0,0,.5);text-align:center;position:relative;animation:gamePop .35s var(--ease);margin:auto;}
+.game-modal{background:var(--surface);border:1px solid var(--border);border-radius:22px;padding:24px;max-width:540px;width:100%;box-shadow:0 30px 80px rgba(0,0,0,.5);text-align:center;position:relative;animation:gamePop .35s var(--ease);margin:auto;}
 @keyframes gamePop{from{transform:scale(.9);}to{transform:scale(1);}}
 .game-title{font-family:var(--heading);font-weight:700;font-size:1.3rem;margin-bottom:4px;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;}
 .game-sub{font-size:.8rem;color:var(--muted);font-family:var(--mono);margin-bottom:16px;}
 .game-stats{display:flex;justify-content:center;gap:24px;margin-bottom:12px;font-family:var(--mono);font-size:.82rem;}
 .game-stats div{text-align:center;}
 .game-stats b{display:block;font-size:1.4rem;font-family:'Oswald',var(--heading);color:var(--primary);font-weight:700;}
-.game-stats span{color:var(--muted);font-size:.7rem;}
-#cycleCanvas{background:linear-gradient(180deg,#87ceeb 0%,#e0f6ff 100%);border-radius:14px;display:block;margin:0 auto;width:100%;max-width:480px;aspect-ratio:16/9;touch-action:none;box-shadow:inset 0 0 40px rgba(230,57,70,.08);}
+.game-stats span{color:var(--muted);font-size:.7rem;text-transform:uppercase;}
+#epicCanvas{background:linear-gradient(180deg,#1a2540 0%,#0f172a 100%);border-radius:14px;display:block;margin:0 auto;width:100%;max-width:480px;aspect-ratio:16/9;touch-action:none;box-shadow:inset 0 0 40px rgba(230,57,70,.1);border:1px solid var(--border);}
 .game-close{position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:50%;background:var(--surface-2);border:1px solid var(--border);color:var(--text-2);cursor:pointer;font-size:.85rem;display:flex;align-items:center;justify-content:center;transition:.2s;}
-.game-close:hover,.game-close:active{background:#ef4444;color:#fff;border-color:transparent;}
+.game-close:hover{background:#ef4444;color:#fff;border-color:transparent;}
 .game-msg{margin-top:14px;font-family:var(--mono);font-size:.8rem;color:var(--muted);}
+.game-legend{display:flex;justify-content:center;gap:16px;margin-top:12px;flex-wrap:wrap;font-size:.72rem;font-family:var(--mono);color:var(--muted);}
+.game-legend span{display:inline-flex;align-items:center;gap:5px;}
 
-/* ============================================================
-   RESPONSIVE
-   ============================================================ */
-@media(max-width:1100px){
-  .nav-links{display:none;}
-  .nav-cta .btn-ghost,.nav-cta .btn-primary{display:none;}
-  .burger{display:flex;}
-  .foot-grid{grid-template-columns:1fr 1fr;}
-}
-@media(max-width:1000px){
-  .hero{padding:110px 0 60px;}
-  .hero-grid{grid-template-columns:1fr;gap:44px;text-align:center;}
-  .hero-cycle-stage{max-width:380px;margin:0 auto;order:-1;}
-  .hero-actions{justify-content:center;}
-  .hero-sub{margin-left:auto;margin-right:auto;}
-  .stat-row{grid-template-columns:repeat(4,1fr);gap:14px;max-width:100%;margin:0 auto;}
-  .explorer-grid,.booking-grid,.contact-grid{grid-template-columns:1fr;gap:30px;}
-  .section{padding:80px 0;}
-}
+/* RESPONSIVE */
+@media(max-width:1100px){.nav-links{display:none;}.nav-cta .btn-ghost,.nav-cta .btn-primary{display:none;}.burger{display:flex;}.foot-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:1000px){.hero{padding:110px 0 60px;}.hero-grid{grid-template-columns:1fr;gap:44px;text-align:center;}.hero-cycle-stage{max-width:380px;margin:0 auto;order:-1;}.hero-actions{justify-content:center;}.hero-sub{margin-left:auto;margin-right:auto;}.stat-row{grid-template-columns:repeat(4,1fr);gap:14px;max-width:100%;margin:0 auto;}.explorer-grid,.booking-grid,.contact-grid{grid-template-columns:1fr;gap:30px;}.section{padding:80px 0;}}
 @media(max-width:768px){
-  .wrap{padding-left:16px;padding-right:16px;}
-  .section{padding:64px 0;}
-  .section-sub{margin-bottom:32px;}
-  .section-title{letter-spacing:-.8px;}
-  .eyebrow{font-size:.62rem;padding:5px 12px;}
-  header{padding:10px 0;}
-  header.scrolled{padding:8px 0;}
-  .logo{font-size:1rem;gap:8px;}
-  .logo-mark{width:36px;height:36px;font-size:1rem;border-radius:10px;}
-  .nav-cta{gap:6px;}
-  .icon-btn{width:38px;height:38px;font-size:.85rem;border-radius:10px;}
-  .selector-btn{height:38px;padding:0 10px;font-size:.78rem;border-radius:10px;}
-  .selector-btn #vibeLabel,.selector-btn #themeIcon{display:none;}
-  .burger{padding:6px;}
-  .burger span{width:20px;}
-  .mobile-menu{padding:80px 22px 40px;}
-  .hero{padding:90px 0 40px;min-height:auto;}
-  .greeting{padding:6px 12px;font-size:.7rem;gap:6px;margin-bottom:16px;}
-  .greeting .clock,.greeting .weather{font-size:.66rem;}
-  .greeting .sep{height:12px;}
-  .hero h1{letter-spacing:-1.3px;margin-bottom:10px;}
-  .hero-sub{font-size:.92rem;margin-bottom:22px;}
-  .hero-actions{gap:8px;margin-bottom:26px;}
-  .hero-actions .btn{flex:1 1 calc(50% - 4px);min-width:0;padding:11px 14px;font-size:.8rem;}
-  .hero-actions .btn:last-child{flex-basis:100%;}
-  .stat-row{grid-template-columns:1fr 1fr;gap:14px;padding-top:20px;}
-  .stat b{font-size:1.3rem;}
-  .stat span{font-size:.68rem;}
-  .hero-cycle-stage{max-width:min(340px,90vw);}
+  .wrap{padding-left:16px;padding-right:16px;}.section{padding:64px 0;}.section-sub{margin-bottom:32px;}.section-title{letter-spacing:-.8px;}.eyebrow{font-size:.62rem;padding:5px 12px;}
+  header{padding:10px 0;}header.scrolled{padding:8px 0;}.logo{font-size:1rem;gap:8px;}.logo-mark{width:36px;height:36px;font-size:1rem;border-radius:10px;}
+  .nav-cta{gap:6px;}.icon-btn{width:38px;height:38px;font-size:.85rem;border-radius:10px;}
+  .selector-btn{height:38px;padding:0 10px;font-size:.78rem;border-radius:10px;}.selector-btn #modeLabel,.selector-btn #themeIcon{display:none;}
+  .burger{padding:6px;}.burger span{width:20px;}.mobile-menu{padding:80px 22px 40px;}
+  .hero{padding:90px 0 40px;min-height:auto;}.greeting{padding:6px 12px;font-size:.7rem;gap:6px;margin-bottom:16px;}
+  .greeting .clock,.greeting .weather{font-size:.66rem;}.greeting .sep{height:12px;}
+  .hero h1{letter-spacing:-1.3px;margin-bottom:10px;}.hero-sub{font-size:.92rem;margin-bottom:22px;}
+  .hero-actions{gap:8px;margin-bottom:26px;}.hero-actions .btn{flex:1 1 calc(50% - 4px);min-width:0;padding:11px 14px;font-size:.8rem;}
+  .hero-actions .btn:last-child{flex-basis:100%;}.stat-row{grid-template-columns:1fr 1fr;gap:14px;padding-top:20px;}
+  .stat b{font-size:1.3rem;}.stat span{font-size:.68rem;}.hero-cycle-stage{max-width:min(340px,90vw);}
   .hero-orbit-icon{width:42px;height:42px;font-size:1rem;border-radius:12px;}
-  .hero-offer-badge{padding:14px 20px;right:50%;transform:translateX(50%) rotate(-4deg);}
-  .hero-offer-badge .offer-value{font-size:1.5rem;}
-  .trust-bar .wrap{gap:20px;}
-  .trust-item{font-size:.8rem;}
-  .trust-item i{font-size:1rem;}
-  .explorer{padding:22px;}
-  .explorer-info h3{font-size:1.25rem;}
-  .explorer-info p{font-size:.88rem;}
-  .exp-part-btn{padding:6px 12px;font-size:.74rem;}
-  .booking-info{padding:26px 22px;}
-  .booking-info h3{font-size:1.25rem;}
-  .booking-form{padding:24px 20px;}
-  .form-row.split{grid-template-columns:1fr;}
-  .contact-item{padding:14px 16px;gap:12px;}
-  .c-ico{width:42px;height:42px;font-size:1rem;}
-  .contact-item div b{font-size:.86rem;}
-  .contact-item .phone-big{font-size:1.15rem;}
-  .map-wrap{min-height:320px;}
-  .map-wrap iframe{min-height:320px;}
-  .foot-grid{grid-template-columns:1fr;gap:30px;}
-  .foot-bottom{flex-direction:column;text-align:center;}
-  .float-wa{width:52px;height:52px;font-size:1.4rem;right:16px;}
-  #toTop{right:78px;width:44px;height:44px;font-size:.9rem;}
-  .xp-bar{bottom:78px;left:14px;padding:8px 12px;gap:8px;}
-  .xp-lvl{font-size:.9rem;}
-  .xp-info{min-width:60px;}
-  .xp-label{font-size:.6rem;}
-  .welcome-card{padding:32px 22px 26px;}
-  .welcome-options{grid-template-columns:1fr;gap:12px;}
-  .welcome-btn{padding:20px 16px;}
-  .cmdk-overlay{padding:8vh 12px 20px;}
-  .cmdk-list{max-height:55vh;}
+  .hero-offer-badge{padding:14px 20px;right:50%;transform:translateX(50%) rotate(-4deg);}.hero-offer-badge .offer-value{font-size:1.5rem;}
+  .trust-bar .wrap{gap:20px;}.trust-item{font-size:.8rem;}.trust-item i{font-size:1rem;}
+  .explorer{padding:22px;}.explorer-info h3{font-size:1.25rem;}.explorer-info p{font-size:.88rem;}.exp-part-btn{padding:6px 12px;font-size:.74rem;}
+  .booking-info{padding:26px 22px;}.booking-info h3{font-size:1.25rem;}.booking-form{padding:24px 20px;}.form-row.split{grid-template-columns:1fr;}
+  .contact-item{padding:14px 16px;gap:12px;}.c-ico{width:42px;height:42px;font-size:1rem;}.contact-item div b{font-size:.86rem;}.contact-item .phone-big{font-size:1.15rem;}
+  .map-wrap{min-height:320px;}.map-wrap iframe{min-height:320px;}
+  .foot-grid{grid-template-columns:1fr;gap:30px;}.foot-bottom{flex-direction:column;text-align:center;}
+  .float-wa{width:52px;height:52px;font-size:1.4rem;right:16px;}#toTop{right:78px;width:44px;height:44px;font-size:.9rem;}
+  .xp-bar{bottom:78px;left:14px;padding:8px 12px;gap:8px;}.xp-lvl{font-size:.9rem;}.xp-info{min-width:60px;}.xp-label{font-size:.6rem;}
+  .welcome-card{padding:32px 22px 26px;}.welcome-options{grid-template-columns:1fr;gap:12px;}.welcome-btn{padding:20px 16px;}
+  .cmdk-overlay{padding:8vh 12px 20px;}.cmdk-list{max-height:55vh;}
   .retro-desktop{grid-template-columns:repeat(auto-fill,80px);grid-auto-rows:88px;padding:14px;inset:0 0 70px 0;gap:6px;}
-  .retro-icon .ric{width:40px;height:40px;font-size:22px;border-radius:8px;}
-  .retro-icon span{font-size:11px;}
-  .retro-taskbar{height:52px;padding:6px 8px;gap:3px;max-width:calc(100% - 24px);}
-  .retro-app-btn{width:36px;height:36px;font-size:1.05rem;}
-  .retro-tray .tray-icons{display:none;}
-  .retro-clock{font-size:10.5px;}
-  .retro-startmenu{padding:16px;bottom:76px;width:calc(100vw - 24px);}
-  .rsm-grid{grid-template-columns:repeat(4,1fr);gap:4px;}
-  .rsm-app{padding:10px 4px;}
-  .rsm-app .rsa-ico{width:38px;height:38px;font-size:18px;}
-  .rsm-app span{font-size:10px;}
-  .retro-window{min-width:280px;max-width:calc(100vw - 16px);left:8px !important;top:8px !important;}
-  .retro-win-body{padding:16px 18px;font-size:13.5px;}
-  .game-modal{padding:18px;border-radius:18px;}
-  .game-title{font-size:1.15rem;}
-  .toast{bottom:auto;top:80px;padding:12px 16px;}
-  .toast .t-icon{width:34px;height:34px;font-size:.9rem;}
-  .toast .t-text strong{font-size:.78rem;}
-  .toast .t-text span{font-size:.7rem;}
+  .retro-icon .ric{width:40px;height:40px;font-size:22px;border-radius:8px;}.retro-icon span{font-size:11px;}
+  .retro-taskbar{height:52px;padding:6px 8px;gap:3px;max-width:calc(100% - 24px);}.retro-app-btn{width:36px;height:36px;font-size:1.05rem;}
+  .retro-tray .tray-icons{display:none;}.retro-clock{font-size:10.5px;}.retro-startmenu{padding:16px;bottom:76px;width:calc(100vw - 24px);}
+  .rsm-grid{grid-template-columns:repeat(4,1fr);gap:4px;}.rsm-app{padding:10px 4px;}.rsm-app .rsa-ico{width:38px;height:38px;font-size:18px;}.rsm-app span{font-size:10px;}
+  .retro-window{min-width:280px;max-width:calc(100vw - 16px);left:8px !important;top:8px !important;}.retro-win-body{padding:16px 18px;font-size:13.5px;}
+  .game-modal{padding:18px;border-radius:18px;}.game-title{font-size:1.15rem;}
+  .toast{bottom:auto;top:80px;padding:12px 16px;}.toast .t-icon{width:34px;height:34px;font-size:.9rem;}.toast .t-text strong{font-size:.78rem;}.toast .t-text span{font-size:.7rem;}
+  .review-card{padding:24px 22px;}.review-text{font-size:.92rem;}.review-arrow{width:38px;height:38px;}
 }
 @media(max-width:480px){
-  .wrap{padding-left:14px;padding-right:14px;}
-  .section{padding:56px 0;}
-  .hero{padding:80px 0 36px;}
-  .greeting{padding:5px 10px;font-size:.66rem;gap:5px;}
-  .greeting .weather{display:none;}
-  .hero h1{font-size:1.9rem;letter-spacing:-1px;}
-  .hero-actions .btn{font-size:.76rem;padding:10px 12px;min-height:42px;}
-  .stat-row{grid-template-columns:1fr 1fr;gap:10px;}
-  .stat b{font-size:1.15rem;}
-  .services-grid{grid-template-columns:1fr;gap:16px;}
-  .service-card{padding:24px 20px;}
-  .service-icon{width:54px;height:54px;font-size:1.3rem;border-radius:15px;}
-  .service-card h3{font-size:1.05rem;}
-  .why-card{padding:26px 20px;}
-  .why-icon{width:56px;height:56px;font-size:1.25rem;}
-  .reviews-grid{grid-template-columns:1fr;}
-  .review-card{padding:22px 20px;}
-  .offer-timer{gap:8px;}
-  .timer-box{padding:10px 14px;min-width:60px;border-radius:10px;}
-  .timer-box b{font-size:1.4rem;}
-  .timer-box span{font-size:.6rem;letter-spacing:1px;}
+  .wrap{padding-left:14px;padding-right:14px;}.section{padding:56px 0;}.hero{padding:80px 0 36px;}
+  .greeting{padding:5px 10px;font-size:.66rem;gap:5px;}.greeting .weather{display:none;}
+  .hero h1{font-size:1.9rem;letter-spacing:-1px;}.hero-actions .btn{font-size:.76rem;padding:10px 12px;min-height:42px;}
+  .stat-row{grid-template-columns:1fr 1fr;gap:10px;}.stat b{font-size:1.15rem;}
+  .services-grid{grid-template-columns:1fr;gap:16px;}.service-card{padding:24px 20px;}.service-icon{width:54px;height:54px;font-size:1.3rem;border-radius:15px;}.service-card h3{font-size:1.05rem;}
+  .showroom-grid{grid-template-columns:1fr;}.bike-img{height:170px;font-size:4rem;}
+  .why-card{padding:26px 20px;}.why-icon{width:56px;height:56px;font-size:1.25rem;}
+  .review-card{padding:22px 18px;}.review-text{font-size:.88rem;}
+  .offer-timer{gap:8px;}.timer-box{padding:10px 14px;min-width:60px;border-radius:10px;}.timer-box b{font-size:1.4rem;}.timer-box span{font-size:.6rem;letter-spacing:1px;}
   .offer-cta{padding:14px 26px;font-size:.92rem;}
-  .float-wa{width:48px;height:48px;font-size:1.3rem;right:14px;}
-  #toTop{right:68px;width:42px;height:42px;}
-  .xp-bar{left:12px;padding:7px 10px;}
-  .xp-info{min-width:50px;}
-  .tyre-buddy{width:60px !important;height:60px !important;}
-  .tb-bubble{font-size:.7rem;padding:5px 10px;}
+  .float-wa{width:48px;height:48px;font-size:1.3rem;right:14px;}#toTop{right:68px;width:42px;height:42px;}
+  .xp-bar{left:12px;padding:7px 10px;}.xp-info{min-width:50px;}
+  .tyre-buddy{width:60px !important;height:60px !important;}.tb-bubble{font-size:.7rem;padding:5px 10px;}
   .toast{top:70px;padding:10px 14px;gap:10px;}
 }
-@media (hover:none){
-  .service-card:hover{transform:none;}
-  .why-card:hover{transform:none;}
-  .contact-item:hover{transform:none;}
-  .float-wa:hover{transform:none;}
-}
-@media(prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;}
-  [data-reveal]{opacity:1 !important;transform:none !important;}
-}
+@media (hover:none){.service-card:hover,.why-card:hover,.contact-item:hover,.float-wa:hover{transform:none;}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;}[data-reveal]{opacity:1 !important;transform:none !important;}}
 </style>
 </head>
 <body>
 
-<!-- ============================================================
-     WELCOME MODAL
-     ============================================================ -->
+<!-- WELCOME -->
 <div class="welcome-overlay" id="welcomeOverlay">
   <div class="welcome-card">
     <div class="welcome-badge"><i class="fas fa-bicycle"></i> WELCOME TO AMAR CYCLE WORKS</div>
@@ -707,20 +585,18 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
 <div class="tyre-buddy" id="tyreBuddy"><div class="tb-inner" id="tbInner"></div><div class="tap-ping"></div></div>
 <div class="tb-bubble" id="tbBubble">Ding!</div>
 
-<!-- ============================================================
-     CYCLE OS (RETRO DESKTOP)
-     ============================================================ -->
+<!-- CYCLE OS -->
 <div class="retro-os" id="retroOS">
   <div class="retro-wallpaper"></div>
   <div class="retro-desktop" id="retroDesktop">
     <div class="retro-icon" data-win="services"><div class="ric">🔧</div><span>Services</span></div>
     <div class="retro-icon" data-win="about"><div class="ric">👤</div><span>About Shop</span></div>
+    <div class="retro-icon" data-win="showroom"><div class="ric">🚲</div><span>Showroom</span></div>
     <div class="retro-icon" data-win="offer"><div class="ric">🎁</div><span>Monsoon Offer</span></div>
     <div class="retro-icon" data-win="contact"><div class="ric">📞</div><span>Contact</span></div>
     <div class="retro-icon" data-win="game"><div class="ric">🎮</div><span>Ride.exe</span></div>
     <div class="retro-icon" data-win="secret"><div class="ric">🎉</div><span>Secret</span></div>
     <div class="retro-icon" data-win="recycle"><div class="ric">🗑️</div><span>Recycle</span></div>
-    <div class="retro-icon" data-win="browser"><div class="ric">🌐</div><span>Browser</span></div>
   </div>
   <div class="retro-exit"><button class="retro-exit-btn" onclick="exitRetroOS()">✕ Exit CycleOS</button></div>
   <div class="retro-startmenu" id="retroStartMenu">
@@ -728,7 +604,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
     <div class="rsm-title">Pinned</div>
     <div class="rsm-grid">
       <div class="rsm-app" data-win="services"><div class="rsa-ico">🔧</div><span>Services</span></div>
-      <div class="rsm-app" data-win="about"><div class="rsa-ico">👤</div><span>About</span></div>
+      <div class="rsm-app" data-win="showroom"><div class="rsa-ico">🚲</div><span>Showroom</span></div>
       <div class="rsm-app" data-win="offer"><div class="rsa-ico">🎁</div><span>Offer</span></div>
       <div class="rsm-app" data-win="contact"><div class="rsa-ico">📞</div><span>Contact</span></div>
       <div class="rsm-app" data-win="game"><div class="rsa-ico">🎮</div><span>Ride</span></div>
@@ -744,9 +620,9 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   </div>
   <div class="retro-taskbar">
     <div class="retro-taskbar-inner">
-      <button class="retro-app-btn start-btn" id="retroStart" title="Start"><i class="fas fa-bicycle"></i></button>
-      <button class="retro-app-btn" title="Search"><i class="fas fa-search"></i></button>
-      <button class="retro-app-btn" title="Task View"><i class="fas fa-th-large"></i></button>
+      <button class="retro-app-btn start-btn" id="retroStart"><i class="fas fa-bicycle"></i></button>
+      <button class="retro-app-btn"><i class="fas fa-search"></i></button>
+      <button class="retro-app-btn"><i class="fas fa-th-large"></i></button>
     </div>
     <div class="retro-tray">
       <div class="tray-icons"><span>📶</span><span>🔊</span><span>🔋</span></div>
@@ -755,26 +631,26 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   </div>
 </div>
 
-<!-- ============================================================
-     GAME
-     ============================================================ -->
+<!-- GAME -->
 <div class="game-overlay" id="gameOverlay">
   <div class="game-modal">
     <button class="game-close" onclick="closeGame()">✕</button>
-    <div class="game-title">🚲 CYCLE RIDER</div>
-    <div class="game-sub">Tap / press SPACE to jump · Dodge potholes!</div>
+    <div class="game-title">🚴 EPIC CYCLE RIDER</div>
+    <div class="game-sub">Tap / SPACE to jump · Collect coins · Grab power-ups!</div>
     <div class="game-stats">
       <div><b id="gameScore">0</b><span>SCORE</span></div>
       <div><b id="gameHigh">0</b><span>BEST</span></div>
     </div>
-    <canvas id="cycleCanvas" width="480" height="270"></canvas>
+    <canvas id="epicCanvas" width="480" height="270"></canvas>
     <div class="game-msg" id="gameMsg">Tap canvas to start</div>
+    <div class="game-legend">
+      <span>🪙 +10 pts</span>
+      <span>🛡️ Shield (1 hit)</span>
+      <span>🧲 Magnet (auto-coins)</span>
+    </div>
   </div>
 </div>
 
-<!-- ============================================================
-     PRELOADER
-     ============================================================ -->
 <div id="preloader">
   <div class="pre-logo">A</div>
   <div class="pre-text">Starting engines…</div>
@@ -791,9 +667,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   </div>
 </div>
 
-<!-- ============================================================
-     HEADER
-     ============================================================ -->
+<!-- HEADER -->
 <header id="header">
   <div class="wrap">
     <nav>
@@ -803,17 +677,17 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
       </a>
       <ul class="nav-links">
         <li><a href="#services">Services</a></li>
+        <li><a href="#showroom">Showroom</a></li>
         <li><a href="#explorer">Explore</a></li>
         <li><a href="#offer">Offer</a></li>
-        <li><a href="#why-us">Why Us</a></li>
         <li><a href="#reviews">Reviews</a></li>
         <li><a href="#booking">Book</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div class="nav-cta">
         <a href="tel:09782707474" class="btn btn-primary"><i class="fas fa-phone-alt"></i> Call Now</a>
-        <button class="icon-btn" id="retroToggle" title="CycleOS Mode"><i class="fas fa-desktop"></i></button>
-        <button class="icon-btn" id="tbToggle" title="Toggle Tyre Buddy"><i class="fas fa-dharmachakra"></i></button>
+        <button class="icon-btn" id="retroToggle" title="CycleOS"><i class="fas fa-desktop"></i></button>
+        <button class="icon-btn" id="tbToggle" title="Tyre Buddy"><i class="fas fa-dharmachakra"></i></button>
         <div class="selector" id="modeSelector">
           <button class="selector-btn"><span class="em" id="modeEmoji">⚡</span><span id="modeLabel">Pro</span></button>
           <div class="selector-menu" id="modeMenu">
@@ -832,7 +706,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
             <button data-theme-val="night"><i class="fas fa-moon"></i><span>Night</span></button>
           </div>
         </div>
-        <button class="icon-btn" id="cmdkOpen" title="Command Palette (Ctrl+K)"><i class="fas fa-terminal"></i></button>
+        <button class="icon-btn" id="cmdkOpen" title="Commands (Ctrl+K)"><i class="fas fa-terminal"></i></button>
         <button class="burger" id="burger"><span></span><span></span><span></span></button>
       </div>
     </nav>
@@ -842,9 +716,9 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
 <div class="overlay" id="overlay"></div>
 <div class="mobile-menu" id="mobileMenu">
   <a href="#services">Services</a>
+  <a href="#showroom">Showroom</a>
   <a href="#explorer">Explore Cycle</a>
   <a href="#offer">Monsoon Offer</a>
-  <a href="#why-us">Why Us</a>
   <a href="#reviews">Reviews</a>
   <a href="#booking">Book Service</a>
   <a href="#contact">Contact</a>
@@ -856,9 +730,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   </div>
 </div>
 
-<!-- ============================================================
-     HERO
-     ============================================================ -->
+<!-- HERO -->
 <section class="hero" id="home">
   <div class="wrap hero-grid">
     <div>
@@ -878,16 +750,16 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
           <span class="letter">C</span><span class="letter">Y</span><span class="letter">C</span><span class="letter">L</span><span class="letter">E</span>
         </span>
       </h1>
-      <p class="hero-sub">Your trusted <b>cycle repair & service center</b> since years. From punctures to complete overhauling — genuine parts, skilled technicians, and honest pricing. <b>4.8★ on Google.</b></p>
+      <p class="hero-sub">Your trusted <b>cycle repair & service center</b> since 40+ years. Buy new & second-hand cycles, get expert repairs, and ride safe with genuine parts. <b>4.8★ on Google.</b></p>
       <div class="hero-actions">
         <a href="tel:09782707474" class="btn btn-primary"><i class="fas fa-phone-alt"></i> 097827 07474</a>
         <a href="#booking" class="btn btn-gold"><i class="fas fa-calendar-check"></i> Book Service</a>
-        <a href="https://wa.me/919782707474?text=Hi%20Amar%20Cycle%20Works,%20I%20need%20cycle%20repair%20service" target="_blank" rel="noopener" class="btn btn-ghost"><i class="fab fa-whatsapp" style="color:#25d366;"></i> WhatsApp</a>
+        <a href="https://wa.me/919782707474?text=Hi%20Amar%20Cycle%20Works" target="_blank" rel="noopener" class="btn btn-ghost"><i class="fab fa-whatsapp" style="color:#25d366;"></i> WhatsApp</a>
       </div>
       <div class="stat-row">
         <div class="stat"><b>4.8★</b><span>Google Rating</span></div>
-        <div class="stat"><b>10+</b><span>Years Trusted</span></div>
-        <div class="stat"><b>5000+</b><span>Cycles Serviced</span></div>
+        <div class="stat"><b>40+</b><span>Years Trusted</span></div>
+        <div class="stat"><b>5L+</b><span>Cycles Serviced</span></div>
         <div class="stat"><b>100%</b><span>Genuine Parts</span></div>
       </div>
     </div>
@@ -899,14 +771,9 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
       <div class="hero-orbit-icon oi-4" style="color:#f4a261;"><i class="fas fa-bicycle"></i></div>
       <svg class="hero-cycle-svg" viewBox="0 0 500 320" fill="none" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <linearGradient id="frameG" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stop-color="#e63946"/><stop offset="1" stop-color="#c1121f"/>
-          </linearGradient>
-          <linearGradient id="tyreG" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stop-color="#1a1a2e"/><stop offset="1" stop-color="#0f172a"/>
-          </linearGradient>
+          <linearGradient id="frameG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e63946"/><stop offset="1" stop-color="#c1121f"/></linearGradient>
+          <linearGradient id="tyreG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1a2e"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
         </defs>
-        <!-- Rear Wheel -->
         <g class="wheel wheel-1" style="transform-origin:130px 230px;">
           <circle cx="130" cy="230" r="62" stroke="url(#tyreG)" stroke-width="14" fill="none"/>
           <circle cx="130" cy="230" r="50" stroke="#b8bcc8" stroke-width="2" fill="none"/>
@@ -916,7 +783,6 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
           <line x1="95" y1="195" x2="165" y2="265" stroke="#b8bcc8" stroke-width="1.5"/>
           <line x1="165" y1="195" x2="95" y2="265" stroke="#b8bcc8" stroke-width="1.5"/>
         </g>
-        <!-- Front Wheel -->
         <g class="wheel wheel-2" style="transform-origin:390px 230px;">
           <circle cx="390" cy="230" r="62" stroke="url(#tyreG)" stroke-width="14" fill="none"/>
           <circle cx="390" cy="230" r="50" stroke="#b8bcc8" stroke-width="2" fill="none"/>
@@ -926,16 +792,12 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
           <line x1="355" y1="195" x2="425" y2="265" stroke="#b8bcc8" stroke-width="1.5"/>
           <line x1="425" y1="195" x2="355" y2="265" stroke="#b8bcc8" stroke-width="1.5"/>
         </g>
-        <!-- Frame -->
         <path d="M130 230 L200 145 L310 145 L390 230 L310 145 L255 230 L130 230 M200 145 L255 230" stroke="url(#frameG)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         <path d="M255 230 L310 145" stroke="#3b82f6" stroke-width="7" stroke-linecap="round"/>
-        <!-- Seat post + Seat -->
         <line x1="200" y1="145" x2="190" y2="110" stroke="#333" stroke-width="6" stroke-linecap="round"/>
         <ellipse cx="188" cy="104" rx="22" ry="8" fill="#1a1a2e"/>
-        <!-- Handlebar -->
         <line x1="310" y1="145" x2="315" y2="95" stroke="#333" stroke-width="6" stroke-linecap="round"/>
         <path d="M290 92 Q315 82 340 92" stroke="#1a1a2e" stroke-width="7" fill="none" stroke-linecap="round"/>
-        <!-- Pedal -->
         <circle cx="255" cy="230" r="12" fill="#f4a261"/>
         <circle cx="255" cy="230" r="4" fill="#1a1a2e"/>
       </svg>
@@ -948,21 +810,17 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   </div>
 </section>
 
-<!-- ============================================================
-     TRUST BAR
-     ============================================================ -->
+<!-- TRUST BAR -->
 <div class="trust-bar">
   <div class="wrap">
-    <div class="trust-item"><i class="fas fa-shield-alt"></i> Trusted Local Cycle Shop</div>
+    <div class="trust-item"><i class="fas fa-shield-alt"></i> Trusted Since 40+ Years</div>
     <div class="trust-item"><i class="fas fa-cog"></i> Genuine Spare Parts</div>
     <div class="trust-item"><i class="fas fa-user-cog"></i> Skilled Technicians</div>
     <div class="trust-item"><i class="fas fa-star"></i> 4.8★ on Google</div>
   </div>
 </div>
 
-<!-- ============================================================
-     SERVICES
-     ============================================================ -->
+<!-- SERVICES -->
 <section class="section" id="services" data-achievement="Services Unlocked">
   <div class="wrap">
     <div data-reveal>
@@ -1011,15 +869,87 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
         <h3>All Cycle Types</h3>
         <p>We service road bikes, mountain bikes, hybrids, kids' cycles — all brands, all models.</p>
         <span class="service-tag">All Brands</span>
-        <div class="service-price"><span>Trusted by</span><b>5000+ riders</b></div>
+        <div class="service-price"><span>Trusted by</span><b>5L+ riders</b></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     INTERACTIVE CYCLE EXPLORER
-     ============================================================ -->
+<!-- SHOWROOM (NEW SECTION) -->
+<section class="section showroom" id="showroom" data-achievement="Showroom Unlocked">
+  <div class="wrap">
+    <div data-reveal>
+      <span class="eyebrow">Our Showroom</span>
+      <h2 class="section-title">Buy New & <span>Second-Hand Cycles</span></h2>
+      <p class="section-sub">Looking for a cycle? We sell brand new and quality-checked second-hand cycles — sports and normal both available!</p>
+    </div>
+    <div class="showroom-grid">
+      <div class="bike-card" data-reveal="scale">
+        <div class="bike-img">
+          <i class="fas fa-bicycle"></i>
+          <span class="bike-badge badge-new">NEW</span>
+        </div>
+        <div class="bike-info">
+          <h3>Sports Cycle — New</h3>
+          <p>21-Speed Gear Cycle with Disc Brakes & Front Suspension. Perfect for daily commutes and trails.</p>
+          <div class="bike-price">
+            <span>₹8,500+</span>
+            <a href="https://wa.me/919782707474?text=Hi,%20I%20want%20to%20enquire%20about%20New%20Sports%20Cycle" target="_blank" class="btn btn-primary">Enquire</a>
+          </div>
+        </div>
+      </div>
+      <div class="bike-card" data-reveal="scale">
+        <div class="bike-img">
+          <i class="fas fa-bicycle"></i>
+          <span class="bike-badge badge-used">2ND HAND</span>
+        </div>
+        <div class="bike-info">
+          <h3>Normal Cycle — Second-Hand</h3>
+          <p>Fully serviced and quality-checked. Ideal for students and daily riders. Great condition, great price.</p>
+          <div class="bike-price">
+            <span>₹3,000+</span>
+            <a href="https://wa.me/919782707474?text=Hi,%20I%20want%20to%20enquire%20about%20Second-Hand%20Normal%20Cycle" target="_blank" class="btn btn-primary">Enquire</a>
+          </div>
+        </div>
+      </div>
+      <div class="bike-card" data-reveal="scale">
+        <div class="bike-img">
+          <i class="fas fa-bicycle"></i>
+          <span class="bike-badge badge-new">NEW</span>
+        </div>
+        <div class="bike-info">
+          <h3>Kids Cycle — New</h3>
+          <p>Colorful and safe cycles for kids. All sizes available with training wheels option.</p>
+          <div class="bike-price">
+            <span>₹2,500+</span>
+            <a href="https://wa.me/919782707474?text=Hi,%20I%20want%20to%20enquire%20about%20New%20Kids%20Cycle" target="_blank" class="btn btn-primary">Enquire</a>
+          </div>
+        </div>
+      </div>
+      <div class="bike-card" data-reveal="scale">
+        <div class="bike-img">
+          <i class="fas fa-bicycle"></i>
+          <span class="bike-badge badge-used">2ND HAND</span>
+        </div>
+        <div class="bike-info">
+          <h3>Sports Cycle — Second-Hand</h3>
+          <p>Pre-owned geared cycles. Fully inspected and repaired by our experts. Best value for money.</p>
+          <div class="bike-price">
+            <span>₹4,500+</span>
+            <a href="https://wa.me/919782707474?text=Hi,%20I%20want%20to%20enquire%20about%20Second-Hand%20Sports%20Cycle" target="_blank" class="btn btn-primary">Enquire</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="showroom-cta" data-reveal>
+      <h3>Looking for something specific? 🚲</h3>
+      <p>We have many more cycles in stock — different sizes, colors, and brands. WhatsApp us your requirement!</p>
+      <a href="https://wa.me/919782707474?text=Hi,%20I%20want%20to%20see%20your%20cycle%20collection" target="_blank" class="btn btn-gold"><i class="fab fa-whatsapp"></i> Check Full Collection</a>
+    </div>
+  </div>
+</section>
+
+<!-- INTERACTIVE EXPLORER -->
 <section class="section" id="explorer" data-achievement="Cycle Explorer">
   <div class="wrap">
     <div data-reveal>
@@ -1031,46 +961,33 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
       <div class="explorer-grid">
         <div class="explorer-svg-wrap">
           <svg class="explorer-svg" viewBox="0 0 500 340" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="eFrameG" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#1a1a2e"/><stop offset="1" stop-color="#0f3460"/>
-              </linearGradient>
-            </defs>
-            <!-- Rear Wheel -->
+            <defs><linearGradient id="eFrameG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1a2e"/><stop offset="1" stop-color="#0f3460"/></linearGradient></defs>
             <g class="cycle-part" data-part="rear-wheel">
               <circle cx="130" cy="240" r="62" stroke="#333" stroke-width="12" fill="none"/>
               <circle cx="130" cy="240" r="48" stroke="#999" stroke-width="1.5" fill="none"/>
               <circle cx="130" cy="240" r="6" fill="#e63946"/>
               <line x1="130" y1="192" x2="130" y2="288" stroke="#999" stroke-width="1.5"/>
               <line x1="82" y1="240" x2="178" y2="240" stroke="#999" stroke-width="1.5"/>
-              <line x1="98" y1="208" x2="162" y2="272" stroke="#999" stroke-width="1.5"/>
-              <line x1="162" y1="208" x2="98" y2="272" stroke="#999" stroke-width="1.5"/>
             </g>
             <circle class="cycle-hit" data-part="rear-wheel" cx="130" cy="240" r="66"/>
-            <!-- Front Wheel -->
             <g class="cycle-part" data-part="front-wheel">
               <circle cx="390" cy="240" r="62" stroke="#333" stroke-width="12" fill="none"/>
               <circle cx="390" cy="240" r="48" stroke="#999" stroke-width="1.5" fill="none"/>
               <circle cx="390" cy="240" r="6" fill="#e63946"/>
               <line x1="390" y1="192" x2="390" y2="288" stroke="#999" stroke-width="1.5"/>
               <line x1="342" y1="240" x2="438" y2="240" stroke="#999" stroke-width="1.5"/>
-              <line x1="358" y1="208" x2="422" y2="272" stroke="#999" stroke-width="1.5"/>
-              <line x1="422" y1="208" x2="358" y2="272" stroke="#999" stroke-width="1.5"/>
             </g>
             <circle class="cycle-hit" data-part="front-wheel" cx="390" cy="240" r="66"/>
-            <!-- Frame -->
             <g class="cycle-part" data-part="frame">
               <path d="M130 240 L200 155 L310 155 L390 240 L310 155 L255 240 L130 240 M200 155 L255 240" stroke="url(#eFrameG)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
             </g>
             <path class="cycle-hit" data-part="frame" d="M130 240 L200 155 L310 155 L390 240 L310 155 L255 240 L130 240 M200 155 L255 240" stroke="transparent" stroke-width="20" fill="none"/>
-            <!-- Brakes -->
             <g class="cycle-part" data-part="brakes">
               <rect x="105" y="200" width="12" height="20" rx="3" fill="#e63946"/>
               <rect x="412" y="200" width="12" height="20" rx="3" fill="#e63946"/>
             </g>
             <circle class="cycle-hit" data-part="brakes" cx="111" cy="210" r="14"/>
             <circle class="cycle-hit" data-part="brakes" cx="418" cy="210" r="14"/>
-            <!-- Chain/Gears -->
             <g class="cycle-part" data-part="chain">
               <circle cx="255" cy="240" r="16" fill="#f4a261"/>
               <circle cx="255" cy="240" r="5" fill="#1a1a2e"/>
@@ -1078,13 +995,11 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
               <line x1="130" y1="250" x2="255" y2="254" stroke="#666" stroke-width="3"/>
             </g>
             <circle class="cycle-hit" data-part="chain" cx="255" cy="240" r="20"/>
-            <!-- Seat -->
             <g class="cycle-part" data-part="seat">
               <line x1="200" y1="155" x2="190" y2="120" stroke="#333" stroke-width="6" stroke-linecap="round"/>
               <ellipse cx="188" cy="114" rx="22" ry="8" fill="#1a1a2e"/>
             </g>
             <ellipse class="cycle-hit" data-part="seat" cx="188" cy="114" rx="26" ry="14"/>
-            <!-- Handlebar -->
             <g class="cycle-part" data-part="handlebar">
               <line x1="310" y1="155" x2="315" y2="105" stroke="#333" stroke-width="6" stroke-linecap="round"/>
               <path d="M290 102 Q315 92 340 102" stroke="#1a1a2e" stroke-width="7" fill="none" stroke-linecap="round"/>
@@ -1118,9 +1033,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   </div>
 </section>
 
-<!-- ============================================================
-     OFFER BANNER
-     ============================================================ -->
+<!-- OFFER -->
 <section class="offer-banner" id="offer">
   <div class="wrap">
     <div class="offer-content">
@@ -1137,54 +1050,26 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   </div>
 </section>
 
-<!-- ============================================================
-     WHY US
-     ============================================================ -->
+<!-- WHY US -->
 <section class="section" id="why-us" data-achievement="Trust Unlocked">
   <div class="wrap">
     <div data-reveal>
       <span class="eyebrow">Why Choose Us</span>
       <h2 class="section-title">What makes us <span>Jaipur's favourite</span></h2>
-      <p class="section-sub">We've been keeping Jaipur's cyclists rolling for years — here's why riders keep coming back.</p>
+      <p class="section-sub">40+ years of keeping Jaipur's cyclists rolling — here's why riders keep coming back.</p>
     </div>
     <div class="why-grid">
-      <div class="why-card" data-reveal="scale">
-        <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
-        <h3>Trusted Since Years</h3>
-        <p>Generations of Jaipur families trust Amar Cycle Works for honest work and fair prices.</p>
-      </div>
-      <div class="why-card" data-reveal="scale">
-        <div class="why-icon"><i class="fas fa-cog"></i></div>
-        <h3>Genuine Spare Parts</h3>
-        <p>Only genuine, high-quality parts — no cheap substitutes, ever. Your safety is our priority.</p>
-      </div>
-      <div class="why-card" data-reveal="scale">
-        <div class="why-icon"><i class="fas fa-user-cog"></i></div>
-        <h3>Skilled Technicians</h3>
-        <p>Expert hands with years of experience across every cycle make and model.</p>
-      </div>
-      <div class="why-card" data-reveal="scale">
-        <div class="why-icon"><i class="fas fa-clock"></i></div>
-        <h3>Quick Turnaround</h3>
-        <p>Most repairs done same-day. We respect your time and get you riding fast.</p>
-      </div>
-      <div class="why-card" data-reveal="scale">
-        <div class="why-icon"><i class="fas fa-hand-holding-usd"></i></div>
-        <h3>Honest Pricing</h3>
-        <p>Transparent rates with no hidden charges. Quality service that fits your budget.</p>
-      </div>
-      <div class="why-card" data-reveal="scale">
-        <div class="why-icon"><i class="fas fa-heart"></i></div>
-        <h3>4.8★ Google Rated</h3>
-        <p>Hundreds of happy customers rate us 4.8 on Google. Your satisfaction is our reward.</p>
-      </div>
+      <div class="why-card" data-reveal="scale"><div class="why-icon"><i class="fas fa-shield-alt"></i></div><h3>40+ Years Trusted</h3><p>Generations of Jaipur families trust Amar Cycle Works for honest work and fair prices.</p></div>
+      <div class="why-card" data-reveal="scale"><div class="why-icon"><i class="fas fa-cog"></i></div><h3>Genuine Spare Parts</h3><p>Only genuine, high-quality parts — no cheap substitutes, ever. Your safety is our priority.</p></div>
+      <div class="why-card" data-reveal="scale"><div class="why-icon"><i class="fas fa-user-cog"></i></div><h3>Skilled Technicians</h3><p>Expert hands with years of experience across every cycle make and model.</p></div>
+      <div class="why-card" data-reveal="scale"><div class="why-icon"><i class="fas fa-clock"></i></div><h3>Quick Turnaround</h3><p>Most repairs done same-day. We respect your time and get you riding fast.</p></div>
+      <div class="why-card" data-reveal="scale"><div class="why-icon"><i class="fas fa-hand-holding-usd"></i></div><h3>Honest Pricing</h3><p>Transparent rates with no hidden charges. Quality service that fits your budget.</p></div>
+      <div class="why-card" data-reveal="scale"><div class="why-icon"><i class="fas fa-heart"></i></div><h3>4.8★ Google Rated</h3><p>Hundreds of happy customers rate us 4.8 on Google. Your satisfaction is our reward.</p></div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     REVIEWS
-     ============================================================ -->
+<!-- REVIEWS SLIDESHOW (7 reviews) -->
 <section class="section" id="reviews" data-achievement="Reviews Unlocked">
   <div class="wrap">
     <div data-reveal>
@@ -1199,38 +1084,26 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
         <span class="rating-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
       </div>
     </div>
-    <div class="reviews-grid">
-      <div class="review-card" data-reveal="scale">
-        <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-        <p class="review-text">"Best cycle repair shop in Jaipur! They fixed my brake issue quickly and the charges were very reasonable. Highly recommended to all cyclists."</p>
-        <div class="review-author">
-          <div class="review-avatar">RS</div>
-          <div class="review-author-info"><h4>Rahul Sharma</h4><span>Google Review</span></div>
-        </div>
+    <div class="reviews-slider-wrap" data-reveal="scale">
+      <div class="reviews-track" id="reviewsTrack">
+        <div class="review-slide"><div class="review-card"><div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="review-text">"Best cycle repair shop in Jaipur! They fixed my brake issue quickly and the charges were very reasonable. Highly recommended to all cyclists."</p><div class="review-author"><div class="review-avatar">RS</div><div class="review-author-info"><h4>Rahul Sharma</h4><span>Google Review</span></div></div></div></div>
+        <div class="review-slide"><div class="review-card"><div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="review-text">"Got my cycle fully serviced here. The technicians are very skilled and use genuine parts. My cycle feels brand new again after the monsoon service!"</p><div class="review-author"><div class="review-avatar">PK</div><div class="review-author-info"><h4>Priya Kumari</h4><span>Google Review</span></div></div></div></div>
+        <div class="review-slide"><div class="review-card"><div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div><p class="review-text">"Very trustworthy shop. I've been going here for years. They always do honest work and never overcharge. Great service and friendly staff."</p><div class="review-author"><div class="review-avatar">AJ</div><div class="review-author-info"><h4>Amit Jain</h4><span>Google Review</span></div></div></div></div>
+        <div class="review-slide"><div class="review-card"><div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="review-text">"Bought a second-hand cycle from here. It was in excellent condition and the price was very fair. Amar bhaiya is very helpful and honest."</p><div class="review-author"><div class="review-avatar">SK</div><div class="review-author-info"><h4>Sunil Kumar</h4><span>Google Review</span></div></div></div></div>
+        <div class="review-slide"><div class="review-card"><div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="review-text">"My son's cycle was completely repaired and painted here. It looks like a new one now. Very affordable pricing compared to other shops."</p><div class="review-author"><div class="review-avatar">MG</div><div class="review-author-info"><h4>Meena Gupta</h4><span>Google Review</span></div></div></div></div>
+        <div class="review-slide"><div class="review-card"><div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div><p class="review-text">"Fast service and genuine parts. I needed a new tyre for my sports cycle, they had it in stock and fixed it in 10 minutes. Superb!"</p><div class="review-author"><div class="review-avatar">VS</div><div class="review-author-info"><h4>Vikram Singh</h4><span>Google Review</span></div></div></div></div>
+        <div class="review-slide"><div class="review-card"><div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="review-text">"Best shop in Tonk Phatak area. They are very skilled and honest. Highly recommended for all cycle needs — repair or buying!"</p><div class="review-author"><div class="review-avatar">RM</div><div class="review-author-info"><h4>Ravi Meena</h4><span>Google Review</span></div></div></div></div>
       </div>
-      <div class="review-card" data-reveal="scale">
-        <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-        <p class="review-text">"Got my cycle fully serviced here. The technicians are very skilled and use genuine parts. My cycle feels brand new again after the monsoon service!"</p>
-        <div class="review-author">
-          <div class="review-avatar">PK</div>
-          <div class="review-author-info"><h4>Priya Kumari</h4><span>Google Review</span></div>
-        </div>
-      </div>
-      <div class="review-card" data-reveal="scale">
-        <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
-        <p class="review-text">"Very trustworthy shop. I've been going here for years. They always do honest work and never overcharge. Great service and friendly staff."</p>
-        <div class="review-author">
-          <div class="review-avatar">AJ</div>
-          <div class="review-author-info"><h4>Amit Jain</h4><span>Google Review</span></div>
-        </div>
-      </div>
+    </div>
+    <div class="review-nav" id="reviewDots"></div>
+    <div class="review-arrows">
+      <button class="review-arrow" id="reviewPrev"><i class="fas fa-chevron-left"></i></button>
+      <button class="review-arrow" id="reviewNext"><i class="fas fa-chevron-right"></i></button>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     BOOKING
-     ============================================================ -->
+<!-- BOOKING -->
 <section class="section" id="booking" data-achievement="Booking Pro">
   <div class="wrap">
     <div data-reveal>
@@ -1255,7 +1128,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
         <input type="hidden" name="access_key" value="d3a2b536-fdbe-4699-ae5b-aacdf32367ef">
         <input type="hidden" name="subject" value="New Cycle Service Booking - Amar Cycle Works">
         <input type="hidden" name="from_name" value="Amar Cycle Works Website">
-        <input type="checkbox" name="botcheck" style="display:none !important" tabindex="-1" autocomplete="off">
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
         <div class="form-row"><label for="bname">Your Name</label><input id="bname" name="name" type="text" placeholder="e.g. Rahul Sharma" required></div>
         <div class="form-row split">
           <div><label for="bphone">Phone / WhatsApp</label><input id="bphone" name="phone" type="tel" placeholder="98XXXXXXXX" required></div>
@@ -1264,12 +1137,13 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
         <div class="form-row"><label for="bservice">Service Needed</label>
           <select id="bservice" name="service" required>
             <option value="">-- Choose a service --</option>
-            <option value="Puncture Repair">Puncture Repair</option>
-            <option value="Brake & Gear Service">Brake & Gear Service</option>
-            <option value="Chain Repair & Lubrication">Chain Repair & Lubrication</option>
-            <option value="Complete Overhauling (Full Service)">Complete Overhauling (Full Service)</option>
-            <option value="Spare Parts / Accessories">Spare Parts / Accessories</option>
-            <option value="Other / Not Sure">Other / Not Sure</option>
+            <option>Puncture Repair</option>
+            <option>Brake & Gear Service</option>
+            <option>Chain Repair & Lubrication</option>
+            <option>Complete Overhauling (Full Service)</option>
+            <option>Spare Parts / Accessories</option>
+            <option>Buy a Cycle (New/Second-Hand)</option>
+            <option>Other / Not Sure</option>
           </select>
         </div>
         <div class="form-row"><label for="bnotes">Additional Notes (optional)</label><textarea id="bnotes" name="notes" rows="3" placeholder="Tell us about your cycle model or issue..."></textarea></div>
@@ -1280,9 +1154,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   </div>
 </section>
 
-<!-- ============================================================
-     CONTACT
-     ============================================================ -->
+<!-- CONTACT -->
 <section class="section" id="contact" data-achievement="Say Hello">
   <div class="wrap">
     <div data-reveal>
@@ -1292,199 +1164,82 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
     </div>
     <div class="contact-grid">
       <div class="contact-list" data-reveal="left">
-        <a class="contact-item" href="tel:09782707474">
-          <div class="c-ico"><i class="fas fa-phone-alt"></i></div>
-          <div><p>Call Now</p><b class="phone-big">097827 07474</b></div>
-        </a>
-        <a class="contact-item" href="https://wa.me/919782707474?text=Hi%20Amar%20Cycle%20Works" target="_blank" rel="noopener">
-          <div class="c-ico"><i class="fab fa-whatsapp" style="color:#25d366;"></i></div>
-          <div><p>WhatsApp</p><b>Chat with us directly</b></div>
-        </a>
-        <div class="contact-item">
-          <div class="c-ico"><i class="fas fa-map-marker-alt"></i></div>
-          <div><p>Address</p><b>Kishan Marg, Vinoba Basti, Barh Anaj Nagar, Tonk Phatak, Jaipur - 302015</b></div>
-        </div>
-        <div class="contact-item">
-          <div class="c-ico"><i class="fas fa-clock"></i></div>
-          <div><p>Working Hours</p><b>Mon–Sat: 10:00 AM – 8:00 PM</b></div>
-        </div>
-        <a class="contact-item" href="https://www.google.com/maps/place/Amar+Cycle+Works/@26.8767365,75.7903512,43m/data=!3m1!1e3!4m6!3m5!1s0x396db43394a792d7:0x19b94cae0534e68d!8m2!3d26.8767504!4d75.7904999!16s%2Fg%2F1yg4dgwgz" target="_blank" rel="noopener">
-          <div class="c-ico"><i class="fas fa-directions"></i></div>
-          <div><p>Directions</p><b>Open in Google Maps →</b></div>
-        </a>
+        <a class="contact-item" href="tel:09782707474"><div class="c-ico"><i class="fas fa-phone-alt"></i></div><div><p>Call Now</p><b class="phone-big">097827 07474</b></div></a>
+        <a class="contact-item" href="https://wa.me/919782707474?text=Hi%20Amar%20Cycle%20Works" target="_blank" rel="noopener"><div class="c-ico"><i class="fab fa-whatsapp" style="color:#25d366;"></i></div><div><p>WhatsApp</p><b>Chat with us directly</b></div></a>
+        <div class="contact-item"><div class="c-ico"><i class="fas fa-map-marker-alt"></i></div><div><p>Address</p><b>Kishan Marg, Vinoba Basti, Barh Anaj Nagar, Tonk Phatak, Jaipur - 302015</b></div></div>
+        <div class="contact-item"><div class="c-ico"><i class="fas fa-clock"></i></div><div><p>Working Hours</p><b>Mon–Sat: 10:00 AM – 8:00 PM</b></div></div>
+        <a class="contact-item" href="https://www.google.com/maps/place/Amar+Cycle+Works/@26.8767365,75.7903512,43m" target="_blank" rel="noopener"><div class="c-ico"><i class="fas fa-directions"></i></div><div><p>Directions</p><b>Open in Google Maps →</b></div></a>
       </div>
       <div class="map-wrap" data-reveal="right">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.8477!2d75.7883112!3d26.8767365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db43394a792d7%3A0x19b94cae0534e68d!2sAmar%20Cycle%20Works!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.84217074051!2d75.78588647307701!3d26.876755110091363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db43394a792d7%3A0x19b94cae0534e68d!2sAmar%20Cycle%20Works!5e0!3m2!1sen!2sin!4v1789984228106!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     FOOTER
-     ============================================================ -->
+<!-- FOOTER -->
 <footer class="footer">
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
-        <div class="logo">
-          <span class="logo-mark">A</span>
-          <span class="logo-text"><h1 style="color:#fff;font-size:1.15rem;">Amar <span>Cycle Works</span></h1></span>
-        </div>
-        <p>Jaipur's most trusted cycle repair & service center. Genuine parts, skilled hands, honest prices — since years.</p>
+        <div class="logo"><span class="logo-mark">A</span><span class="logo-text"><h1 style="color:#fff;font-size:1.15rem;">Amar <span>Cycle Works</span></h1></span></div>
+        <p>Jaipur's most trusted cycle repair & service center since 40+ years. Genuine parts, skilled hands, honest prices.</p>
         <div class="foot-social">
-          <a href="https://wa.me/919782707474" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-          <a href="tel:09782707474" aria-label="Call"><i class="fas fa-phone-alt"></i></a>
-          <a href="https://www.google.com/maps/place/Amar+Cycle+Works/@26.8767365,75.7903512,43m" target="_blank" rel="noopener" aria-label="Maps"><i class="fas fa-map-marker-alt"></i></a>
+          <a href="https://wa.me/919782707474" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:09782707474"><i class="fas fa-phone-alt"></i></a>
+          <a href="https://www.google.com/maps/place/Amar+Cycle+Works/@26.8767365,75.7903512,43m" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt"></i></a>
         </div>
       </div>
-      <div>
-        <h4>Quick Links</h4>
-        <ul class="footer-links">
-          <li><a href="#services">Services</a></li>
-          <li><a href="#explorer">Explore Cycle</a></li>
-          <li><a href="#offer">Monsoon Offer</a></li>
-          <li><a href="#why-us">Why Us</a></li>
-          <li><a href="#booking">Book Service</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Our Services</h4>
-        <ul class="footer-links">
-          <li><a href="#services">Puncture Repair</a></li>
-          <li><a href="#services">Brake & Gear Service</a></li>
-          <li><a href="#services">Chain Repair</a></li>
-          <li><a href="#services">Complete Overhauling</a></li>
-          <li><a href="#services">Spare Parts</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Visit Our Shop</h4>
-        <ul class="footer-contact">
-          <li><i class="fas fa-map-marker-alt"></i><span>Kishan Marg, Vinoba Basti, Barh Anaj Nagar, Tonk Phatak, Jaipur - 302015</span></li>
-          <li><i class="fas fa-phone-alt"></i><a href="tel:09782707474">097827 07474</a></li>
-          <li><i class="fas fa-clock"></i><span>Mon–Sat: 10 AM – 8 PM</span></li>
-        </ul>
-      </div>
+      <div><h4>Quick Links</h4><ul class="footer-links"><li><a href="#services">Services</a></li><li><a href="#showroom">Showroom</a></li><li><a href="#explorer">Explore Cycle</a></li><li><a href="#offer">Monsoon Offer</a></li><li><a href="#booking">Book Service</a></li></ul></div>
+      <div><h4>Our Services</h4><ul class="footer-links"><li><a href="#services">Puncture Repair</a></li><li><a href="#services">Brake & Gear</a></li><li><a href="#services">Chain Repair</a></li><li><a href="#services">Overhauling</a></li><li><a href="#services">Spare Parts</a></li></ul></div>
+      <div><h4>Visit Our Shop</h4><ul class="footer-contact"><li><i class="fas fa-map-marker-alt"></i><span>Kishan Marg, Vinoba Basti, Barh Anaj Nagar, Tonk Phatak, Jaipur - 302015</span></li><li><i class="fas fa-phone-alt"></i><a href="tel:09782707474">097827 07474</a></li><li><i class="fas fa-clock"></i><span>Mon–Sat: 10 AM – 8 PM</span></li></ul></div>
     </div>
     <div class="foot-bottom">
-      <p>&copy; <span id="year"></span> Amar Cycle Works · All Rights Reserved.</p>
+      <p>&copy; <span id="year"></span> Amar Cycle Works · All Rights Reserved. Owner: <strong style="color:#fff;">Amar Chand Saini</strong></p>
       <p>Website crafted with <i class="fas fa-heart foot-heart"></i> by <a href="https://yashsaini0756.github.io/" target="_blank">Yash Saini</a></p>
     </div>
   </div>
 </footer>
 
-<a href="https://wa.me/919782707474?text=Hi%20Amar%20Cycle%20Works" target="_blank" rel="noopener" class="float-wa" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-<button id="toTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+<a href="https://wa.me/919782707474?text=Hi%20Amar%20Cycle%20Works" target="_blank" rel="noopener" class="float-wa"><i class="fab fa-whatsapp"></i></a>
+<button id="toTop"><i class="fas fa-arrow-up"></i></button>
 
-<!-- Command Palette -->
 <div class="cmdk-overlay" id="cmdkOverlay">
   <div class="cmdk">
-    <div class="cmdk-input">
-      <i class="fas fa-search"></i>
-      <input type="text" id="cmdkInput" placeholder="Search commands..." autocomplete="off">
-      <span class="esc">ESC</span>
-    </div>
+    <div class="cmdk-input"><i class="fas fa-search"></i><input type="text" id="cmdkInput" placeholder="Search commands..." autocomplete="off"><span class="esc">ESC</span></div>
     <div class="cmdk-list" id="cmdkList"></div>
     <div class="cmdk-foot"><span>Navigate</span><span><kbd>↑</kbd> <kbd>↓</kbd> · <kbd>↵</kbd></span></div>
   </div>
 </div>
 
-<!-- Toast -->
 <div class="toast" id="toast">
   <div class="t-icon"><i class="fas fa-trophy"></i></div>
   <div class="t-text"><strong id="toastTitle">Achievement unlocked</strong><span id="toastSub"></span></div>
 </div>
 
 <script>
-/* ============================================================
-   HELPERS
-   ============================================================ */
 const $ = (s, el=document) => el.querySelector(s);
 const $$ = (s, el=document) => Array.from(el.querySelectorAll(s));
 const isMobile = () => window.matchMedia('(max-width: 768px)').matches;
 const isTouch = () => ('ontouchstart' in window) || navigator.maxTouchPoints > 0;
 
-/* ============================================================
-   SOUND ENGINE (Web Audio)
-   ============================================================ */
+/* SOUND ENGINE */
 const SoundEngine = (function(){
   let ctx = null;
-  function getCtx(){
-    if(!ctx){ const AC = window.AudioContext || window.webkitAudioContext; if(AC) ctx = new AC(); }
-    if(ctx && ctx.state === 'suspended') ctx.resume();
-    return ctx;
-  }
-  function bell(){
-    const c = getCtx(); if(!c) return;
-    const now = c.currentTime;
-    // Classic cycle bell: two harmonics
-    [2093, 2637].forEach((f, i) => {
-      const o = c.createOscillator(), g = c.createGain();
-      o.type = 'sine'; o.frequency.value = f;
-      g.gain.setValueAtTime(0, now);
-      g.gain.linearRampToValueAtTime(0.15, now + 0.005);
-      g.gain.exponentialRampToValueAtTime(0.001, now + 0.9);
-      o.connect(g); g.connect(c.destination);
-      o.start(now + i * 0.05); o.stop(now + 1);
-    });
-  }
-  function chain(){ // chain rattling click
-    const c = getCtx(); if(!c) return;
-    const now = c.currentTime;
-    for(let i = 0; i < 4; i++){
-      const o = c.createOscillator(), g = c.createGain();
-      o.type = 'square'; o.frequency.value = 1200 - i * 80;
-      g.gain.setValueAtTime(0, now + i * 0.025);
-      g.gain.linearRampToValueAtTime(0.03, now + i * 0.025 + 0.005);
-      g.gain.exponentialRampToValueAtTime(0.001, now + i * 0.025 + 0.05);
-      o.connect(g); g.connect(c.destination);
-      o.start(now + i * 0.025); o.stop(now + i * 0.025 + 0.06);
-    }
-  }
-  function click(){
-    const c = getCtx(); if(!c) return;
-    const now = c.currentTime;
-    const o = c.createOscillator(), g = c.createGain();
-    o.type = 'sine'; o.frequency.setValueAtTime(880, now); o.frequency.exponentialRampToValueAtTime(440, now + 0.06);
-    g.gain.setValueAtTime(0, now); g.gain.linearRampToValueAtTime(0.07, now + 0.005); g.gain.exponentialRampToValueAtTime(0.001, now + 0.08);
-    o.connect(g); g.connect(c.destination);
-    o.start(now); o.stop(now + 0.09);
-  }
-  function whoosh(){
-    const c = getCtx(); if(!c) return;
-    const now = c.currentTime;
-    const buf = c.createBuffer(1, c.sampleRate * 0.3, c.sampleRate);
-    const d = buf.getChannelData(0);
-    for(let i = 0; i < d.length; i++) d[i] = (Math.random() * 2 - 1) * (1 - i / d.length);
-    const n = c.createBufferSource(); n.buffer = buf;
-    const f = c.createBiquadFilter(); f.type = 'bandpass'; f.frequency.value = 800; f.Q.value = 1;
-    const g = c.createGain(); g.gain.setValueAtTime(0.08, now); g.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
-    n.connect(f); f.connect(g); g.connect(c.destination);
-    n.start(now); n.stop(now + 0.3);
-  }
-  return { bell, chain, click, whoosh };
+  function getCtx(){ if(!ctx){ const AC = window.AudioContext || window.webkitAudioContext; if(AC) ctx = new AC(); } if(ctx && ctx.state === 'suspended') ctx.resume(); return ctx; }
+  function bell(){ const c = getCtx(); if(!c) return; const now = c.currentTime; [2093, 2637].forEach((f, i) => { const o = c.createOscillator(), g = c.createGain(); o.type = 'sine'; o.frequency.value = f; g.gain.setValueAtTime(0, now); g.gain.linearRampToValueAtTime(0.15, now + 0.005); g.gain.exponentialRampToValueAtTime(0.001, now + 0.9); o.connect(g); g.connect(c.destination); o.start(now + i * 0.05); o.stop(now + 1); }); }
+  function chain(){ const c = getCtx(); if(!c) return; const now = c.currentTime; for(let i = 0; i < 4; i++){ const o = c.createOscillator(), g = c.createGain(); o.type = 'square'; o.frequency.value = 1200 - i * 80; g.gain.setValueAtTime(0, now + i * 0.025); g.gain.linearRampToValueAtTime(0.03, now + i * 0.025 + 0.005); g.gain.exponentialRampToValueAtTime(0.001, now + i * 0.025 + 0.05); o.connect(g); g.connect(c.destination); o.start(now + i * 0.025); o.stop(now + i * 0.025 + 0.06); } }
+  function click(){ const c = getCtx(); if(!c) return; const now = c.currentTime; const o = c.createOscillator(), g = c.createGain(); o.type = 'sine'; o.frequency.setValueAtTime(880, now); o.frequency.exponentialRampToValueAtTime(440, now + 0.06); g.gain.setValueAtTime(0, now); g.gain.linearRampToValueAtTime(0.07, now + 0.005); g.gain.exponentialRampToValueAtTime(0.001, now + 0.08); o.connect(g); g.connect(c.destination); o.start(now); o.stop(now + 0.09); }
+  function coin(){ const c = getCtx(); if(!c) return; const now = c.currentTime; const o = c.createOscillator(), g = c.createGain(); o.type = 'triangle'; o.frequency.setValueAtTime(1200, now); o.frequency.exponentialRampToValueAtTime(1800, now + 0.08); g.gain.setValueAtTime(0, now); g.gain.linearRampToValueAtTime(0.1, now + 0.005); g.gain.exponentialRampToValueAtTime(0.001, now + 0.15); o.connect(g); g.connect(c.destination); o.start(now); o.stop(now + 0.16); }
+  function powerup(){ const c = getCtx(); if(!c) return; const now = c.currentTime; [600, 800, 1000].forEach((f, i) => { const o = c.createOscillator(), g = c.createGain(); o.type = 'sine'; o.frequency.value = f; g.gain.setValueAtTime(0, now + i * 0.06); g.gain.linearRampToValueAtTime(0.1, now + i * 0.06 + 0.01); g.gain.exponentialRampToValueAtTime(0.001, now + i * 0.06 + 0.15); o.connect(g); g.connect(c.destination); o.start(now + i * 0.06); o.stop(now + i * 0.06 + 0.16); }); }
+  function whoosh(){ const c = getCtx(); if(!c) return; const now = c.currentTime; const buf = c.createBuffer(1, c.sampleRate * 0.3, c.sampleRate); const d = buf.getChannelData(0); for(let i = 0; i < d.length; i++) d[i] = (Math.random() * 2 - 1) * (1 - i / d.length); const n = c.createBufferSource(); n.buffer = buf; const f = c.createBiquadFilter(); f.type = 'bandpass'; f.frequency.value = 800; f.Q.value = 1; const g = c.createGain(); g.gain.setValueAtTime(0.08, now); g.gain.exponentialRampToValueAtTime(0.001, now + 0.3); n.connect(f); f.connect(g); g.connect(c.destination); n.start(now); n.stop(now + 0.3); }
+  return { bell, chain, click, coin, powerup, whoosh };
 })();
 
-/* ============================================================
-   TOAST
-   ============================================================ */
 let showToast;
-(function(){
-  const t = $('#toast'), ti = $('#toastTitle'), ts = $('#toastSub');
-  if(!t) return;
-  let timer;
-  showToast = function(title, sub){
-    ti.textContent = title; ts.textContent = sub || '';
-    t.classList.add('show'); clearTimeout(timer);
-    timer = setTimeout(() => t.classList.remove('show'), 2800);
-  };
-})();
+(function(){ const t = $('#toast'), ti = $('#toastTitle'), ts = $('#toastSub'); if(!t) return; let timer; showToast = function(title, sub){ ti.textContent = title; ts.textContent = sub || ''; t.classList.add('show'); clearTimeout(timer); timer = setTimeout(() => t.classList.remove('show'), 2800); }; })();
 
-/* ============================================================
-   MODE (PRO / CASUAL)
-   ============================================================ */
+/* MODE */
 function applyMode(m){
   document.documentElement.setAttribute('data-mode', m);
   localStorage.setItem('mode', m);
@@ -1498,48 +1253,26 @@ function applyMode(m){
   const saved = localStorage.getItem('mode');
   if(!saved) setTimeout(() => overlay.classList.add('show'), 500);
   else applyMode(saved);
-  $$('.welcome-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      applyMode(btn.dataset.mode);
-      overlay.classList.remove('show');
-      SoundEngine.bell();
-      showToast(btn.dataset.mode === 'casual' ? '🚲 Casual Mode ON' : '⚡ Pro Mode ON', 'Welcome aboard!');
-    });
-  });
+  $$('.welcome-btn').forEach(btn => btn.addEventListener('click', () => { applyMode(btn.dataset.mode); overlay.classList.remove('show'); SoundEngine.bell(); showToast(btn.dataset.mode === 'casual' ? '🚲 Casual Mode ON' : '⚡ Pro Mode ON', 'Welcome aboard!'); }));
   $('#welcomeSkip').addEventListener('click', () => overlay.classList.remove('show'));
 })();
 (function(){
-  const s = $('#modeSelector'), m = $('#modeMenu');
-  if(!s) return;
-  s.querySelector('.selector-btn').addEventListener('click', e => {
-    e.stopPropagation(); m.classList.toggle('open'); $('#themeMenu').classList.remove('open');
-  });
-  $$('#modeMenu button').forEach(b => {
-    b.addEventListener('click', () => {
-      const v = b.dataset.modeVal; m.classList.remove('open');
-      if(v === 'reset'){ localStorage.removeItem('mode'); $('#welcomeOverlay').classList.add('show'); showToast('🔄 Welcome reset', 'Choose your mode again'); return; }
-      applyMode(v); SoundEngine.bell();
-      showToast(v === 'casual' ? '🚲 Casual Mode' : '⚡ Pro Mode', 'Vibe switched!');
-    });
-  });
+  const s = $('#modeSelector'), m = $('#modeMenu'); if(!s) return;
+  s.querySelector('.selector-btn').addEventListener('click', e => { e.stopPropagation(); m.classList.toggle('open'); $('#themeMenu').classList.remove('open'); });
+  $$('#modeMenu button').forEach(b => b.addEventListener('click', () => {
+    const v = b.dataset.modeVal; m.classList.remove('open');
+    if(v === 'reset'){ localStorage.removeItem('mode'); $('#welcomeOverlay').classList.add('show'); showToast('🔄 Welcome reset', ''); return; }
+    applyMode(v); SoundEngine.bell(); showToast(v === 'casual' ? '🚲 Casual Mode' : '⚡ Pro Mode', 'Vibe switched!');
+  }));
 })();
 
-/* ============================================================
-   THEME
-   ============================================================ */
+/* THEME */
 (function(){
   const html = document.documentElement, ti = $('#themeIcon'), tm = $('#themeMenu'), s = $('#themeSelector');
   const icons = { auto:'☀️', morning:'🌅', afternoon:'☀️', evening:'🌆', night:'🌙' };
   const labels = { auto:'Auto', morning:'Morning', afternoon:'Afternoon', evening:'Evening', night:'Night' };
   function getAuto(){ const h = new Date().getHours(); if(h >= 5 && h < 12) return 'morning'; if(h >= 12 && h < 17) return 'afternoon'; if(h >= 17 && h < 21) return 'evening'; return 'night'; }
-  function apply(mode){
-    const t = mode === 'auto' ? getAuto() : mode;
-    html.setAttribute('data-theme', t);
-    ti.textContent = labels[mode];
-    ti.previousElementSibling.textContent = icons[t];
-    $$('#themeMenu button').forEach(b => b.classList.toggle('active', b.dataset.themeVal === mode));
-    localStorage.setItem('theme-mode', mode);
-  }
+  function apply(mode){ const t = mode === 'auto' ? getAuto() : mode; html.setAttribute('data-theme', t); ti.textContent = labels[mode]; ti.previousElementSibling.textContent = icons[t]; $$('#themeMenu button').forEach(b => b.classList.toggle('active', b.dataset.themeVal === mode)); localStorage.setItem('theme-mode', mode); }
   apply(localStorage.getItem('theme-mode') || 'auto');
   s.querySelector('.selector-btn').addEventListener('click', e => { e.stopPropagation(); tm.classList.toggle('open'); $('#modeMenu').classList.remove('open'); });
   $$('#themeMenu button').forEach(b => b.addEventListener('click', () => { apply(b.dataset.themeVal); tm.classList.remove('open'); showToast('🎨 Theme changed', b.textContent.trim()); }));
@@ -1547,21 +1280,11 @@ function applyMode(m){
   document.addEventListener('click', () => { tm.classList.remove('open'); $('#modeMenu').classList.remove('open'); });
 })();
 
-/* ============================================================
-   PRELOADER
-   ============================================================ */
-(function(){
-  const pre = $('#preloader'); let done = false;
-  function hide(){ if(done) return; done = true; pre.classList.add('hide'); setTimeout(() => pre.remove(), 700); }
-  window.addEventListener('load', () => setTimeout(hide, 400));
-  setTimeout(hide, 2200);
-})();
-
+/* PRELOADER */
+(function(){ const pre = $('#preloader'); let done = false; function hide(){ if(done) return; done = true; pre.classList.add('hide'); setTimeout(() => pre.remove(), 700); } window.addEventListener('load', () => setTimeout(hide, 400)); setTimeout(hide, 2200); })();
 $('#year').textContent = new Date().getFullYear();
 
-/* ============================================================
-   CURSOR
-   ============================================================ */
+/* CURSOR */
 (function(){
   if(isTouch() || isMobile()) return;
   const dot = document.createElement('div'), ring = document.createElement('div');
@@ -1569,255 +1292,125 @@ $('#year').textContent = new Date().getFullYear();
   document.body.appendChild(dot); document.body.appendChild(ring);
   const hint = $('#cursorHint');
   let mx = innerWidth/2, my = innerHeight/2, rx = mx, ry = my;
-  const hov = 'a, button, .chip, .contact-item, .service-card, input, textarea, .cmdk-item, .exp-part-btn, .cycle-hit, .retro-icon, .orbit-icon';
+  const hov = 'a, button, .contact-item, .service-card, input, textarea, .cmdk-item, .exp-part-btn, .cycle-hit, .retro-icon, .bike-card';
   const sectionHints = {
-    home: {text:'🏠 home', color:'#e63946'},
-    services: {text:'🔧 services', color:'#e63946'},
-    explorer: {text:'🚲 explore', color:'#3b82f6'},
-    offer: {text:'🎁 20% OFF', color:'#f4a261'},
-    'why-us': {text:'⭐ why us', color:'#a855f7'},
-    reviews: {text:'💬 reviews', color:'#10b981'},
-    booking: {text:'📅 book', color:'#f4a261'},
-    contact: {text:'📞 contact', color:'#e63946'}
+    home: {text:'🏠 home', color:'#e63946'}, services: {text:'🔧 services', color:'#e63946'},
+    showroom: {text:'🚲 showroom', color:'#10b981'}, explorer: {text:'🚴 explore', color:'#3b82f6'},
+    offer: {text:'🎁 20% OFF', color:'#f4a261'}, 'why-us': {text:'⭐ why us', color:'#a855f7'},
+    reviews: {text:'💬 reviews', color:'#10b981'}, booking: {text:'📅 book', color:'#f4a261'}, contact: {text:'📞 contact', color:'#e63946'}
   };
   let currentSection = 'home';
-  document.addEventListener('mousemove', e => {
-    mx = e.clientX; my = e.clientY;
-    dot.style.left = mx + 'px'; dot.style.top = my + 'px';
-    hint.style.left = (mx + 55) + 'px'; hint.style.top = (my - 40) + 'px';
-  });
+  document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; dot.style.left = mx + 'px'; dot.style.top = my + 'px'; hint.style.left = (mx + 55) + 'px'; hint.style.top = (my - 40) + 'px'; });
   (function anim(){ rx += (mx - rx) * 0.16; ry += (my - ry) * 0.16; ring.style.left = rx + 'px'; ring.style.top = ry + 'px'; requestAnimationFrame(anim); })();
   document.addEventListener('mouseover', e => { if(e.target.closest(hov)) ring.classList.add('hover'); });
   document.addEventListener('mouseout', e => { if(e.target.closest(hov)) ring.classList.remove('hover'); });
   const sections = $$('section[id]');
-  setInterval(() => {
-    let cur = 'home';
-    sections.forEach(s => { const r = s.getBoundingClientRect(); if(r.top < innerHeight/2 && r.bottom > innerHeight/2) cur = s.id; });
-    if(cur !== currentSection){
-      currentSection = cur;
-      const h = sectionHints[cur];
-      if(h){ hint.textContent = h.text; hint.style.borderColor = h.color; hint.style.color = h.color; }
-    }
-  }, 200);
+  setInterval(() => { let cur = 'home'; sections.forEach(s => { const r = s.getBoundingClientRect(); if(r.top < innerHeight/2 && r.bottom > innerHeight/2) cur = s.id; }); if(cur !== currentSection){ currentSection = cur; const h = sectionHints[cur]; if(h){ hint.textContent = h.text; hint.style.borderColor = h.color; hint.style.color = h.color; } } }, 200);
   setTimeout(() => hint.classList.add('show'), 2000);
   document.addEventListener('mouseleave', () => hint.classList.remove('show'));
   document.addEventListener('mouseenter', () => hint.classList.add('show'));
 })();
 
-/* ============================================================
-   TYRE BUDDY PET
-   ============================================================ */
+/* TYRE BUDDY */
 (function(){
-  const buddy = $('#tyreBuddy'), inner = $('#tbInner'), bubble = $('#tbBubble');
-  if(!buddy) return;
-
-  function tyreSVG(hue){
-    return `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <radialGradient id="hubG${hue}" cx="50%" cy="50%">
-          <stop offset="0" stop-color="#e63946"/><stop offset="1" stop-color="#c1121f"/>
-        </radialGradient>
-      </defs>
-      <circle cx="50" cy="50" r="42" fill="#1a1a2e" stroke="#0f172a" stroke-width="3"/>
-      <circle cx="50" cy="50" r="36" fill="none" stroke="hsl(${hue},80%,55%)" stroke-width="1.5" stroke-dasharray="3 5" opacity="0.5"/>
-      <circle cx="50" cy="50" r="28" fill="#e8ecf5" stroke="#ccc" stroke-width="2"/>
-      ${Array.from({length:12}).map((_,i) => {
-        const a = (i * 30) * Math.PI / 180;
-        return `<line x1="${50+Math.cos(a)*28}" y1="${50+Math.sin(a)*28}" x2="${50+Math.cos(a)*40}" y2="${50+Math.sin(a)*40}" stroke="#555" stroke-width="1.2"/>`;
-      }).join('')}
-      <circle cx="50" cy="50" r="10" fill="url(#hubG${hue})" stroke="#1a1a2e" stroke-width="1.5"/>
-      <circle cx="42" cy="47" r="4.5" fill="white"/>
-      <circle cx="58" cy="47" r="4.5" fill="white"/>
-      <circle cx="43" cy="48" r="2.2" fill="#111"/>
-      <circle cx="59" cy="48" r="2.2" fill="#111"/>
-      <circle cx="43.8" cy="47.2" r="0.8" fill="white"/>
-      <circle cx="59.8" cy="47.2" r="0.8" fill="white"/>
-      <path d="M43 58 Q50 64 57 58" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
-    </svg>`;
-  }
-  let hue = 0;
-  inner.innerHTML = tyreSVG(hue);
+  const buddy = $('#tyreBuddy'), inner = $('#tbInner'), bubble = $('#tbBubble'); if(!buddy) return;
+  function tyreSVG(hue){ return `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="hubG${hue}" cx="50%" cy="50%"><stop offset="0" stop-color="#e63946"/><stop offset="1" stop-color="#c1121f"/></radialGradient></defs><circle cx="50" cy="50" r="42" fill="#1a1a2e" stroke="#0f172a" stroke-width="3"/><circle cx="50" cy="50" r="36" fill="none" stroke="hsl(${hue},80%,55%)" stroke-width="1.5" stroke-dasharray="3 5" opacity="0.5"/><circle cx="50" cy="50" r="28" fill="#e8ecf5" stroke="#ccc" stroke-width="2"/>${Array.from({length:12}).map((_,i) => { const a = (i * 30) * Math.PI / 180; return `<line x1="${50+Math.cos(a)*28}" y1="${50+Math.sin(a)*28}" x2="${50+Math.cos(a)*40}" y2="${50+Math.sin(a)*40}" stroke="#555" stroke-width="1.2"/>`; }).join('')}<circle cx="50" cy="50" r="10" fill="url(#hubG${hue})" stroke="#1a1a2e" stroke-width="1.5"/><circle cx="42" cy="47" r="4.5" fill="white"/><circle cx="58" cy="47" r="4.5" fill="white"/><circle cx="43" cy="48" r="2.2" fill="#111"/><circle cx="59" cy="48" r="2.2" fill="#111"/><circle cx="43.8" cy="47.2" r="0.8" fill="white"/><circle cx="59.8" cy="47.2" r="0.8" fill="white"/><path d="M43 58 Q50 64 57 58" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/></svg>`; }
+  let hue = 0; inner.innerHTML = tyreSVG(hue);
   setInterval(() => { hue = (hue + 30) % 360; inner.innerHTML = tyreSVG(hue); }, 3500);
-
   const mobile = isTouch() || isMobile();
   const petSize = mobile ? 60 : 74;
   let mx = innerWidth/2, my = innerHeight/2;
   let nx = mx + (mobile ? 20 : 55), ny = my - 10;
-  let vx = nx, vy = ny;
-  let idleWanderTarget = null, wanderTimer = 0;
-
-  const tips = [
-    'Ding ding! 🔔',
-    'Air pressure OK! 💨',
-    'Chain needs oil! 🛢️',
-    'Brakes look good! 🛑',
-    'Puncture? We fix it! 🩹',
-    'Ride safe! 🚴',
-    'Monsoon 20% OFF! 🎁',
-    'Visit us in Jaipur! 📍'
-  ];
+  let vx = nx, vy = ny, idleWanderTarget = null, wanderTimer = 0;
+  const tips = ['Ding ding! 🔔', 'Air pressure OK! 💨', 'Chain needs oil! 🛢️', 'Brakes look good! 🛑', 'Puncture? We fix it! 🩹', 'Ride safe! 🚴', 'Monsoon 20% OFF! 🎁', 'Visit us in Jaipur! 📍', 'New cycles in stock! 🚲'];
   const idleTips = ['Zzz... 😴', 'Rolling... 🌀', 'Ready to ride! 🚴'];
-
   document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; idleWanderTarget = null; }, {passive:true});
   document.addEventListener('touchmove', e => { if(e.touches[0]){ mx = e.touches[0].clientX; my = e.touches[0].clientY; idleWanderTarget = null; } }, {passive:true});
   document.addEventListener('touchstart', e => { if(e.touches[0]){ mx = e.touches[0].clientX; my = e.touches[0].clientY; } }, {passive:true});
-
-  function showBubble(text){
-    bubble.textContent = text;
-    bubble.style.left = Math.max(10, Math.min(innerWidth - 200, nx + 20)) + 'px';
-    bubble.style.top = Math.max(60, ny - 30) + 'px';
-    bubble.classList.add('show');
-    clearTimeout(bubble._t);
-    bubble._t = setTimeout(() => bubble.classList.remove('show'), 2000);
-  }
-  function interact(e){
-    if(e){ e.preventDefault(); e.stopPropagation(); }
-    buddy.classList.add('tapped');
-    setTimeout(() => buddy.classList.remove('tapped'), 600);
-    showBubble(tips[Math.floor(Math.random() * tips.length)]);
-    SoundEngine.bell();
-  }
+  function showBubble(text){ bubble.textContent = text; bubble.style.left = Math.max(10, Math.min(innerWidth - 200, nx + 20)) + 'px'; bubble.style.top = Math.max(60, ny - 30) + 'px'; bubble.classList.add('show'); clearTimeout(bubble._t); bubble._t = setTimeout(() => bubble.classList.remove('show'), 2000); }
+  function interact(e){ if(e){ e.preventDefault(); e.stopPropagation(); } buddy.classList.add('tapped'); setTimeout(() => buddy.classList.remove('tapped'), 600); showBubble(tips[Math.floor(Math.random() * tips.length)]); SoundEngine.bell(); }
   buddy.addEventListener('click', interact);
   buddy.addEventListener('touchstart', interact, {passive:false});
-
   let idleTimer;
-  (function setIdle(){
-    clearTimeout(idleTimer);
-    idleTimer = setTimeout(() => {
-      if(Math.random() < 0.5) showBubble(idleTips[Math.floor(Math.random() * idleTips.length)]);
-      setIdle();
-    }, 12000 + Math.random() * 8000);
-  })();
-
+  (function setIdle(){ clearTimeout(idleTimer); idleTimer = setTimeout(() => { if(Math.random() < 0.5) showBubble(idleTips[Math.floor(Math.random() * idleTips.length)]); setIdle(); }, 12000 + Math.random() * 8000); })();
   function animate(){
     let tx, ty;
-    if(mobile){
-      wanderTimer++;
-      if(!idleWanderTarget || wanderTimer > 180){
-        wanderTimer = 0;
-        idleWanderTarget = { x: 40 + Math.random() * (innerWidth - 100), y: 120 + Math.random() * (innerHeight - 250) };
-      }
-      tx = idleWanderTarget.x; ty = idleWanderTarget.y;
-    } else { tx = mx + 55; ty = my - 8; }
+    if(mobile){ wanderTimer++; if(!idleWanderTarget || wanderTimer > 180){ wanderTimer = 0; idleWanderTarget = { x: 40 + Math.random() * (innerWidth - 100), y: 120 + Math.random() * (innerHeight - 250) }; } tx = idleWanderTarget.x; ty = idleWanderTarget.y; }
+    else { tx = mx + 55; ty = my - 8; }
     const lerp = mobile ? 0.03 : 0.08;
     nx += (tx - nx) * lerp; ny += (ty - ny) * lerp;
-    const dx = nx - vx, dy = ny - vy;
-    const speed = Math.sqrt(dx*dx + dy*dy);
-    vx = nx; vy = ny;
+    const dx = nx - vx, dy = ny - vy; const speed = Math.sqrt(dx*dx + dy*dy); vx = nx; vy = ny;
     buddy.classList.toggle('rolling', speed > (mobile ? 1.5 : 3));
     buddy.style.transform = `translate(${nx - petSize/2}px, ${ny - petSize/2}px)`;
     requestAnimationFrame(animate);
   }
   animate();
-
-  $('#tbToggle').addEventListener('click', () => {
-    buddy.classList.toggle('hidden');
-    $('#tbToggle').classList.toggle('active', !buddy.classList.contains('hidden'));
-    showToast(buddy.classList.contains('hidden') ? '🌀 Tyre Buddy hidden' : '🌀 Tyre Buddy is back!', '');
-  });
+  $('#tbToggle').addEventListener('click', () => { buddy.classList.toggle('hidden'); $('#tbToggle').classList.toggle('active', !buddy.classList.contains('hidden')); showToast(buddy.classList.contains('hidden') ? '🌀 Tyre Buddy hidden' : '🌀 Tyre Buddy is back!', ''); });
 })();
 
-/* ============================================================
-   CYCLE OS (RETRO)
-   ============================================================ */
+/* CYCLE OS */
 (function(){
-  const os = $('#retroOS'), desktop = $('#retroDesktop');
-  const startBtn = $('#retroStart'), startMenu = $('#retroStartMenu');
+  const os = $('#retroOS'), desktop = $('#retroDesktop'), startBtn = $('#retroStart'), startMenu = $('#retroStartMenu');
   let openWins = {}, zIndex = 10;
-
   const contents = {
-    services: { title:'Our Services', icon:'🔧', html:`<h3>Services We Offer</h3><p><b>• Puncture Repair</b> — Quick fix, from ₹40</p><p><b>• Brake & Gear Service</b> — from ₹150</p><p><b>• Chain Repair & Lubrication</b> — from ₹100</p><p><b>• Complete Overhauling</b> — from ₹450</p><p><b>• Spare Parts & Accessories</b> — best prices in Jaipur</p><button class="retro-btn" onclick="window.open('tel:09782707474')">📞 Call to Book</button>`},
-    about: { title:'About Amar Cycle Works', icon:'👤', html:`<h3>About Our Shop</h3><p>Jaipur's most trusted cycle repair & service center. We've been keeping cyclists rolling with <b>genuine parts</b>, <b>skilled technicians</b>, and <b>honest pricing</b>.</p><p>📍 Kishan Marg, Vinoba Basti, Barh Anaj Nagar, Tonk Phatak, Jaipur - 302015</p><p>⭐ Rated 4.8/5 on Google</p>`},
+    services: { title:'Our Services', icon:'🔧', html:`<h3>Services We Offer</h3><p><b>• Puncture Repair</b> — from ₹40</p><p><b>• Brake & Gear Service</b> — from ₹150</p><p><b>• Chain Repair & Lubrication</b> — from ₹100</p><p><b>• Complete Overhauling</b> — from ₹450</p><p><b>• Spare Parts & Accessories</b> — best prices in Jaipur</p><button class="retro-btn" onclick="window.open('tel:09782707474')">📞 Call to Book</button>`},
+    about: { title:'About Amar Cycle Works', icon:'👤', html:`<h3>About Our Shop</h3><p>Jaipur's most trusted cycle repair & service center since <b>40+ years</b>. We've been keeping cyclists rolling with genuine parts, skilled technicians, and honest pricing.</p><p>📍 Kishan Marg, Vinoba Basti, Barh Anaj Nagar, Tonk Phatak, Jaipur - 302015</p><p>⭐ Rated 4.8/5 on Google</p>`},
+    showroom: { title:'Showroom', icon:'🚲', html:`<h3>🚲 New & Second-Hand Cycles</h3><p>We sell <b>brand new</b> and <b>quality-checked second-hand</b> cycles!</p><p>• Sports Cycles (New & 2nd hand)<br>• Normal Cycles (New & 2nd hand)<br>• Kids Cycles<br>• All sizes & colors</p><button class="retro-btn" onclick="window.open('https://wa.me/919782707474?text=Hi!%20I%20want%20to%20see%20your%20cycle%20collection','_blank')">📱 WhatsApp for Prices</button>`},
     offer: { title:'Monsoon Offer', icon:'🎁', html:`<h3>🎁 Monsoon Special!</h3><p>Get <b style="color:#e63946;font-size:1.4rem;">20% OFF</b> on Complete Full Service!</p><p>Valid for limited time — book now to avail.</p><button class="retro-btn" onclick="window.open('https://wa.me/919782707474?text=Hi!%20I%20want%20the%20Monsoon%2020%25%20OFF%20offer','_blank')">📱 Book on WhatsApp</button>`},
     contact: { title:'Contact Us', icon:'📞', html:`<h3>Get in Touch</h3><p><b>📞 Phone:</b> <a href="tel:09782707474">097827 07474</a></p><p><b>💬 WhatsApp:</b> <a href="https://wa.me/919782707474" target="_blank">Chat with us</a></p><p><b>📍 Address:</b> Kishan Marg, Vinoba Basti, Barh Anaj Nagar, Tonk Phatak, Jaipur - 302015</p><p><b>🕐 Hours:</b> Mon–Sat: 10 AM – 8 PM</p>`},
     secret: { title:'Secret Folder', icon:'🎉', html:`<h3>You found the secret! 🎉</h3><p>Easter eggs unlocked:</p><p>✦ Type <b>amar</b> → hue shift<br>✦ Type <b>ride</b> → Cycle Rider game<br>✦ Click Tyre Buddy for tips</p><button class="retro-btn" onclick="closeRetroWindow('secret');openGame()">🎮 Play Cycle Rider</button>`},
-    game: { title:'Ride.exe', icon:'🎮', html:`<h3>Launching Cycle Rider...</h3><p>Dodge potholes, ride forever!</p><button class="retro-btn" onclick="closeRetroWindow('game');openGame()">🎮 Launch Game</button>`},
-    recycle: { title:'Recycle Bin', icon:'🗑️', html:`<h3>Recycle Bin</h3><p>Empty — just like our puncture pile after a full day's work. 😄</p>`},
-    browser: { title:'Browser', icon:'🌐', html:`<h3>New Tab</h3><p>Exit CycleOS to go back to the modern website.</p><button class="retro-btn secondary" onclick="exitRetroOS()">Return to Site</button>`}
+    game: { title:'Ride.exe', icon:'🎮', html:`<h3>Launching Cycle Rider...</h3><p>Dodge potholes, collect coins & power-ups!</p><button class="retro-btn" onclick="closeRetroWindow('game');openGame()">🎮 Launch Game</button>`},
+    recycle: { title:'Recycle Bin', icon:'🗑️', html:`<h3>Recycle Bin</h3><p>Empty — just like our puncture pile after a full day's work. 😄</p>`}
   };
-
   function openWin(type){
     if(openWins[type]){ openWins[type].style.zIndex = ++zIndex; return; }
     const data = contents[type]; if(!data) return;
-    const win = document.createElement('div');
-    win.className = 'retro-window';
-    win.style.zIndex = ++zIndex;
+    const win = document.createElement('div'); win.className = 'retro-window'; win.style.zIndex = ++zIndex;
     if(isMobile()){ win.style.left = '8px'; win.style.top = '40px'; }
     else { win.style.left = (80 + Object.keys(openWins).length * 30) + 'px'; win.style.top = (60 + Object.keys(openWins).length * 30) + 'px'; }
     win.innerHTML = `<div class="retro-title-bar"><span class="rtb-title">${data.icon} ${data.title}</span><div class="retro-win-controls"><button class="retro-win-btn close" onclick="closeRetroWindow('${type}')">✕</button></div></div><div class="retro-win-body">${data.html}</div>`;
     desktop.appendChild(win);
-
     const tb = win.querySelector('.retro-title-bar');
     let dragging = false, sx = 0, sy = 0, ox = 0, oy = 0;
     function startDrag(x, y){ dragging = true; sx = x; sy = y; ox = parseInt(win.style.left) || 0; oy = parseInt(win.style.top) || 0; win.style.zIndex = ++zIndex; }
-    function moveDrag(x, y){
-      if(!dragging) return;
-      const maxX = innerWidth - win.offsetWidth, maxY = innerHeight - win.offsetHeight - 60;
-      win.style.left = Math.max(0, Math.min(maxX, ox + x - sx)) + 'px';
-      win.style.top = Math.max(0, Math.min(maxY, oy + y - sy)) + 'px';
-    }
+    function moveDrag(x, y){ if(!dragging) return; const maxX = innerWidth - win.offsetWidth, maxY = innerHeight - win.offsetHeight - 60; win.style.left = Math.max(0, Math.min(maxX, ox + x - sx)) + 'px'; win.style.top = Math.max(0, Math.min(maxY, oy + y - sy)) + 'px'; }
     tb.addEventListener('mousedown', e => { if(e.target.closest('.retro-win-btn')) return; startDrag(e.clientX, e.clientY); e.preventDefault(); });
     document.addEventListener('mousemove', e => moveDrag(e.clientX, e.clientY));
     document.addEventListener('mouseup', () => dragging = false);
     tb.addEventListener('touchstart', e => { if(e.target.closest('.retro-win-btn')) return; if(e.touches[0]) startDrag(e.touches[0].clientX, e.touches[0].clientY); }, {passive:true});
     document.addEventListener('touchmove', e => { if(e.touches[0]) moveDrag(e.touches[0].clientX, e.touches[0].clientY); }, {passive:true});
     document.addEventListener('touchend', () => dragging = false);
-
     openWins[type] = win;
   }
   window.closeRetroWindow = function(type){ const w = openWins[type]; if(w){ w.remove(); delete openWins[type]; } };
-
-  $$('.retro-icon').forEach(icon => {
-    const handler = () => { const t = icon.dataset.win; if(t === 'game') openGame(); else openWin(t); };
-    if(isTouch()) icon.addEventListener('click', handler);
-    else icon.addEventListener('dblclick', handler);
-  });
-  $$('.rsm-app').forEach(app => {
-    app.addEventListener('click', () => {
-      const t = app.dataset.win;
-      if(t === 'game'){ startMenu.classList.remove('open'); openGame(); return; }
-      if(t) openWin(t);
-      startMenu.classList.remove('open');
-    });
-  });
-
+  $$('.retro-icon').forEach(icon => { const handler = () => { const t = icon.dataset.win; if(t === 'game') openGame(); else openWin(t); }; if(isTouch()) icon.addEventListener('click', handler); else icon.addEventListener('dblclick', handler); });
+  $$('.rsm-app').forEach(app => { app.addEventListener('click', () => { const t = app.dataset.win; if(t === 'game'){ startMenu.classList.remove('open'); openGame(); return; } if(t) openWin(t); startMenu.classList.remove('open'); }); });
   startBtn.addEventListener('click', e => { e.stopPropagation(); startMenu.classList.toggle('open'); });
   document.addEventListener('click', e => { if(!startMenu.contains(e.target) && e.target !== startBtn) startMenu.classList.remove('open'); });
-
-  function tick(){
-    if(!os.classList.contains('active')) return;
-    const now = new Date();
-    const hh = String(now.getHours()).padStart(2,'0');
-    const mm = String(now.getMinutes()).padStart(2,'0');
-    const dd = String(now.getDate()).padStart(2,'0');
-    const mo = String(now.getMonth()+1).padStart(2,'0');
-    const yy = now.getFullYear();
-    const cl = $('#retroClock');
-    if(cl) cl.innerHTML = `<b>${hh}:${mm}</b><span>${dd}/${mo}/${yy}</span>`;
-    const rs = $('#rsmClock'); if(rs) rs.textContent = `${hh}:${mm}`;
-    setTimeout(tick, 1000);
-  }
+  function tick(){ if(!os.classList.contains('active')) return; const now = new Date(); const hh = String(now.getHours()).padStart(2,'0'); const mm = String(now.getMinutes()).padStart(2,'0'); const dd = String(now.getDate()).padStart(2,'0'); const mo = String(now.getMonth()+1).padStart(2,'0'); const yy = now.getFullYear(); const cl = $('#retroClock'); if(cl) cl.innerHTML = `<b>${hh}:${mm}</b><span>${dd}/${mo}/${yy}</span>`; const rs = $('#rsmClock'); if(rs) rs.textContent = `${hh}:${mm}`; setTimeout(tick, 1000); }
   window.openRetroOS = function(){ os.classList.add('active'); tick(); SoundEngine.bell(); showToast('🖥️ CycleOS Activated', 'Tap desktop icons to explore'); };
-  window.exitRetroOS = function(){ os.classList.remove('active'); Object.keys(openWins).forEach(t => closeRetroWindow(t)); showToast('👋 Back to site', 'Modern view restored'); };
+  window.exitRetroOS = function(){ os.classList.remove('active'); Object.keys(openWins).forEach(t => closeRetroWindow(t)); showToast('👋 Back to site', ''); };
   $('#retroToggle').addEventListener('click', openRetroOS);
 })();
 
-/* ============================================================
-   CYCLE RIDER GAME
-   ============================================================ */
+/* EPIC CYCLE RIDER GAME - Enhanced */
 (function(){
-  const overlay = $('#gameOverlay'), canvas = $('#cycleCanvas'), ctx = canvas.getContext('2d');
+  const overlay = $('#gameOverlay'), canvas = $('#epicCanvas'), ctx = canvas.getContext('2d');
   const scoreEl = $('#gameScore'), highEl = $('#gameHigh'), msgEl = $('#gameMsg');
   const W = canvas.width, H = canvas.height;
-  let cycle, obstacles, score, best, speed, running, animId, groundY;
-  let jumpV = 0, onGround = true;
-  best = parseInt(localStorage.getItem('cycle-high') || '0', 10);
+  let cycle, obstacles, coins, powerups, particles, score, best, speed, running, animId, groundY;
+  let jumpV = 0, onGround = true, hasShield = false, shieldTimer = 0, hasMagnet = false, magnetTimer = 0;
+  let spawnTimer = 0, coinTimer = 0, powerupTimer = 0, starOffset = 0;
+
+  best = parseInt(localStorage.getItem('epic-cycle-high') || '0', 10);
   highEl.textContent = best;
 
   function reset(){
     cycle = { x: 80, y: 0, r: 16, rot: 0 };
-    obstacles = [];
-    score = 0; speed = 3; running = true;
+    obstacles = []; coins = []; powerups = []; particles = [];
+    score = 0; speed = 4; running = true;
+    spawnTimer = 0; coinTimer = 0; powerupTimer = 0;
+    hasShield = false; shieldTimer = 0; hasMagnet = false; magnetTimer = 0;
     scoreEl.textContent = 0;
     groundY = H - 40;
     cycle.y = groundY - cycle.r;
@@ -1825,230 +1418,190 @@ $('#year').textContent = new Date().getFullYear();
     msgEl.textContent = isTouch() ? 'Tap canvas to jump' : 'Press SPACE / Click to jump';
     cancelAnimationFrame(animId);
     loop();
-    spawnTimer = 0;
   }
-  let spawnTimer = 0;
-  function spawn(){
-    const types = ['pothole', 'cone', 'rock'];
+  function spawnObstacle(){
+    const types = ['pothole', 'cone', 'rock', 'oil'];
     const t = types[Math.floor(Math.random() * types.length)];
-    const size = t === 'pothole' ? 34 : t === 'cone' ? 26 : 22;
+    const size = t === 'pothole' ? 34 : t === 'cone' ? 26 : t === 'oil' ? 30 : 22;
     obstacles.push({ x: W + 20, y: groundY - size, w: size, h: size, type: t, passed: false });
   }
+  function spawnCoin(){ coins.push({ x: W + 20, y: groundY - 60 - Math.random() * 80, r: 11, collected: false, angle: 0 }); }
+  function spawnPowerup(){ const types = ['shield', 'magnet']; const t = types[Math.floor(Math.random() * types.length)]; powerups.push({ x: W + 20, y: groundY - 80 - Math.random() * 60, r: 15, type: t, collected: false }); }
   function jump(){
     if(!running){ reset(); return; }
-    if(onGround){ jumpV = -9; onGround = false; SoundEngine.whoosh(); }
+    if(onGround){ jumpV = -10.5; onGround = false; createParticles(cycle.x, cycle.y + cycle.r, '#e63946', 10); SoundEngine.whoosh(); }
+  }
+  function createParticles(x, y, color, count){
+    for(let i = 0; i < count; i++){
+      particles.push({ x, y, vx: (Math.random() - 0.5) * 7, vy: (Math.random() - 0.5) * 7, life: 1, color, size: Math.random() * 3 + 1.5 });
+    }
   }
   function loop(){
     if(!running) return;
-    // Update
     score += 0.05;
     scoreEl.textContent = Math.floor(score);
-    if(score > best){ best = Math.floor(score); highEl.textContent = best; localStorage.setItem('cycle-high', best); }
-    speed = 3 + Math.min(4, score / 100);
+    if(score > best){ best = Math.floor(score); highEl.textContent = best; localStorage.setItem('epic-cycle-high', best); }
+    speed = 4 + Math.min(7, score / 80);
     spawnTimer++;
-    if(spawnTimer > Math.max(50, 100 - score / 10)){
-      spawnTimer = 0;
-      spawn();
-    }
-    // Jump physics
-    jumpV += 0.5;
+    if(spawnTimer > Math.max(35, 75 - score / 12)){ spawnTimer = 0; spawnObstacle(); }
+    coinTimer++;
+    if(coinTimer > 55 + Math.random() * 50){ coinTimer = 0; spawnCoin(); }
+    powerupTimer++;
+    if(powerupTimer > 280 + Math.random() * 280){ powerupTimer = 0; spawnPowerup(); }
+    jumpV += 0.55;
     cycle.y += jumpV;
     if(cycle.y >= groundY - cycle.r){ cycle.y = groundY - cycle.r; jumpV = 0; onGround = true; }
-    // Move obstacles
+    if(hasShield){ shieldTimer--; if(shieldTimer <= 0) hasShield = false; }
+    if(hasMagnet){ magnetTimer--; if(magnetTimer <= 0) hasMagnet = false; }
     obstacles.forEach(o => o.x -= speed);
     obstacles = obstacles.filter(o => o.x + o.w > -20);
-    // Collision
+    coins.forEach(c => { c.x -= speed; c.angle += 0.15; if(hasMagnet){ const dx = cycle.x - c.x, dy = cycle.y - c.y; const d = Math.sqrt(dx*dx + dy*dy); if(d < 200){ c.x += dx/d * 4; c.y += dy/d * 4; } } });
+    coins = coins.filter(c => c.x + c.r > -20 && !c.collected);
+    powerups.forEach(p => p.x -= speed);
+    powerups = powerups.filter(p => p.x + p.r > -20 && !p.collected);
+    particles.forEach(p => { p.x += p.vx; p.y += p.vy; p.vy += 0.15; p.life -= 0.02; });
+    particles = particles.filter(p => p.life > 0);
     for(const o of obstacles){
-      if(!o.passed && cycle.x + cycle.r > o.x && cycle.x - cycle.r < o.x + o.w){
-        if(cycle.y + cycle.r > o.y + 4 && cycle.y - cycle.r < o.y + o.h) return gameOver();
+      if(!o.passed && cycle.x + cycle.r > o.x + 4 && cycle.x - cycle.r < o.x + o.w - 4){
+        if(cycle.y + cycle.r > o.y + 6 && cycle.y - cycle.r < o.y + o.h - 4){
+          if(hasShield){ hasShield = false; createParticles(o.x + o.w/2, o.y + o.h/2, '#10b981', 20); SoundEngine.chain(); o.passed = true; }
+          else return gameOver();
+        }
       }
       if(!o.passed && o.x + o.w < cycle.x - cycle.r) o.passed = true;
+    }
+    for(const c of coins){
+      const dx = cycle.x - c.x, dy = cycle.y - c.y;
+      if(Math.sqrt(dx*dx + dy*dy) < cycle.r + c.r){
+        c.collected = true; score += 10; createParticles(c.x, c.y, '#f4a261', 10); SoundEngine.coin();
+      }
+    }
+    for(const p of powerups){
+      const dx = cycle.x - p.x, dy = cycle.y - p.y;
+      if(Math.sqrt(dx*dx + dy*dy) < cycle.r + p.r){
+        p.collected = true;
+        if(p.type === 'shield'){ hasShield = true; shieldTimer = 400; }
+        if(p.type === 'magnet'){ hasMagnet = true; magnetTimer = 500; }
+        createParticles(p.x, p.y, p.type === 'shield' ? '#10b981' : '#3b82f6', 15);
+        SoundEngine.powerup();
+      }
     }
     draw();
     animId = requestAnimationFrame(loop);
   }
   function draw(){
-    // Sky
     const sky = ctx.createLinearGradient(0, 0, 0, H);
-    sky.addColorStop(0, '#87ceeb');
-    sky.addColorStop(1, '#e0f6ff');
-    ctx.fillStyle = sky;
-    ctx.fillRect(0, 0, W, H);
-    // Sun
-    ctx.fillStyle = '#ffd60a'; ctx.beginPath(); ctx.arc(W - 60, 50, 22, 0, Math.PI*2); ctx.fill();
-    // Clouds
-    ctx.fillStyle = 'rgba(255,255,255,.8)';
-    ctx.beginPath(); ctx.arc(60, 60, 18, 0, Math.PI*2); ctx.arc(85, 60, 22, 0, Math.PI*2); ctx.arc(110, 60, 16, 0, Math.PI*2); ctx.fill();
-    ctx.beginPath(); ctx.arc(W/2, 90, 14, 0, Math.PI*2); ctx.arc(W/2 + 20, 90, 18, 0, Math.PI*2); ctx.fill();
-    // Ground
-    ctx.fillStyle = '#8b7355'; ctx.fillRect(0, groundY, W, H - groundY);
-    ctx.fillStyle = '#5a4a3a'; ctx.fillRect(0, groundY, W, 4);
-    // Road markings
-    ctx.fillStyle = 'rgba(255,255,255,.4)';
-    for(let i = 0; i < 10; i++) ctx.fillRect((i * 60 + (performance.now()/20 % 60)) % (W + 60) - 30, groundY + 18, 30, 3);
-    // Obstacles
+    sky.addColorStop(0, '#1a2540'); sky.addColorStop(1, '#0f172a');
+    ctx.fillStyle = sky; ctx.fillRect(0, 0, W, H);
+    starOffset += speed * 0.15;
+    ctx.fillStyle = 'rgba(255,255,255,0.5)';
+    for(let i = 0; i < 30; i++){ const sx = ((i * 70 + starOffset) % (W + 70)) - 35; const sy = (i * 37) % (H * 0.55); ctx.fillRect(sx, sy, 1.5, 1.5); }
+    ctx.fillStyle = 'rgba(230,57,70,0.08)';
+    ctx.beginPath(); ctx.arc(W * 0.75, H * 0.25, 35, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#0a0f1c'; ctx.fillRect(0, groundY, W, H - groundY);
+    ctx.fillStyle = '#e63946'; ctx.fillRect(0, groundY, W, 3);
+    ctx.fillStyle = 'rgba(255,255,255,0.25)';
+    for(let i = 0; i < 12; i++) ctx.fillRect((i * 60 + (performance.now()/15 % 60)) % (W + 60) - 30, groundY + 22, 35, 2.5);
+    particles.forEach(p => { ctx.globalAlpha = p.life; ctx.fillStyle = p.color; ctx.beginPath(); ctx.arc(p.x, p.y, p.size, 0, Math.PI*2); ctx.fill(); });
+    ctx.globalAlpha = 1;
+    coins.forEach(c => { if(c.collected) return; ctx.save(); ctx.translate(c.x, c.y); ctx.rotate(c.angle); ctx.fillStyle = '#f4a261'; ctx.beginPath(); ctx.arc(0, 0, c.r, 0, Math.PI*2); ctx.fill(); ctx.fillStyle = '#e9c46a'; ctx.beginPath(); ctx.arc(0, 0, c.r - 2, 0, Math.PI*2); ctx.fill(); ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(-3, -3, 3, 0, Math.PI*2); ctx.fill(); ctx.restore(); });
+    powerups.forEach(p => {
+      if(p.collected) return;
+      const pulse = Math.sin(performance.now() / 200) * 2;
+      ctx.fillStyle = p.type === 'shield' ? '#10b981' : '#3b82f6';
+      ctx.beginPath(); ctx.arc(p.x, p.y, p.r + pulse, 0, Math.PI*2); ctx.fill();
+      ctx.strokeStyle = p.type === 'shield' ? '#34d399' : '#60a5fa'; ctx.lineWidth = 2;
+      ctx.beginPath(); ctx.arc(p.x, p.y, p.r + pulse + 3, 0, Math.PI*2); ctx.stroke();
+      ctx.fillStyle = '#fff'; ctx.font = 'bold 15px Arial'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillText(p.type === 'shield' ? '🛡' : '🧲', p.x, p.y);
+    });
     obstacles.forEach(o => {
       if(o.type === 'pothole'){
-        ctx.fillStyle = '#3a2a1a';
-        ctx.beginPath(); ctx.ellipse(o.x + o.w/2, groundY + 4, o.w/2, 6, 0, 0, Math.PI*2); ctx.fill();
+        ctx.fillStyle = '#0a0a14';
+        ctx.beginPath(); ctx.ellipse(o.x + o.w/2, groundY + 2, o.w/2, 7, 0, 0, Math.PI*2); ctx.fill();
+        ctx.strokeStyle = '#3a4a5a'; ctx.lineWidth = 1; ctx.stroke();
       } else if(o.type === 'cone'){
         ctx.fillStyle = '#f4a261';
         ctx.beginPath(); ctx.moveTo(o.x + o.w/2, o.y); ctx.lineTo(o.x, o.y + o.h); ctx.lineTo(o.x + o.w, o.y + o.h); ctx.closePath(); ctx.fill();
-        ctx.fillStyle = '#fff';
-        ctx.fillRect(o.x + o.w/2 - 6, o.y + o.h/2, 12, 3);
+        ctx.fillStyle = '#fff'; ctx.fillRect(o.x + o.w/2 - 7, o.y + o.h/2, 14, 3);
+        ctx.fillStyle = '#e63946'; ctx.fillRect(o.x + o.w/2 - 7, o.y + o.h/2 + 5, 14, 2);
+      } else if(o.type === 'oil'){
+        ctx.fillStyle = 'rgba(20,20,30,0.9)';
+        ctx.beginPath(); ctx.ellipse(o.x + o.w/2, groundY + 2, o.w/2, 6, 0, 0, Math.PI*2); ctx.fill();
+        ctx.fillStyle = 'rgba(80,60,120,0.4)';
+        ctx.beginPath(); ctx.ellipse(o.x + o.w/2 - 5, groundY + 1, 6, 3, 0, 0, Math.PI*2); ctx.fill();
       } else {
-        ctx.fillStyle = '#666';
+        ctx.fillStyle = '#4a5568';
         ctx.beginPath(); ctx.arc(o.x + o.w/2, o.y + o.h/2, o.w/2, 0, Math.PI*2); ctx.fill();
+        ctx.fillStyle = '#2d3748';
+        ctx.beginPath(); ctx.arc(o.x + o.w/2 - 3, o.y + o.h/2 - 3, o.w/2 - 5, 0, Math.PI*2); ctx.fill();
       }
     });
-    // Cycle
-    drawCycle(cycle.x, cycle.y, cycle.r);
+    if(hasShield){
+      ctx.strokeStyle = '#10b981'; ctx.lineWidth = 3;
+      ctx.beginPath(); ctx.arc(cycle.x, cycle.y, cycle.r + 14, 0, Math.PI*2); ctx.stroke();
+      ctx.fillStyle = 'rgba(16,185,129,0.12)';
+      ctx.beginPath(); ctx.arc(cycle.x, cycle.y, cycle.r + 14, 0, Math.PI*2); ctx.fill();
+    }
+    if(hasMagnet){
+      ctx.strokeStyle = '#3b82f6'; ctx.lineWidth = 1.5; ctx.setLineDash([5, 5]);
+      ctx.beginPath(); ctx.arc(cycle.x, cycle.y, 60, 0, Math.PI*2); ctx.stroke();
+      ctx.setLineDash([]);
+    }
+    drawCycle(cycle.x, cycle.y);
   }
-  function drawCycle(x, y, r){
-    ctx.save();
-    ctx.translate(x, y);
-    // Wheels
-    ctx.strokeStyle = '#1a1a2e'; ctx.lineWidth = 3;
+  function drawCycle(x, y){
+    ctx.save(); ctx.translate(x, y);
+    ctx.strokeStyle = '#e63946'; ctx.lineWidth = 3;
     ctx.beginPath(); ctx.arc(-12, 6, 9, 0, Math.PI*2); ctx.stroke();
     ctx.beginPath(); ctx.arc(12, 6, 9, 0, Math.PI*2); ctx.stroke();
-    // Frame
-    ctx.strokeStyle = '#e63946'; ctx.lineWidth = 2.5;
-    ctx.beginPath();
-    ctx.moveTo(-12, 6); ctx.lineTo(-2, -4); ctx.lineTo(10, -4); ctx.lineTo(12, 6);
-    ctx.moveTo(-2, -4); ctx.lineTo(6, 6);
-    ctx.stroke();
-    // Seat
-    ctx.fillStyle = '#1a1a2e';
-    ctx.beginPath(); ctx.ellipse(-4, -8, 6, 2.5, 0, 0, Math.PI*2); ctx.fill();
-    // Handlebar
-    ctx.strokeStyle = '#1a1a2e'; ctx.lineWidth = 2;
-    ctx.beginPath(); ctx.moveTo(10, -4); ctx.lineTo(12, -10); ctx.lineTo(16, -10); ctx.stroke();
-    // Rider
-    ctx.fillStyle = '#3b82f6';
-    ctx.beginPath(); ctx.arc(0, -16, 5, 0, Math.PI*2); ctx.fill();
-    ctx.fillStyle = '#1a1a2e';
-    ctx.beginPath(); ctx.arc(0, -18, 5, Math.PI, Math.PI*2); ctx.fill();
+    ctx.strokeStyle = '#3b82f6'; ctx.lineWidth = 2.5;
+    ctx.beginPath(); ctx.moveTo(-12, 6); ctx.lineTo(-2, -4); ctx.lineTo(10, -4); ctx.lineTo(12, 6); ctx.moveTo(-2, -4); ctx.lineTo(6, 6); ctx.stroke();
+    ctx.fillStyle = '#1a1a2e'; ctx.beginPath(); ctx.ellipse(-4, -8, 6, 2.5, 0, 0, Math.PI*2); ctx.fill();
+    ctx.strokeStyle = '#1a1a2e'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(10, -4); ctx.lineTo(12, -10); ctx.lineTo(16, -10); ctx.stroke();
+    ctx.fillStyle = '#f4a261'; ctx.beginPath(); ctx.arc(0, -16, 5, 0, Math.PI*2); ctx.fill();
+    ctx.fillStyle = '#0f172a'; ctx.beginPath(); ctx.arc(0, -18, 5, Math.PI, Math.PI*2); ctx.fill();
     ctx.restore();
   }
   function gameOver(){
-    running = false;
-    cancelAnimationFrame(animId);
+    running = false; cancelAnimationFrame(animId);
+    createParticles(cycle.x, cycle.y, '#e63946', 30);
     msgEl.innerHTML = `💥 <b>Crash!</b> Score: ${Math.floor(score)} · Tap to restart`;
     SoundEngine.chain();
   }
   window.openGame = function(){ overlay.classList.add('active'); reset(); };
   window.closeGame = function(){ overlay.classList.remove('active'); running = false; cancelAnimationFrame(animId); };
-  document.addEventListener('keydown', e => {
-    if(!overlay.classList.contains('active')) return;
-    if(e.key === ' ' || e.key === 'ArrowUp' || e.key === 'w' || e.key === 'W'){ e.preventDefault(); jump(); }
-    if(e.key === 'Escape') closeGame();
-  });
+  document.addEventListener('keydown', e => { if(!overlay.classList.contains('active')) return; if(e.key === ' ' || e.key === 'ArrowUp' || e.key === 'w' || e.key === 'W'){ e.preventDefault(); jump(); } if(e.key === 'Escape') closeGame(); });
   canvas.addEventListener('click', jump);
   canvas.addEventListener('touchstart', e => { e.preventDefault(); jump(); }, {passive:false});
 })();
 
-/* ============================================================
-   EASTER EGGS
-   ============================================================ */
-(function(){
-  let buf = '';
-  document.addEventListener('keydown', e => {
-    if(e.target.matches('input, textarea')) return;
-    const k = e.key.toLowerCase(); if(k.length !== 1) return;
-    buf = (buf + k).slice(-8);
-    if(buf.endsWith('amar')){ document.body.style.transition='filter .5s'; document.body.style.filter='hue-rotate(30deg) saturate(1.3)'; setTimeout(()=>document.body.style.filter='',2500); showToast('🎉 Easter Egg!', 'You typed AMAR 👏'); }
-    if(buf.endsWith('ride')){ openGame(); showToast('🚴 Ride Mode', 'Cycle Rider launched!'); }
-  });
-})();
+/* EASTER EGGS */
+(function(){ let buf = ''; document.addEventListener('keydown', e => { if(e.target.matches('input, textarea')) return; const k = e.key.toLowerCase(); if(k.length !== 1) return; buf = (buf + k).slice(-8); if(buf.endsWith('amar')){ document.body.style.transition='filter .5s'; document.body.style.filter='hue-rotate(30deg) saturate(1.3)'; setTimeout(()=>document.body.style.filter='',2500); showToast('🎉 Easter Egg!', 'You typed AMAR 👏'); } if(buf.endsWith('ride')){ openGame(); showToast('🚴 Ride Mode', 'Cycle Rider launched!'); } }); })();
 
-/* ============================================================
-   SCROLL PROGRESS
-   ============================================================ */
-(function(){
-  const bar = $('#progress'); let t = false;
-  function u(){ const h = document.documentElement.scrollHeight - innerHeight; bar.style.width = Math.min(100, Math.max(0, h > 0 ? (scrollY/h)*100 : 0)) + '%'; t = false; }
-  window.addEventListener('scroll', () => { if(!t){ requestAnimationFrame(u); t = true; } }, {passive:true}); u();
-})();
+/* SCROLL PROGRESS */
+(function(){ const bar = $('#progress'); let t = false; function u(){ const h = document.documentElement.scrollHeight - innerHeight; bar.style.width = Math.min(100, Math.max(0, h > 0 ? (scrollY/h)*100 : 0)) + '%'; t = false; } window.addEventListener('scroll', () => { if(!t){ requestAnimationFrame(u); t = true; } }, {passive:true}); u(); })();
 
-/* ============================================================
-   XP / RIDER LEVEL
-   ============================================================ */
-(function(){
-  const lvlEl = $('#xpLevel'), fillEl = $('#xpFill'), labelEl = $('#xpLabel');
-  let xp = 0, level = 1, visited = new Set();
-  const sections = $$('section[id]');
-  function update(){ fillEl.style.width = (xp % 100) + '%'; labelEl.textContent = xp + ' / ' + (level*100) + ' XP'; lvlEl.textContent = level; }
-  function addXP(n){ xp += n; if(xp >= level*100){ level++; showToast('⭐ Level Up!', 'Reached Level ' + level + ' Rider'); } update(); }
-  let lastY = 0;
-  window.addEventListener('scroll', () => { const y = scrollY; if(Math.abs(y - lastY) > 60){ lastY = y; addXP(1); } }, {passive:true});
-  if('IntersectionObserver' in window){
-    const io = new IntersectionObserver(entries => { entries.forEach(en => { if(en.isIntersecting && !visited.has(en.target.id)){ visited.add(en.target.id); addXP(10); } }); }, {threshold: 0.4});
-    sections.forEach(s => io.observe(s));
-  }
-  update();
-})();
+/* XP */
+(function(){ const lvlEl = $('#xpLevel'), fillEl = $('#xpFill'), labelEl = $('#xpLabel'); let xp = 0, level = 1, visited = new Set(); const sections = $$('section[id]'); function update(){ fillEl.style.width = (xp % 100) + '%'; labelEl.textContent = xp + ' / ' + (level*100) + ' XP'; lvlEl.textContent = level; } function addXP(n){ xp += n; if(xp >= level*100){ level++; showToast('⭐ Level Up!', 'Reached Level ' + level + ' Rider'); } update(); } let lastY = 0; window.addEventListener('scroll', () => { const y = scrollY; if(Math.abs(y - lastY) > 60){ lastY = y; addXP(1); } }, {passive:true}); if('IntersectionObserver' in window){ const io = new IntersectionObserver(entries => { entries.forEach(en => { if(en.isIntersecting && !visited.has(en.target.id)){ visited.add(en.target.id); addXP(10); } }); }, {threshold: 0.4}); sections.forEach(s => io.observe(s)); } update(); })();
 
-/* ============================================================
-   NAVBAR
-   ============================================================ */
-(function(){
-  const header = $('#header'), links = $$('.nav-links a'), sections = $$('section[id]');
-  let t = false;
-  function u(){
-    header.classList.toggle('scrolled', scrollY > 12);
-    let cur = '';
-    sections.forEach(s => { if(scrollY >= s.offsetTop - 140) cur = s.id; });
-    links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + cur));
-    t = false;
-  }
-  window.addEventListener('scroll', () => { if(!t){ requestAnimationFrame(u); t = true; } }, {passive:true}); u();
-})();
+/* NAVBAR */
+(function(){ const header = $('#header'), links = $$('.nav-links a'), sections = $$('section[id]'); let t = false; function u(){ header.classList.toggle('scrolled', scrollY > 12); let cur = ''; sections.forEach(s => { if(scrollY >= s.offsetTop - 140) cur = s.id; }); links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + cur)); t = false; } window.addEventListener('scroll', () => { if(!t){ requestAnimationFrame(u); t = true; } }, {passive:true}); u(); })();
 
-/* ============================================================
-   MOBILE MENU
-   ============================================================ */
-window.closeMenu = function(){
-  $('#burger').classList.remove('open');
-  $('#mobileMenu').classList.remove('open');
-  $('#overlay').classList.remove('open');
-};
-(function(){
-  const b = $('#burger'), m = $('#mobileMenu'), o = $('#overlay');
-  function close(){ b.classList.remove('open'); m.classList.remove('open'); o.classList.remove('open'); }
-  b.addEventListener('click', () => { b.classList.toggle('open'); m.classList.toggle('open'); o.classList.toggle('open'); });
-  o.addEventListener('click', close);
-  $$('.mobile-menu a').forEach(a => a.addEventListener('click', close));
-})();
+/* MOBILE MENU */
+window.closeMenu = function(){ $('#burger').classList.remove('open'); $('#mobileMenu').classList.remove('open'); $('#overlay').classList.remove('open'); };
+(function(){ const b = $('#burger'), m = $('#mobileMenu'), o = $('#overlay'); function close(){ b.classList.remove('open'); m.classList.remove('open'); o.classList.remove('open'); } b.addEventListener('click', () => { b.classList.toggle('open'); m.classList.toggle('open'); o.classList.toggle('open'); }); o.addEventListener('click', close); $$('.mobile-menu a').forEach(a => a.addEventListener('click', close)); })();
 
-/* ============================================================
-   SMOOTH SCROLL
-   ============================================================ */
-document.addEventListener('click', e => {
-  const a = e.target.closest('a[href^="#"]');
-  if(!a) return;
-  const id = a.getAttribute('href');
-  if(id === '#' || id.length < 2) return;
-  const el = document.querySelector(id); if(!el) return;
-  e.preventDefault();
-  scrollTo({ top: el.getBoundingClientRect().top + pageYOffset - 74, behavior: 'smooth' });
-});
+/* SMOOTH SCROLL */
+document.addEventListener('click', e => { const a = e.target.closest('a[href^="#"]'); if(!a) return; const id = a.getAttribute('href'); if(id === '#' || id.length < 2) return; const el = document.querySelector(id); if(!el) return; e.preventDefault(); scrollTo({ top: el.getBoundingClientRect().top + pageYOffset - 74, behavior: 'smooth' }); });
 
-/* ============================================================
-   REVEAL
-   ============================================================ */
-(function(){
-  const els = $$('[data-reveal]');
-  if(!('IntersectionObserver' in window)){ els.forEach(el => el.classList.add('in')); return; }
-  const io = new IntersectionObserver(entries => { entries.forEach(en => { if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } }); }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'});
-  els.forEach(el => io.observe(el));
-})();
+/* REVEAL */
+(function(){ const els = $$('[data-reveal]'); if(!('IntersectionObserver' in window)){ els.forEach(el => el.classList.add('in')); return; } const io = new IntersectionObserver(entries => { entries.forEach(en => { if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } }); }, {threshold: 0.1, rootMargin: '0px 0px -40px 0px'}); els.forEach(el => io.observe(el)); })();
 
-/* ============================================================
-   INTERACTIVE CYCLE EXPLORER
-   ============================================================ */
+/* INTERACTIVE EXPLORER */
 (function(){
   const partsData = {
-    'rear-wheel': { tag:'REAR WHEEL', title:'Rear Wheel & Tyre', text:'Rear tyre wears faster due to weight and pedaling force. We handle tyre replacement, tube repair, wheel truing (making sure it spins straight), and hub servicing.', list:['Tyre replacement & tube repair','Wheel truing (spoke adjustment)','Hub cleaning & greasing','Puncture repair — from ₹40'] },
+    'rear-wheel': { tag:'REAR WHEEL', title:'Rear Wheel & Tyre', text:'Rear tyre wears faster due to weight and pedaling force. We handle tyre replacement, tube repair, wheel truing, and hub servicing.', list:['Tyre replacement & tube repair','Wheel truing (spoke adjustment)','Hub cleaning & greasing','Puncture repair — from ₹40'] },
     'front-wheel': { tag:'FRONT WHEEL', title:'Front Wheel & Steering', text:'The front wheel takes the impact of every pothole. We check alignment, replace worn tyres, and service the steering for a smooth ride.', list:['Alignment & balancing check','Tyre & tube replacement','Bearing replacement','Steering column service'] },
     'frame': { tag:'FRAME', title:'Frame & Body', text:'Your cycle\'s frame is its backbone. We check for cracks, rust, and bend. We also paint and touch up to protect it from monsoon damage.', list:['Frame crack & bend inspection','Anti-rust treatment','Custom painting & touch-up','Full frame cleaning & polish'] },
     'brakes': { tag:'BRAKES', title:'Brake System', text:'Brakes are the most important safety feature. We adjust, replace, and fine-tune all brake types — V-brakes, disc brakes, and coaster brakes.', list:['Brake pad replacement','Cable tightening & adjustment','Disc rotor truing','Brake fluid top-up (disc)'] },
@@ -2056,18 +1609,14 @@ document.addEventListener('click', e => {
     'seat': { tag:'SEAT', title:'Seat & Saddle', text:'Comfort matters! We replace worn-out saddles, adjust seat height, and service seat posts and clamps.', list:['Saddle replacement','Seat height adjustment','Seat post & clamp service','Comfort foam upgrades'] },
     'handlebar': { tag:'HANDLEBAR', title:'Handlebar & Grips', text:'Handlebar controls your direction — it must be stable. We replace worn grips, tighten stems, and adjust for comfort.', list:['Grip replacement','Handlebar stem tightening','Handlebar height adjustment','Bell & light installation'] }
   };
-
   const cycleParts = $$('.cycle-part');
   const expTag = $('#expTag'), expTitle = $('#expTitle'), expText = $('#expText'), expList = $('#expList');
   const expBtns = $$('.exp-part-btn');
-
   function activatePart(part){
     const d = partsData[part]; if(!d) return;
     cycleParts.forEach(el => el.classList.toggle('active', el.dataset.part === part));
     expBtns.forEach(b => b.classList.toggle('active', b.dataset.part === part));
-    expTag.textContent = d.tag;
-    expTitle.textContent = d.title;
-    expText.textContent = d.text;
+    expTag.textContent = d.tag; expTitle.textContent = d.title; expText.textContent = d.text;
     expList.innerHTML = d.list.map(li => '<li><i class="fas fa-check-circle"></i> ' + li + '</li>').join('');
     SoundEngine.click();
   }
@@ -2075,21 +1624,15 @@ document.addEventListener('click', e => {
   expBtns.forEach(b => b.addEventListener('click', () => activatePart(b.dataset.part)));
 })();
 
-/* ============================================================
-   OFFER COUNTDOWN
-   ============================================================ */
+/* OFFER COUNTDOWN */
 (function(){
-  // Offer ends 7 days from now (rolling) - stored so it stays consistent per user
   let end = localStorage.getItem('offer-end');
   if(!end || parseInt(end) < Date.now()){ end = Date.now() + 7*24*60*60*1000; localStorage.setItem('offer-end', end); }
   end = parseInt(end);
   function tick(){
     const diff = end - Date.now();
     if(diff <= 0){ localStorage.removeItem('offer-end'); return; }
-    const d = Math.floor(diff / 86400000);
-    const h = Math.floor((diff % 86400000) / 3600000);
-    const m = Math.floor((diff % 3600000) / 60000);
-    const s = Math.floor((diff % 60000) / 1000);
+    const d = Math.floor(diff / 86400000), h = Math.floor((diff % 86400000) / 3600000), m = Math.floor((diff % 3600000) / 60000), s = Math.floor((diff % 60000) / 1000);
     $('#timerD').textContent = String(d).padStart(2,'0');
     $('#timerH').textContent = String(h).padStart(2,'0');
     $('#timerM').textContent = String(m).padStart(2,'0');
@@ -2098,73 +1641,60 @@ document.addEventListener('click', e => {
   tick(); setInterval(tick, 1000);
 })();
 
-/* ============================================================
-   CLOCK / WEATHER / GREETING
-   ============================================================ */
+/* CLOCK / WEATHER / GREETING */
+(function(){ const el = $('#clockText'); if(!el) return; function u(){ try{ const t = new Intl.DateTimeFormat('en-IN', {timeZone:'Asia/Kolkata', hour:'2-digit', minute:'2-digit', hour12:true}).format(new Date()); el.innerHTML = '<i class="fas fa-clock"></i> ' + t + ' IST'; }catch(e){} } u(); setInterval(u, 30000); })();
+(function(){ const el = $('#weatherText'); if(!el) return; fetch('https://api.open-meteo.com/v1/forecast?latitude=26.9124&longitude=75.7873&current=temperature_2m,weather_code&timezone=Asia%2FKolkata').then(r => r.json()).then(d => { const temp = Math.round(d.current.temperature_2m), code = d.current.weather_code; const e = code === 0 ? 'fa-sun' : code <= 3 ? 'fa-cloud-sun' : code <= 48 ? 'fa-cloud' : code <= 67 ? 'fa-cloud-rain' : code <= 77 ? 'fa-snowflake' : code <= 82 ? 'fa-cloud-showers-heavy' : 'fa-bolt'; el.innerHTML = '<i class="fas ' + e + '"></i> Jaipur ' + temp + '°C'; if(code >= 51 && code <= 67){ setTimeout(() => showToast('🌧️ Rain in Jaipur!', 'Perfect time for Monsoon Service — 20% OFF!'), 6000); } }).catch(() => { el.innerHTML = '<i class="fas fa-cloud-sun"></i> Jaipur, IN'; }); })();
+(function(){ const el = $('#greetText'); if(!el) return; let h; try{ h = parseInt(new Intl.DateTimeFormat('en-IN', {timeZone:'Asia/Kolkata', hour:'numeric', hour12:false}).format(new Date()), 10); }catch(e){ h = new Date().getHours(); } let g = 'Namaste, Jaipur!'; if(h < 5) g = 'Late night ride?'; else if(h < 12) g = 'Good morning, Jaipur!'; else if(h < 17) g = 'Good afternoon!'; else if(h < 21) g = 'Good evening!'; else g = 'Still rolling?'; el.textContent = g; })();
+
+/* ACHIEVEMENTS */
+(function(){ const shown = new Set(); const sections = $$('section[data-achievement]'); if(!('IntersectionObserver' in window)) return; const io = new IntersectionObserver(entries => { entries.forEach(en => { if(en.isIntersecting){ const n = en.target.dataset.achievement; if(!shown.has(n)){ shown.add(n); showToast('✦ Achievement Unlocked', n); } } }); }, {threshold: 0.4}); sections.forEach(s => io.observe(s)); })();
+
+/* BACK TO TOP */
+(function(){ const btn = $('#toTop'); let t = false; function u(){ btn.classList.toggle('show', scrollY > 500); t = false; } window.addEventListener('scroll', () => { if(!t){ requestAnimationFrame(u); t = true; } }, {passive:true}); btn.addEventListener('click', () => scrollTo({top:0, behavior:'smooth'})); })();
+
+/* REVIEWS SLIDESHOW */
 (function(){
-  const el = $('#clockText'); if(!el) return;
-  function u(){ try{ const t = new Intl.DateTimeFormat('en-IN', {timeZone:'Asia/Kolkata', hour:'2-digit', minute:'2-digit', hour12:true}).format(new Date()); el.innerHTML = '<i class="fas fa-clock"></i> ' + t + ' IST'; }catch(e){} }
-  u(); setInterval(u, 30000);
-})();
-(function(){
-  const el = $('#weatherText'); if(!el) return;
-  fetch('https://api.open-meteo.com/v1/forecast?latitude=26.9124&longitude=75.7873&current=temperature_2m,weather_code&timezone=Asia%2FKolkata')
-    .then(r => r.json()).then(d => {
-      const temp = Math.round(d.current.temperature_2m), code = d.current.weather_code;
-      const e = code === 0 ? 'fa-sun' : code <= 3 ? 'fa-cloud-sun' : code <= 48 ? 'fa-cloud' : code <= 67 ? 'fa-cloud-rain' : code <= 77 ? 'fa-snowflake' : code <= 82 ? 'fa-cloud-showers-heavy' : 'fa-bolt';
-      el.innerHTML = '<i class="fas ' + e + '"></i> Jaipur ' + temp + '°C';
-      if(code >= 51 && code <= 67){ setTimeout(() => showToast('🌧️ Rain in Jaipur!', 'Perfect time for Monsoon Service — 20% OFF!'), 6000); }
-    }).catch(() => { el.innerHTML = '<i class="fas fa-cloud-sun"></i> Jaipur, IN'; });
-})();
-(function(){
-  const el = $('#greetText'); if(!el) return;
-  let h; try{ h = parseInt(new Intl.DateTimeFormat('en-IN', {timeZone:'Asia/Kolkata', hour:'numeric', hour12:false}).format(new Date()), 10); }catch(e){ h = new Date().getHours(); }
-  let g = 'Namaste, Jaipur!';
-  if(h < 5) g = 'Late night ride?';
-  else if(h < 12) g = 'Good morning, Jaipur!';
-  else if(h < 17) g = 'Good afternoon!';
-  else if(h < 21) g = 'Good evening!';
-  else g = 'Still rolling?';
-  el.textContent = g;
+  const track = $('#reviewsTrack'); if(!track) return;
+  const total = document.querySelectorAll('.review-slide').length;
+  const dotsWrap = $('#reviewDots');
+  let current = 0;
+  let autoTimer;
+  for(let i = 0; i < total; i++){
+    const dot = document.createElement('button');
+    dot.className = 'review-dot' + (i === 0 ? ' active' : '');
+    dot.setAttribute('aria-label', 'Go to review ' + (i+1));
+    dot.addEventListener('click', () => goTo(i));
+    dotsWrap.appendChild(dot);
+  }
+  function goTo(i){
+    current = (i + total) % total;
+    track.style.transform = `translateX(-${current * 100}%)`;
+    $$('.review-dot').forEach((d, idx) => d.classList.toggle('active', idx === current));
+    resetAuto();
+  }
+  function next(){ goTo(current + 1); }
+  function prev(){ goTo(current - 1); }
+  function resetAuto(){ clearInterval(autoTimer); autoTimer = setInterval(next, 4500); }
+  $('#reviewNext').addEventListener('click', next);
+  $('#reviewPrev').addEventListener('click', prev);
+  const wrap = document.querySelector('.reviews-slider-wrap');
+  wrap.addEventListener('mouseenter', () => clearInterval(autoTimer));
+  wrap.addEventListener('mouseleave', resetAuto);
+  let touchStartX = 0;
+  wrap.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, {passive:true});
+  wrap.addEventListener('touchend', e => { const dx = e.changedTouches[0].clientX - touchStartX; if(Math.abs(dx) > 50){ dx > 0 ? prev() : next(); } }, {passive:true});
+  resetAuto();
 })();
 
-/* ============================================================
-   ACHIEVEMENTS
-   ============================================================ */
+/* COMMAND PALETTE */
 (function(){
-  const shown = new Set();
-  const sections = $$('section[data-achievement]');
-  if(!('IntersectionObserver' in window)) return;
-  const io = new IntersectionObserver(entries => {
-    entries.forEach(en => {
-      if(en.isIntersecting){ const n = en.target.dataset.achievement; if(!shown.has(n)){ shown.add(n); showToast('✦ Achievement Unlocked', n); } }
-    });
-  }, {threshold: 0.4});
-  sections.forEach(s => io.observe(s));
-})();
-
-/* ============================================================
-   BACK TO TOP
-   ============================================================ */
-(function(){
-  const btn = $('#toTop'); let t = false;
-  function u(){ btn.classList.toggle('show', scrollY > 500); t = false; }
-  window.addEventListener('scroll', () => { if(!t){ requestAnimationFrame(u); t = true; } }, {passive:true});
-  btn.addEventListener('click', () => scrollTo({top:0, behavior:'smooth'}));
-})();
-
-/* ============================================================
-   COMMAND PALETTE
-   ============================================================ */
-(function(){
-  const overlay = $('#cmdkOverlay'), input = $('#cmdkInput'), list = $('#cmdkList');
-  if(!overlay) return;
+  const overlay = $('#cmdkOverlay'), input = $('#cmdkInput'), list = $('#cmdkList'); if(!overlay) return;
   const commands = [
     {label:'Go to Home', sub:'Top of page', href:'#home', icon:'fas fa-home'},
     {label:'Our Services', sub:'All repair services', href:'#services', icon:'fas fa-tools'},
-    {label:'Explore Cycle', sub:'Interactive parts explorer', href:'#explorer', icon:'fas fa-bicycle'},
+    {label:'Showroom', sub:'Buy new & 2nd hand cycles', href:'#showroom', icon:'fas fa-bicycle'},
+    {label:'Explore Cycle', sub:'Interactive parts explorer', href:'#explorer', icon:'fas fa-cogs'},
     {label:'Monsoon Offer', sub:'20% OFF full service', href:'#offer', icon:'fas fa-tag'},
-    {label:'Why Choose Us', sub:'Trust reasons', href:'#why-us', icon:'fas fa-star'},
     {label:'Reviews', sub:'Google 4.8★', href:'#reviews', icon:'fas fa-comments'},
     {label:'Book Service', sub:'Online booking', href:'#booking', icon:'fas fa-calendar-check'},
     {label:'Contact', sub:'Address & phone', href:'#contact', icon:'fas fa-phone-alt'},
@@ -2172,149 +1702,69 @@ document.addEventListener('click', e => {
     {label:'💬 WhatsApp', sub:'Chat directly', icon:'fab fa-whatsapp', action:'wa'},
     {label:'📍 Open in Maps', sub:'Get directions', icon:'fas fa-map-marker-alt', action:'maps'},
     {label:'🖥️ CycleOS Mode', sub:'Retro desktop', icon:'fas fa-desktop', action:'retro'},
-    {label:'🚴 Play Cycle Rider', sub:'Mini game', icon:'fas fa-gamepad', action:'game'},
+    {label:'🚴 Play Cycle Rider', sub:'Epic game', icon:'fas fa-gamepad', action:'game'},
     {label:'🌀 Toggle Tyre Buddy', sub:'Show/hide pet', icon:'fas fa-dharmachakra', action:'buddy'},
-    {label:'🌸 Switch to Casual Mode', sub:'Warm vibe', icon:'fas fa-heart', action:'casual'},
+    {label:'🚲 Switch to Casual Mode', sub:'Warm vibe', icon:'fas fa-heart', action:'casual'},
     {label:'⚡ Switch to Pro Mode', sub:'Bold vibe', icon:'fas fa-bolt', action:'pro'},
     {label:'🔄 Reset Welcome', sub:'Show welcome again', icon:'fas fa-redo', action:'reset'}
   ];
   let filtered = commands.slice(), active = 0;
-  function render(){
-    if(!filtered.length){ list.innerHTML = '<div class="cmdk-empty">No results</div>'; return; }
-    list.innerHTML = filtered.map((c,i) => `<div class="cmdk-item ${i===active?'active':''}" data-idx="${i}"><div class="cmd-ico"><i class="${c.icon}"></i></div><div style="flex:1"><div>${c.label}</div><div class="cmd-sub">${c.sub||''}</div></div></div>`).join('');
-    list.querySelectorAll('.cmdk-item').forEach(el => el.addEventListener('click', () => { active = +el.dataset.idx; run(); }));
-  }
+  function render(){ if(!filtered.length){ list.innerHTML = '<div class="cmdk-empty">No results</div>'; return; } list.innerHTML = filtered.map((c,i) => `<div class="cmdk-item ${i===active?'active':''}" data-idx="${i}"><div class="cmd-ico"><i class="${c.icon}"></i></div><div style="flex:1"><div>${c.label}</div><div class="cmd-sub">${c.sub||''}</div></div></div>`).join(''); list.querySelectorAll('.cmdk-item').forEach(el => el.addEventListener('click', () => { active = +el.dataset.idx; run(); })); }
   function filter(){ const q = input.value.toLowerCase().trim(); filtered = commands.filter(c => c.label.toLowerCase().includes(q) || (c.sub||'').toLowerCase().includes(q)); active = 0; render(); }
   function open(){ overlay.classList.add('open'); input.value=''; filter(); setTimeout(()=>input.focus(),80); }
   function close(){ overlay.classList.remove('open'); }
-  function run(){
-    const c = filtered[active]; if(!c) return;
-    close();
-    if(c.action === 'retro'){ openRetroOS(); return; }
-    if(c.action === 'game'){ openGame(); return; }
-    if(c.action === 'buddy'){ $('#tbToggle').click(); return; }
-    if(c.action === 'casual' || c.action === 'pro'){ applyMode(c.action); showToast(c.action === 'casual' ? '🌸 Casual Mode' : '⚡ Pro Mode', 'Vibe switched!'); return; }
-    if(c.action === 'reset'){ localStorage.removeItem('mode'); $('#welcomeOverlay').classList.add('show'); return; }
-    if(c.action === 'call'){ window.location.href = 'tel:09782707474'; return; }
-    if(c.action === 'wa'){ window.open('https://wa.me/919782707474?text=Hi%20Amar%20Cycle%20Works','_blank'); return; }
-    if(c.action === 'maps'){ window.open('https://www.google.com/maps/place/Amar+Cycle+Works/@26.8767365,75.7903512,43m','_blank'); return; }
-    if(c.href){ const t = document.querySelector(c.href); if(t) scrollTo({top: t.getBoundingClientRect().top + pageYOffset - 74, behavior:'smooth'}); }
-  }
+  function run(){ const c = filtered[active]; if(!c) return; close(); if(c.action === 'retro'){ openRetroOS(); return; } if(c.action === 'game'){ openGame(); return; } if(c.action === 'buddy'){ $('#tbToggle').click(); return; } if(c.action === 'casual' || c.action === 'pro'){ applyMode(c.action); showToast(c.action === 'casual' ? '🚲 Casual Mode' : '⚡ Pro Mode', 'Vibe switched!'); return; } if(c.action === 'reset'){ localStorage.removeItem('mode'); $('#welcomeOverlay').classList.add('show'); return; } if(c.action === 'call'){ window.location.href = 'tel:09782707474'; return; } if(c.action === 'wa'){ window.open('https://wa.me/919782707474?text=Hi%20Amar%20Cycle%20Works','_blank'); return; } if(c.action === 'maps'){ window.open('https://www.google.com/maps/place/Amar+Cycle+Works/@26.8767365,75.7903512,43m','_blank'); return; } if(c.href){ const t = document.querySelector(c.href); if(t) scrollTo({top: t.getBoundingClientRect().top + pageYOffset - 74, behavior:'smooth'}); } }
   $('#cmdkOpen').addEventListener('click', open);
-  document.addEventListener('keydown', e => {
-    if((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k'){ e.preventDefault(); overlay.classList.contains('open') ? close() : open(); return; }
-    if(overlay.classList.contains('open')){
-      if(e.key === 'Escape') close();
-      else if(e.key === 'ArrowDown'){ e.preventDefault(); active = Math.min(active+1, filtered.length-1); render(); }
-      else if(e.key === 'ArrowUp'){ e.preventDefault(); active = Math.max(active-1, 0); render(); }
-      else if(e.key === 'Enter'){ e.preventDefault(); run(); }
-    }
-  });
+  document.addEventListener('keydown', e => { if((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k'){ e.preventDefault(); overlay.classList.contains('open') ? close() : open(); return; } if(overlay.classList.contains('open')){ if(e.key === 'Escape') close(); else if(e.key === 'ArrowDown'){ e.preventDefault(); active = Math.min(active+1, filtered.length-1); render(); } else if(e.key === 'ArrowUp'){ e.preventDefault(); active = Math.max(active-1, 0); render(); } else if(e.key === 'Enter'){ e.preventDefault(); run(); } } });
   overlay.addEventListener('click', e => { if(e.target === overlay) close(); });
   input.addEventListener('input', filter);
 })();
 
-/* ============================================================
-   BOOKING FORM
-   ============================================================ */
+/* BOOKING FORM */
 (function(){
-  const form = $('#bookingForm'), statusEl = $('#bookingStatus');
-  if(!form) return;
+  const form = $('#bookingForm'), statusEl = $('#bookingStatus'); if(!form) return;
   form.addEventListener('submit', async function(e){
     e.preventDefault();
-    const btn = form.querySelector('button[type="submit"]');
-    const original = btn.innerHTML;
+    const btn = form.querySelector('button[type="submit"]'); const original = btn.innerHTML;
     const n = form.name.value.trim(), ph = form.phone.value.trim(), dt = form.date.value, sv = form.service.value;
-    if(!n || !ph || !dt || !sv){
-      statusEl.className = 'form-status error show';
-      statusEl.innerHTML = '<i class="fas fa-exclamation-circle"></i><span>Please fill in all required fields.</span>';
-      return;
-    }
-    btn.disabled = true;
-    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i><span>Booking...</span>';
+    if(!n || !ph || !dt || !sv){ statusEl.className = 'form-status error show'; statusEl.innerHTML = '<i class="fas fa-exclamation-circle"></i><span>Please fill in all required fields.</span>'; return; }
+    btn.disabled = true; btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i><span>Booking...</span>';
     statusEl.className = 'form-status'; statusEl.textContent = '';
     try {
       const fd = new FormData(form);
       const res = await fetch('https://api.web3forms.com/submit', { method:'POST', body: fd });
       const data = await res.json();
-      if(data.success){
-        statusEl.className = 'form-status success show';
-        statusEl.innerHTML = '<i class="fas fa-check-circle"></i><span>Booking received! We\'ll confirm on WhatsApp shortly 🚀</span>';
-        showToast('✓ Booking Received!', 'We\'ll WhatsApp you soon 🚀');
-        SoundEngine.bell();
-        form.reset();
-      } else throw new Error(data.message || 'Failed');
-    } catch(err){
-      statusEl.className = 'form-status error show';
-      statusEl.innerHTML = '<i class="fas fa-times-circle"></i><span>Could not book. Please call 097827 07474.</span>';
-      showToast('⚠ Booking failed', 'Please call us instead');
-    } finally {
-      btn.disabled = false; btn.innerHTML = original;
-      setTimeout(() => { statusEl.className = 'form-status'; }, 7000);
-    }
+      if(data.success){ statusEl.className = 'form-status success show'; statusEl.innerHTML = '<i class="fas fa-check-circle"></i><span>Booking received! We\'ll confirm on WhatsApp 🚀</span>'; showToast('✓ Booking Received!', 'We\'ll WhatsApp you soon 🚀'); SoundEngine.bell(); form.reset(); }
+      else throw new Error(data.message || 'Failed');
+    } catch(err){ statusEl.className = 'form-status error show'; statusEl.innerHTML = '<i class="fas fa-times-circle"></i><span>Could not book. Please call 097827 07474.</span>'; showToast('⚠ Booking failed', 'Please call us instead'); }
+    finally { btn.disabled = false; btn.innerHTML = original; setTimeout(() => { statusEl.className = 'form-status'; }, 7000); }
   });
 })();
 
-/* ============================================================
-   HERO CYCLE WHEELS ROTATION ON SCROLL BOOST
-   ============================================================ */
-(function(){
-  const stage = $('#heroCycleStage'); if(!stage) return;
-  const wheels = stage.querySelectorAll('.wheel');
-  let boost = 0, lastY = scrollY;
-  window.addEventListener('scroll', () => {
-    const d = scrollY - lastY; lastY = scrollY;
-    const r = stage.getBoundingClientRect();
-    if(r.top < innerHeight && r.bottom > 0) boost += Math.abs(d) * 0.5;
-  }, {passive:true});
-  function anim(){
-    boost *= 0.92;
-    wheels.forEach((w, i) => {
-      const base = performance.now() / (4 + i * 0.5) % 360;
-      w.style.transform = `rotate(${base + boost}deg)`;
-    });
-    requestAnimationFrame(anim);
-  }
-  anim();
-})();
+/* HERO WHEELS ROTATION */
+(function(){ const stage = $('#heroCycleStage'); if(!stage) return; const wheels = stage.querySelectorAll('.wheel'); let boost = 0, lastY = scrollY; window.addEventListener('scroll', () => { const d = scrollY - lastY; lastY = scrollY; const r = stage.getBoundingClientRect(); if(r.top < innerHeight && r.bottom > 0) boost += Math.abs(d) * 0.5; }, {passive:true}); function anim(){ boost *= 0.92; wheels.forEach((w, i) => { const base = performance.now() / (4 + i * 0.5) % 360; w.style.transform = `rotate(${base + boost}deg)`; }); requestAnimationFrame(anim); } anim(); })();
 
-/* ============================================================
-   CONSOLE BRANDING
-   ============================================================ */
 console.log('%c AMAR CYCLE WORKS ', 'background: linear-gradient(135deg,#e63946,#f4a261); color: white; font-size: 22px; font-weight: 900; padding: 12px 20px; border-radius: 8px; font-family: Arial;');
-console.log('%c Jaipur\'s Trusted Cycle Repair & Service Center ', 'color: #1a1a2e; font-size: 14px; font-weight: bold;');
+console.log('%c Jaipur\'s Trusted Cycle Repair & Showroom since 40+ Years ', 'color: #1a1a2e; font-size: 14px; font-weight: bold;');
 console.log('%c 📞 Call: 097827 07474 ', 'background: #1a1a2e; color: #f4a261; font-size: 14px; font-weight: bold; padding: 6px 12px; border-radius: 6px;');
-console.log('%c 🎁 Monsoon Special: 20% OFF on Full Service ', 'background: #e63946; color: white; font-size: 13px; font-weight: bold; padding: 6px 12px; border-radius: 6px;');
-console.log('%c ✨ Try: Ctrl+K (Commands) · Type "amar" or "ride" · Click the tyre buddy! ', 'color: #7a8699; font-size: 12px; font-style: italic;');
+console.log('%c ✨ Try: Ctrl+K · Type "amar" or "ride" · Click the tyre buddy! ', 'color: #7a8699; font-size: 12px; font-style: italic;');
 </script>
 
-<!-- ============================================================
-     LOCAL BUSINESS STRUCTURED DATA (SEO)
-     ============================================================ -->
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
   "@type":"BikeStore",
   "name":"Amar Cycle Works",
-  "description":"Jaipur's most trusted cycle repair & service center. Puncture repair, brake & gear service, chain lubrication, complete overhauling, spare parts. Monsoon Special: 20% OFF on Full Service.",
-  "image":"https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=600&q=80",
+  "description":"Jaipur's most trusted cycle repair, service center & showroom since 40+ years. Buy new & second-hand cycles. Owner: Amar Chand Saini.",
   "telephone":"+91-9782707474",
-  "address":{
-    "@type":"PostalAddress",
-    "streetAddress":"Kishan Marg, Vinoba Basti, Barh Anaj Nagar, Tonk Phatak",
-    "addressLocality":"Jaipur",
-    "addressRegion":"Rajasthan",
-    "postalCode":"302015",
-    "addressCountry":"IN"
-  },
+  "address":{"@type":"PostalAddress","streetAddress":"Kishan Marg, Vinoba Basti, Barh Anaj Nagar, Tonk Phatak","addressLocality":"Jaipur","addressRegion":"Rajasthan","postalCode":"302015","addressCountry":"IN"},
   "geo":{"@type":"GeoCoordinates","latitude":26.8767504,"longitude":75.7904999},
   "url":"https://yashsaini0756.github.io/amar-cycle-works",
   "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"10:00","closes":"20:00"}],
   "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","bestRating":"5","reviewCount":"150"},
   "priceRange":"₹₹",
-  "sameAs":["https://wa.me/919782707474"]
+  "founder":{"@type":"Person","name":"Amar Chand Saini"}
 }
 </script>
-
 </body>
 </html>
