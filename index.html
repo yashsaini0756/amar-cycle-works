@@ -84,6 +84,7 @@ h1,h2,h3,h4{font-family:var(--heading);letter-spacing:-.02em;font-weight:700;col
 .section{padding:110px 0;position:relative;z-index:1;}
 button{font-family:inherit;}
 
+/* WELCOME */
 .welcome-overlay{position:fixed;inset:0;background:rgba(10,15,28,.75);backdrop-filter:blur(20px);z-index:99999;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;visibility:hidden;transition:.5s;overflow-y:auto;}
 .welcome-overlay.show{opacity:1;visibility:visible;}
 .welcome-card{background:var(--surface);border:1px solid var(--border);border-radius:28px;padding:44px 40px 36px;max-width:580px;width:100%;text-align:center;box-shadow:0 40px 100px rgba(0,0,0,.4);animation:welcomePop .6s var(--ease);margin:auto;}
@@ -99,6 +100,7 @@ button{font-family:inherit;}
 .wb-desc{font-size:.75rem;color:var(--muted);font-family:var(--mono);}
 .welcome-skip{background:transparent;border:none;color:var(--muted);font-size:.8rem;cursor:pointer;padding:8px 12px;}
 
+/* CURSOR */
 .cursor-dot,.cursor-ring{position:fixed;top:0;left:0;pointer-events:none;z-index:99998;border-radius:50%;transform:translate(-50%,-50%);}
 .cursor-dot{width:6px;height:6px;background:var(--primary);box-shadow:0 0 12px var(--primary);}
 .cursor-ring{width:36px;height:36px;border:1.5px solid rgba(230,57,70,.5);transition:width .3s,height .3s,border-color .3s,background .3s;}
@@ -106,6 +108,7 @@ button{font-family:inherit;}
 .cursor-hint{position:fixed;top:0;left:0;padding:5px 11px;background:var(--surface);border:1.5px solid var(--border);border-radius:20px;font-family:var(--mono);font-size:.72rem;font-weight:700;color:var(--primary);pointer-events:none;z-index:99997;transform:translate(-50%,-50%) scale(.7);opacity:0;transition:opacity .3s,transform .3s;box-shadow:0 6px 20px rgba(0,0,0,.15);white-space:nowrap;display:flex;align-items:center;gap:5px;}
 .cursor-hint.show{opacity:1;transform:translate(-50%,-50%) scale(1);}
 
+/* TYRE BUDDY */
 .tyre-buddy{position:fixed;top:0;left:0;width:74px;height:74px;z-index:800;pointer-events:auto;cursor:pointer;transition:opacity .3s;-webkit-tap-highlight-color:transparent;}
 .tyre-buddy.hidden{opacity:0;pointer-events:none;}
 .tb-inner{width:100%;height:100%;position:relative;pointer-events:none;}
@@ -119,6 +122,7 @@ button{font-family:inherit;}
 .tyre-buddy.tapped .tap-ping{animation:tapPing .6s ease-out;}
 @keyframes tapPing{0%{opacity:.9;transform:scale(.5);}100%{opacity:0;transform:scale(1.8);}}
 
+/* SELECTOR */
 .selector{position:relative;}
 .selector-btn{display:inline-flex;align-items:center;gap:6px;height:42px;padding:0 14px;border-radius:12px;background:var(--surface);border:1px solid var(--border);color:var(--text-2);cursor:pointer;font-size:.85rem;font-weight:600;transition:.3s var(--ease);box-shadow:var(--shadow-xs);}
 .selector-btn:hover{color:var(--primary);border-color:var(--primary);}
@@ -129,6 +133,7 @@ button{font-family:inherit;}
 .selector-menu button.active{background:rgba(230,57,70,.1);color:var(--primary);font-weight:600;}
 .selector-menu button .em{font-size:1rem;width:20px;text-align:center;}
 
+/* PRELOADER */
 #preloader{position:fixed;inset:0;background:var(--bg);z-index:99999;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:22px;transition:opacity .6s,visibility .6s;}
 #preloader.hide{opacity:0;visibility:hidden;pointer-events:none;}
 .pre-logo{width:76px;height:76px;border-radius:50%;background:var(--grad);display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--heading);font-weight:700;font-size:2rem;box-shadow:0 20px 50px rgba(230,57,70,.35);animation:preSpin 2s linear infinite;position:relative;}
@@ -140,6 +145,7 @@ button{font-family:inherit;}
 @keyframes preSlide{0%{left:-40%;}100%{left:100%;}}
 #progress{position:fixed;top:0;left:0;height:3px;width:0%;z-index:9998;background:var(--grad);box-shadow:0 0 12px rgba(230,57,70,.5);transition:width .08s linear;}
 
+/* XP BAR */
 .xp-bar{position:fixed;bottom:20px;left:20px;z-index:700;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:10px 16px;box-shadow:var(--shadow-md);display:flex;align-items:center;gap:12px;font-size:.75rem;transition:.3s var(--ease);}
 .xp-lvl{font-family:var(--heading);font-weight:700;font-size:1rem;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;}
 .xp-info{display:flex;flex-direction:column;gap:4px;min-width:100px;}
@@ -147,6 +153,7 @@ button{font-family:inherit;}
 .xp-fill{height:100%;border-radius:99px;background:var(--grad);width:0%;transition:width .5s var(--ease);}
 .xp-label{font-family:var(--mono);font-size:.65rem;color:var(--muted);letter-spacing:.05em;}
 
+/* NAVBAR */
 header{position:fixed;top:0;left:0;right:0;z-index:1000;padding:14px 0;transition:.4s var(--ease);border-bottom:1px solid transparent;}
 header.scrolled{background:rgba(247,249,252,.85);backdrop-filter:blur(20px) saturate(180%);border-color:var(--border);padding:10px 0;box-shadow:0 4px 24px rgba(15,23,42,.05);}
 [data-theme="evening"] header.scrolled,[data-theme="night"] header.scrolled{background:rgba(10,15,28,.85);}
@@ -184,6 +191,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .overlay{position:fixed;inset:0;background:rgba(15,23,42,.5);backdrop-filter:blur(4px);z-index:1000;opacity:0;visibility:hidden;transition:.4s;}
 .overlay.open{opacity:1;visibility:visible;}
 
+/* HERO */
 .hero{min-height:100vh;display:flex;align-items:center;padding:130px 0 70px;position:relative;overflow:hidden;}
 .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;}
 .greeting{display:inline-flex;align-items:center;gap:9px;padding:8px 16px;background:var(--surface);border:1px solid var(--border);border-radius:99px;font-size:.78rem;font-weight:600;color:var(--text-2);margin-bottom:20px;box-shadow:var(--shadow-xs);flex-wrap:wrap;justify-content:center;max-width:100%;}
@@ -237,6 +245,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 @keyframes bobA{0%,100%{transform:translateY(0);}50%{transform:translateY(-10px);}}
 @keyframes bobB{0%,100%{transform:translateY(-8px);}50%{transform:translateY(6px);}}
 
+/* TRUST BAR */
 .trust-bar{background:var(--grad-navy);color:#fff;padding:18px 0;overflow:hidden;position:relative;}
 .trust-bar::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(244,162,97,.08),transparent);animation:shine 4s linear infinite;}
 @keyframes shine{0%{transform:translateX(-100%);}100%{transform:translateX(100%);}}
@@ -244,6 +253,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .trust-item{display:flex;align-items:center;gap:10px;font-weight:600;font-size:.9rem;white-space:nowrap;font-family:var(--heading);}
 .trust-item i{font-size:1.15rem;color:var(--gold);}
 
+/* SECTION HEADS */
 .eyebrow{display:inline-flex;align-items:center;gap:8px;padding:6px 15px;background:var(--surface);border:1px solid var(--border);border-radius:99px;font-family:var(--mono);font-size:.68rem;font-weight:600;letter-spacing:1.4px;text-transform:uppercase;color:var(--primary);margin-bottom:16px;box-shadow:var(--shadow-xs);}
 .eyebrow::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--primary);box-shadow:0 0 6px var(--primary);animation:pulseDot 2s infinite;}
 .section-title{font-size:clamp(1.7rem,6vw,2.5rem);font-weight:800;letter-spacing:-1.2px;line-height:1.15;margin-bottom:10px;}
@@ -255,6 +265,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 [data-reveal="scale"]{transform:scale(.94);}
 [data-reveal].in{opacity:1;transform:translate(0) scale(1);}
 
+/* SERVICES */
 .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px;}
 .service-card{background:var(--surface);border:1px solid var(--border);border-radius:22px;padding:30px;transition:transform .4s var(--ease),box-shadow .4s var(--ease),border-color .4s;position:relative;overflow:hidden;box-shadow:var(--shadow-sm);}
 .service-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:4px;background:var(--grad);transform:scaleX(0);transform-origin:left;transition:.5s var(--ease);}
@@ -268,17 +279,20 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .service-card .service-price{margin-top:14px;padding-top:14px;border-top:1px dashed var(--border);display:flex;justify-content:space-between;align-items:center;font-size:.82rem;}
 .service-card .service-price b{color:var(--primary);font-family:var(--heading);font-size:1.05rem;}
 
+/* SHOWROOM */
 .showroom{background:linear-gradient(180deg,var(--bg),var(--bg-2));}
 .showroom-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;}
 .bike-card{background:var(--surface);border:1px solid var(--border);border-radius:22px;overflow:hidden;transition:.4s var(--ease);box-shadow:var(--shadow-sm);}
 .bike-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-lg);border-color:var(--gold);}
-.bike-img{height:200px;background:linear-gradient(150deg,var(--surface-2),var(--bg-2));display:flex;align-items:center;justify-content:center;font-size:5rem;color:var(--muted);position:relative;overflow:hidden;}
+.bike-img{height:240px;background:linear-gradient(150deg,var(--surface-2),var(--bg-2));display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:20px;}
 .bike-img::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(230,57,70,.08),transparent 70%);}
-.bike-img i{position:relative;z-index:2;transition:transform .5s var(--ease);}
-.bike-card:hover .bike-img i{transform:scale(1.1) rotate(-10deg);}
-.bike-badge{position:absolute;top:15px;right:15px;padding:5px 12px;border-radius:50px;font-size:.72rem;font-weight:700;font-family:var(--mono);z-index:3;backdrop-filter:blur(10px);}
-.badge-new{background:rgba(16,185,129,.2);color:var(--green);border:1px solid rgba(16,185,129,.4);}
-.badge-used{background:rgba(244,162,97,.2);color:var(--gold);border:1px solid rgba(244,162,97,.4);}
+.bike-img img{max-width:100%;max-height:100%;object-fit:contain;position:relative;z-index:2;transition:transform .5s var(--ease);}
+.bike-card:hover .bike-img img{transform:scale(1.08) rotate(-3deg);}
+.watermark{position:relative;overflow:hidden;border-radius:14px;}
+.watermark::after{content:'Amar Cycles';position:absolute;bottom:6px;right:6px;background:rgba(0,0,0,.55);color:#fff;font-size:10px;padding:2px 8px;border-radius:4px;font-family:var(--mono);letter-spacing:.5px;z-index:3;backdrop-filter:blur(4px);}
+.bike-badge{position:absolute;top:15px;right:15px;padding:5px 12px;border-radius:50px;font-size:.72rem;font-weight:700;font-family:var(--mono);z-index:4;backdrop-filter:blur(10px);}
+.badge-new{background:rgba(16,185,129,.9);color:#fff;border:1px solid rgba(16,185,129,.6);}
+.badge-used{background:rgba(244,162,97,.9);color:#fff;border:1px solid rgba(244,162,97,.6);}
 .bike-info{padding:24px;}
 .bike-info h3{font-family:var(--heading);font-size:1.2rem;margin-bottom:8px;}
 .bike-info p{color:var(--text-2);font-size:.9rem;margin-bottom:16px;line-height:1.6;}
@@ -289,6 +303,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .showroom-cta h3{font-size:1.3rem;margin-bottom:8px;}
 .showroom-cta p{color:var(--text-2);margin-bottom:20px;font-size:.95rem;}
 
+/* EXPLORER */
 .explorer{background:var(--surface);border:1px solid var(--border);border-radius:26px;padding:36px;box-shadow:var(--shadow-sm);}
 .explorer-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;}
 .explorer-svg-wrap{position:relative;background:linear-gradient(150deg,var(--bg-2),var(--bg));border-radius:20px;padding:20px;border:1px solid var(--border);overflow:hidden;}
@@ -309,6 +324,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .exp-part-btn{padding:8px 16px;background:var(--surface-2);border:1px solid var(--border);border-radius:99px;font-size:.8rem;font-weight:600;color:var(--text-2);cursor:pointer;transition:.3s var(--ease);font-family:inherit;}
 .exp-part-btn:hover,.exp-part-btn.active{background:var(--grad);color:#fff;border-color:transparent;transform:translateY(-2px);}
 
+/* OFFER */
 .offer-banner{background:var(--grad-navy);position:relative;overflow:hidden;padding:80px 0;}
 .offer-banner::before{content:'';position:absolute;top:-50%;right:-10%;width:500px;height:500px;background:radial-gradient(circle,rgba(230,57,70,.2) 0%,transparent 70%);border-radius:50%;}
 .offer-banner::after{content:'';position:absolute;bottom:-50%;left:-10%;width:400px;height:400px;background:radial-gradient(circle,rgba(244,162,97,.12) 0%,transparent 70%);border-radius:50%;}
@@ -323,6 +339,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .offer-cta{display:inline-flex;align-items:center;gap:10px;background:var(--grad-gold);color:var(--navy);padding:18px 40px;border-radius:99px;font-weight:700;font-size:1.05rem;box-shadow:0 8px 25px rgba(244,162,97,.4);transition:.3s var(--ease);font-family:var(--heading);}
 .offer-cta:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 12px 35px rgba(244,162,97,.55);}
 
+/* WHY US */
 .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;}
 .why-card{text-align:center;padding:36px 24px;border-radius:20px;background:var(--surface);transition:.4s var(--ease);border:1px solid var(--border);box-shadow:var(--shadow-xs);}
 .why-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:rgba(230,57,70,.2);}
@@ -331,6 +348,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .why-card h3{font-size:1.1rem;margin-bottom:10px;}
 .why-card p{color:var(--text-2);font-size:.9rem;}
 
+/* REVIEWS SLIDESHOW */
 .reviews-header{display:flex;justify-content:center;align-items:center;gap:15px;margin-bottom:40px;flex-wrap:wrap;}
 .google-rating{display:flex;align-items:center;gap:12px;background:var(--surface);padding:15px 25px;border-radius:14px;box-shadow:var(--shadow-sm);border:1px solid var(--border);}
 .google-logo{font-size:1.35rem;font-weight:700;font-family:var(--heading);}
@@ -355,6 +373,24 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .review-arrow{width:44px;height:44px;border-radius:50%;background:var(--surface);border:1px solid var(--border);color:var(--text-2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.9rem;transition:.3s var(--ease);}
 .review-arrow:hover{background:var(--grad);color:#fff;border-color:transparent;transform:scale(1.05);}
 
+/* REVIEW SECTION (WRITE REVIEW) */
+.leave-review{background:var(--bg-2);}
+.review-form-wrap{max-width:640px;margin:0 auto;}
+.review-form{background:var(--surface);border:1px solid var(--border);border-radius:24px;padding:36px;box-shadow:var(--shadow-sm);position:relative;overflow:hidden;}
+.review-form::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:var(--grad);}
+.review-form h3{font-size:1.3rem;margin-bottom:6px;}
+.review-form .lead{font-size:.9rem;color:var(--muted);margin-bottom:24px;}
+.star-rating{display:flex;gap:6px;font-size:2.2rem;cursor:pointer;color:var(--border);}
+.star-rating span{transition:color .2s,transform .2s;}
+.star-rating span:hover{transform:scale(1.15);}
+.star-rating span.active{color:var(--gold);}
+.qr-box{display:flex;gap:20px;align-items:center;justify-content:center;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:24px;margin-bottom:24px;flex-wrap:wrap;text-align:left;}
+.qr-box img{width:120px;height:120px;border-radius:12px;border:2px solid var(--border);}
+.qr-box .qr-text{max-width:280px;}
+.qr-box .qr-text h4{font-size:1.05rem;margin-bottom:6px;}
+.qr-box .qr-text p{font-size:.85rem;color:var(--text-2);line-height:1.6;}
+
+/* BOOKING */
 .booking-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px;align-items:start;}
 .booking-info{background:var(--grad-navy);border-radius:24px;padding:36px 30px;color:#fff;position:relative;overflow:hidden;}
 .booking-info::before{content:'';position:absolute;top:-30%;right:-30%;width:280px;height:280px;background:radial-gradient(circle,rgba(244,162,97,.2),transparent 70%);border-radius:50%;}
@@ -381,6 +417,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .form-status.success{background:rgba(34,197,94,.1);color:#16a34a;border:1px solid rgba(34,197,94,.25);}
 .form-status.error{background:rgba(239,68,68,.1);color:#dc2626;border:1px solid rgba(239,68,68,.25);}
 
+/* CONTACT */
 .contact-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:40px;}
 .contact-list{display:flex;flex-direction:column;gap:12px;}
 .contact-item{display:flex;align-items:center;gap:16px;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px 20px;transition:.35s var(--ease);box-shadow:var(--shadow-xs);}
@@ -393,6 +430,7 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .map-wrap{border-radius:20px;overflow:hidden;box-shadow:var(--shadow-md);border:1px solid var(--border);height:100%;min-height:420px;position:relative;}
 .map-wrap iframe{width:100%;height:100%;min-height:420px;border:none;display:block;}
 
+/* FOOTER */
 footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24px;position:relative;z-index:1;}
 .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.4fr;gap:40px;margin-bottom:40px;}
 .foot-brand .logo-text h1{color:#fff;font-size:1.15rem;}
@@ -414,12 +452,14 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
 .foot-heart{color:var(--primary);display:inline-block;animation:beat 1.6s ease-in-out infinite;}
 @keyframes beat{0%,100%{transform:scale(1);}50%{transform:scale(1.2);}}
 
+/* FLOATERS */
 .float-wa{position:fixed;bottom:max(22px,env(safe-area-inset-bottom));right:22px;width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,#25d366,#128c7e);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.6rem;z-index:900;box-shadow:0 12px 32px rgba(37,211,102,.4);transition:transform .35s var(--ease);animation:waPulse 2.4s ease-in-out infinite;}
 .float-wa:hover{transform:scale(1.12) rotate(8deg);}
 @keyframes waPulse{0%,100%{box-shadow:0 12px 32px rgba(37,211,102,.4);}50%{box-shadow:0 12px 32px rgba(37,211,102,.65),0 0 0 14px rgba(37,211,102,.08);}}
 #toTop{position:fixed;bottom:max(22px,env(safe-area-inset-bottom));right:94px;width:48px;height:48px;border-radius:50%;background:var(--surface);border:1px solid var(--border);color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1rem;box-shadow:var(--shadow-md);opacity:0;visibility:hidden;transform:translateY(16px);transition:opacity .35s,visibility .35s,transform .35s;z-index:900;}
 #toTop.show{opacity:1;visibility:visible;transform:translateY(0);}
 
+/* COMMAND PALETTE */
 .cmdk-overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);backdrop-filter:blur(6px);z-index:99999;opacity:0;visibility:hidden;transition:.25s;display:flex;align-items:flex-start;justify-content:center;padding:14vh 16px 20px;}
 .cmdk-overlay.open{opacity:1;visibility:visible;}
 .cmdk{width:min(92vw,580px);background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:0 30px 80px rgba(0,0,0,.35);overflow:hidden;transform:translateY(-20px) scale(.96);transition:.3s var(--ease);}
@@ -438,12 +478,14 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
 .cmdk-foot{display:flex;align-items:center;justify-content:space-between;padding:10px 18px;border-top:1px solid var(--border);font-size:.7rem;color:var(--muted);font-family:var(--mono);}
 .cmdk-foot kbd{padding:2px 6px;border-radius:4px;background:var(--surface-2);border:1px solid var(--border);}
 
+/* TOAST */
 .toast{position:fixed;bottom:100px;left:50%;transform:translate(-50%,20px);background:var(--surface);border:1px solid var(--border);border-radius:14px;box-shadow:0 20px 50px rgba(15,23,42,.2);padding:14px 20px;display:flex;align-items:center;gap:12px;opacity:0;visibility:hidden;transition:.4s var(--ease);z-index:9997;max-width:90vw;}
 .toast.show{opacity:1;visibility:visible;transform:translate(-50%,0);}
 .toast .t-icon{width:38px;height:38px;border-radius:10px;background:var(--grad);display:flex;align-items:center;justify-content:center;color:#fff;font-size:1rem;flex-shrink:0;}
 .toast .t-text strong{display:block;font-size:.82rem;font-weight:700;}
 .toast .t-text span{font-size:.74rem;color:var(--muted);}
 
+/* CYCLE OS */
 .retro-os{position:fixed;inset:0;z-index:99998;display:none;font-family:'Inter',sans-serif;overflow:hidden;}
 .retro-os.active{display:block;animation:osFadeIn .5s ease;}
 @keyframes osFadeIn{from{opacity:0;}to{opacity:1;}}
@@ -496,6 +538,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
 .retro-exit-btn{background:rgba(30,35,55,.8);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.15);border-radius:8px;padding:10px 16px;color:#fff;font-size:12px;cursor:pointer;transition:background .2s;font-family:inherit;}
 .retro-exit-btn:hover{background:rgba(232,17,35,.85);border-color:transparent;}
 
+/* GAME */
 .game-overlay{position:fixed;inset:0;background:rgba(6,8,15,.92);backdrop-filter:blur(8px);z-index:99999;display:none;align-items:center;justify-content:center;padding:16px;overflow-y:auto;}
 .game-overlay.active{display:flex;animation:fadeIn .35s ease;}
 @keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
@@ -514,6 +557,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
 .game-legend{display:flex;justify-content:center;gap:16px;margin-top:12px;flex-wrap:wrap;font-size:.72rem;font-family:var(--mono);color:var(--muted);}
 .game-legend span{display:inline-flex;align-items:center;gap:5px;}
 
+/* RESPONSIVE */
 @media(max-width:1100px){.nav-links{display:none;}.nav-cta .btn-ghost,.nav-cta .btn-primary{display:none;}.burger{display:flex;}.foot-grid{grid-template-columns:1fr 1fr;}}
 @media(max-width:1000px){.hero{padding:110px 0 60px;}.hero-grid{grid-template-columns:1fr;gap:44px;text-align:center;}.hero-cycle-stage{max-width:380px;margin:0 auto;order:-1;}.hero-actions{justify-content:center;}.hero-sub{margin-left:auto;margin-right:auto;}.stat-row{grid-template-columns:repeat(4,1fr);gap:14px;max-width:100%;margin:0 auto;}.explorer-grid,.booking-grid,.contact-grid{grid-template-columns:1fr;gap:30px;}.section{padding:80px 0;}}
 @media(max-width:768px){
@@ -549,6 +593,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   .game-modal{padding:18px;border-radius:18px;}.game-title{font-size:1.15rem;}
   .toast{bottom:auto;top:80px;padding:12px 16px;}.toast .t-icon{width:34px;height:34px;font-size:.9rem;}.toast .t-text strong{font-size:.78rem;}.toast .t-text span{font-size:.7rem;}
   .review-card{padding:24px 22px;}.review-text{font-size:.92rem;}.review-arrow{width:38px;height:38px;}
+  .qr-box{flex-direction:column;text-align:center;}.qr-box .qr-text{max-width:100%;}
 }
 @media(max-width:480px){
   .wrap{padding-left:14px;padding-right:14px;}.section{padding:56px 0;}.hero{padding:80px 0 36px;}
@@ -556,7 +601,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   .hero h1{font-size:1.9rem;letter-spacing:-1px;}.hero-actions .btn{font-size:.76rem;padding:10px 12px;min-height:42px;}
   .stat-row{grid-template-columns:1fr 1fr;gap:10px;}.stat b{font-size:1.15rem;}
   .services-grid{grid-template-columns:1fr;gap:16px;}.service-card{padding:24px 20px;}.service-icon{width:54px;height:54px;font-size:1.3rem;border-radius:15px;}.service-card h3{font-size:1.05rem;}
-  .showroom-grid{grid-template-columns:1fr;}.bike-img{height:170px;font-size:4rem;}
+  .showroom-grid{grid-template-columns:1fr;}.bike-img{height:200px;}
   .why-card{padding:26px 20px;}.why-icon{width:56px;height:56px;font-size:1.25rem;}
   .review-card{padding:22px 18px;}.review-text{font-size:.88rem;}
   .offer-timer{gap:8px;}.timer-box{padding:10px 14px;min-width:60px;border-radius:10px;}.timer-box b{font-size:1.4rem;}.timer-box span{font-size:.6rem;letter-spacing:1px;}
@@ -694,6 +739,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
         <li><a href="#explorer">Explore</a></li>
         <li><a href="#offer">Offer</a></li>
         <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#leave-review">Write Review</a></li>
         <li><a href="#booking">Book</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -733,6 +779,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   <a href="#explorer">Explore Cycle</a>
   <a href="#offer">Monsoon Offer</a>
   <a href="#reviews">Reviews</a>
+  <a href="#leave-review">Write Review</a>
   <a href="#booking">Book Service</a>
   <a href="#contact">Contact</a>
   <div class="mobile-extras">
@@ -890,12 +937,14 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
     <div data-reveal>
       <span class="eyebrow">Our Showroom</span>
       <h2 class="section-title">Buy New & <span>Second-Hand Cycles in Jaipur</span></h2>
-      <p class="section-sub">Looking for a cycle? We sell brand new and quality-checked second-hand cycles — sports and normal both available at best prices!</p>
+      <p class="section-sub">Looking for a cycle? We sell brand new and quality-checked second-hand cycles — sports, normal, and kids' cycles available at best prices!</p>
     </div>
     <div class="showroom-grid">
       <article class="bike-card" data-reveal="scale">
         <div class="bike-img">
-          <i class="fas fa-bicycle"></i>
+          <div class="watermark" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:10px;">
+            <img src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?q=80&w=800&auto=format&fit=crop" alt="Sports Cycle New">
+          </div>
           <span class="bike-badge badge-new">NEW</span>
         </div>
         <div class="bike-info">
@@ -909,7 +958,9 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
       </article>
       <article class="bike-card" data-reveal="scale">
         <div class="bike-img">
-          <i class="fas fa-bicycle"></i>
+          <div class="watermark" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:10px;">
+            <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=800&auto=format&fit=crop" alt="Normal Cycle Second Hand">
+          </div>
           <span class="bike-badge badge-used">2ND HAND</span>
         </div>
         <div class="bike-info">
@@ -923,7 +974,9 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
       </article>
       <article class="bike-card" data-reveal="scale">
         <div class="bike-img">
-          <i class="fas fa-bicycle"></i>
+          <div class="watermark" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:10px;">
+            <img src="https://images.unsplash.com/photo-1502744688674-c619d1586c9e?q=80&w=800&auto=format&fit=crop" alt="Kids Cycle New">
+          </div>
           <span class="bike-badge badge-new">NEW</span>
         </div>
         <div class="bike-info">
@@ -937,7 +990,9 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
       </article>
       <article class="bike-card" data-reveal="scale">
         <div class="bike-img">
-          <i class="fas fa-bicycle"></i>
+          <div class="watermark" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:10px;">
+            <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=800&auto=format&fit=crop" alt="Sports Cycle Second Hand">
+          </div>
           <span class="bike-badge badge-used">2ND HAND</span>
         </div>
         <div class="bike-info">
@@ -1112,6 +1167,53 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
   </div>
 </section>
 
+<!-- WRITE REVIEW / LEAVE REVIEW -->
+<section class="section leave-review" id="leave-review" data-achievement="Review Hero">
+  <div class="wrap">
+    <div data-reveal>
+      <span class="eyebrow">Aapka Feedback</span>
+      <h2 class="section-title">Apna Review <span>Share Karein</span></h2>
+      <p class="section-sub">Aap hamare baare mein kya sochte hain? Apna review yahan likhein aur seedha Google pe post karein!</p>
+    </div>
+    <div class="review-form-wrap" data-reveal="scale">
+      <div class="qr-box">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://g.page/r/CY3mNAWuTLkZEAE/review" alt="Google Review QR Code">
+        <div class="qr-text">
+          <h4>📱 Scan & Review on Google</h4>
+          <p>Apne phone se ye QR code scan karein, apna review likhein aur Google pe post karein. Ya neeche form bharein.</p>
+        </div>
+      </div>
+      <form class="review-form" id="reviewForm">
+        <h3>Review Likhein</h3>
+        <p class="lead">Aapka review hamare liye bahut important hai.</p>
+        <div class="form-row">
+          <label for="reviewName">Aapka Naam</label>
+          <input id="reviewName" type="text" placeholder="e.g. Rahul Sharma" required>
+        </div>
+        <div class="form-row">
+          <label>Aapki Rating</label>
+          <div class="star-rating" id="starRating">
+            <span data-value="1">★</span>
+            <span data-value="2">★</span>
+            <span data-value="3">★</span>
+            <span data-value="4">★</span>
+            <span data-value="5">★</span>
+          </div>
+          <input type="hidden" id="reviewRating" value="0">
+        </div>
+        <div class="form-row">
+          <label for="reviewText">Aapka Review</label>
+          <textarea id="reviewText" rows="4" placeholder="Hamari service kaisi lagi? (e.g. Bahut acchi service, time pe kaam ho gaya, genuine parts use kiye...)" required></textarea>
+        </div>
+        <button type="button" id="postToGoogleBtn" class="btn btn-primary" style="width:100%; display:none;">
+          <i class="fab fa-google"></i> Google par Review Post Karein
+        </button>
+        <div class="form-status" id="reviewStatus" style="margin-top:14px;"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
 <!-- BOOKING -->
 <section class="section" id="booking" data-achievement="Booking Pro">
   <div class="wrap">
@@ -1199,7 +1301,7 @@ footer{background:var(--grad-navy);color:rgba(255,255,255,.7);padding:60px 0 24p
           <a href="https://www.google.com/maps/place/Amar+Cycle+Works/@26.8767365,75.7903512,43m" target="_blank" rel="noopener" aria-label="Google Maps"><i class="fas fa-map-marker-alt"></i></a>
         </div>
       </div>
-      <div><h4>Quick Links</h4><ul class="footer-links"><li><a href="#services">Cycle Repair Services</a></li><li><a href="#showroom">Buy Cycles</a></li><li><a href="#explorer">Explore Cycle Parts</a></li><li><a href="#offer">Monsoon Offer</a></li><li><a href="#booking">Book Service</a></li><li><a href="#reviews">Customer Reviews</a></li></ul></div>
+      <div><h4>Quick Links</h4><ul class="footer-links"><li><a href="#services">Cycle Repair Services</a></li><li><a href="#showroom">Buy Cycles</a></li><li><a href="#explorer">Explore Cycle Parts</a></li><li><a href="#offer">Monsoon Offer</a></li><li><a href="#booking">Book Service</a></li><li><a href="#reviews">Customer Reviews</a></li><li><a href="#leave-review">Write Review</a></li></ul></div>
       <div><h4>Our Services</h4><ul class="footer-links"><li><a href="#services">Puncture Repair</a></li><li><a href="#services">Brake & Gear Service</a></li><li><a href="#services">Chain Repair</a></li><li><a href="#services">Complete Overhauling</a></li><li><a href="#services">Spare Parts</a></li><li><a href="#showroom">Second-Hand Cycles</a></li></ul></div>
       <div><h4>Visit Our Shop</h4><ul class="footer-contact"><li><i class="fas fa-map-marker-alt"></i><span>Kishan Marg, Vinoba Basti, Barh Anaj Nagar, Tonk Phatak, Jaipur - 302015</span></li><li><i class="fas fa-phone-alt"></i><a href="tel:09782707474">097827 07474</a></li><li><i class="fas fa-clock"></i><span>Mon–Sat: 10 AM – 8 PM</span></li><li><i class="fas fa-user"></i><span>Owner: Amar Chand Saini</span></li></ul></div>
     </div>
@@ -1301,7 +1403,8 @@ $('#year').textContent = new Date().getFullYear();
     home: {text:'🏠 home', color:'#e63946'}, services: {text:'🔧 services', color:'#e63946'},
     showroom: {text:'🚲 showroom', color:'#10b981'}, explorer: {text:'🚴 explore', color:'#3b82f6'},
     offer: {text:'🎁 20% OFF', color:'#f4a261'}, 'why-us': {text:'⭐ why us', color:'#a855f7'},
-    reviews: {text:'💬 reviews', color:'#10b981'}, booking: {text:'📅 book', color:'#f4a261'}, contact: {text:'📞 contact', color:'#e63946'}
+    reviews: {text:'💬 reviews', color:'#10b981'}, 'leave-review': {text:'✍️ write review', color:'#f4a261'},
+    booking: {text:'📅 book', color:'#f4a261'}, contact: {text:'📞 contact', color:'#e63946'}
   };
   let currentSection = 'home';
   document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; dot.style.left = mx + 'px'; dot.style.top = my + 'px'; hint.style.left = (mx + 55) + 'px'; hint.style.top = (my - 40) + 'px'; });
@@ -1607,6 +1710,51 @@ document.addEventListener('click', e => { const a = e.target.closest('a[href^="#
   resetAuto();
 })();
 
+/* WRITE REVIEW LOGIC */
+(function(){
+  const starContainer = document.getElementById('starRating');
+  const ratingInput = document.getElementById('reviewRating');
+  const postBtn = document.getElementById('postToGoogleBtn');
+  const reviewForm = document.getElementById('reviewForm');
+  const statusEl = document.getElementById('reviewStatus');
+  const GOOGLE_REVIEW_LINK = "https://g.page/r/CY3mNAWuTLkZEAE/review";
+
+  if(!starContainer) return;
+
+  starContainer.querySelectorAll('span').forEach(star => {
+    star.addEventListener('click', () => {
+      const value = star.dataset.value;
+      ratingInput.value = value;
+      starContainer.querySelectorAll('span').forEach(s => {
+        s.style.color = s.dataset.value <= value ? 'var(--gold)' : 'var(--border)';
+      });
+      if(value >= 4){ postBtn.style.display = 'inline-flex'; }
+      else { postBtn.style.display = 'none'; }
+    });
+  });
+
+  postBtn.addEventListener('click', () => {
+    const name = document.getElementById('reviewName').value.trim();
+    const reviewText = document.getElementById('reviewText').value.trim();
+    const rating = ratingInput.value;
+    if(!name || !reviewText || rating === '0'){ alert("Kripya naam, rating aur review sabhi bharein."); return; }
+    navigator.clipboard.writeText(reviewText).then(() => {
+        statusEl.className = 'form-status success show';
+        statusEl.innerHTML = '<i class="fas fa-check-circle"></i><span> Aapka review copy ho gaya hai! Ab Google page khul raha hai, wahan paste karke post karein.</span>';
+        window.open(GOOGLE_REVIEW_LINK, '_blank');
+        setTimeout(() => {
+            reviewForm.reset();
+            ratingInput.value = '0';
+            starContainer.querySelectorAll('span').forEach(s => s.style.color = 'var(--border)');
+            postBtn.style.display = 'none';
+            statusEl.className = 'form-status';
+        }, 8000);
+    }).catch(err => {
+        window.open(GOOGLE_REVIEW_LINK, '_blank');
+    });
+  });
+})();
+
 (function(){
   const overlay = $('#cmdkOverlay'), input = $('#cmdkInput'), list = $('#cmdkList'); if(!overlay) return;
   const commands = [
@@ -1616,6 +1764,7 @@ document.addEventListener('click', e => { const a = e.target.closest('a[href^="#
     {label:'Explore Cycle', sub:'Interactive parts explorer', href:'#explorer', icon:'fas fa-cogs'},
     {label:'Monsoon Offer', sub:'20% OFF full service', href:'#offer', icon:'fas fa-tag'},
     {label:'Reviews', sub:'Google 4.8★', href:'#reviews', icon:'fas fa-comments'},
+    {label:'Write Review', sub:'Apna review likhein', href:'#leave-review', icon:'fas fa-pen'},
     {label:'Book Service', sub:'Online booking', href:'#booking', icon:'fas fa-calendar-check'},
     {label:'Contact', sub:'Address & phone', href:'#contact', icon:'fas fa-phone-alt'},
     {label:'📞 Call Now', sub:'097827 07474', icon:'fas fa-phone', action:'call'},
@@ -1668,7 +1817,7 @@ console.log('%c 📞 Call: 097827 07474 ', 'background: #1a1a2e; color: #f4a261;
 console.log('%c ✨ Try: Ctrl+K · Type "amar" or "ride" · Click the tyre buddy! ', 'color: #7a8699; font-size: 12px; font-style: italic;');
 </script>
 
-<!-- ===== STRUCTURED DATA (Google Rich Results) ===== -->
+<!-- STRUCTURED DATA -->
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -1679,7 +1828,6 @@ console.log('%c ✨ Try: Ctrl+K · Type "amar" or "ride" · Click the tyre buddy
   "image":"https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=1200&q=80",
   "logo":"https://yashsaini0756.github.io/amar-cycle-works/favicon.png",
   "telephone":"+91-9782707474",
-  "email":"",
   "url":"https://yashsaini0756.github.io/amar-cycle-works/",
   "priceRange":"₹₹",
   "currenciesAccepted":"INR",
@@ -1699,10 +1847,7 @@ console.log('%c ✨ Try: Ctrl+K · Type "amar" or "ride" · Click the tyre buddy
   ],
   "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","bestRating":"5","worstRating":"1","reviewCount":"150"},
   "founder":{"@type":"Person","name":"Amar Chand Saini"},
-  "sameAs":[
-    "https://wa.me/919782707474",
-    "https://www.google.com/maps/place/Amar+Cycle+Works/@26.8767365,75.7903512,43m"
-  ],
+  "sameAs":["https://wa.me/919782707474","https://www.google.com/maps/place/Amar+Cycle+Works/@26.8767365,75.7903512,43m"],
   "areaServed":{"@type":"City","name":"Jaipur"},
   "makesOffer":[
     {"@type":"Offer","itemOffered":{"@type":"Service","name":"Puncture Repair","description":"Quick cycle puncture repair service in Jaipur"},"price":"40","priceCurrency":"INR"},
@@ -1718,7 +1863,7 @@ console.log('%c ✨ Try: Ctrl+K · Type "amar" or "ride" · Click the tyre buddy
 }
 </script>
 
-<!-- ===== BREADCRUMB SCHEMA ===== -->
+<!-- BREADCRUMB SCHEMA -->
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -1732,7 +1877,7 @@ console.log('%c ✨ Try: Ctrl+K · Type "amar" or "ride" · Click the tyre buddy
 }
 </script>
 
-<!-- ===== FAQ SCHEMA (Google pe sawal jawab dikhenge) ===== -->
+<!-- FAQ SCHEMA -->
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
